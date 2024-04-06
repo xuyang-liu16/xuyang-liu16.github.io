@@ -33,12 +33,6 @@ My current research interests can be summarized as follows:
 - [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
 [[code]](https://github.com/xuyang-liu16/VGDiffZero)
 
-### **VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**
-
-- **Xuyang Liu**, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang
-- *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024
-- [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
-[[code]](https://github.com/xuyang-liu16/VGDiffZero)
 
 ### **GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**
 
