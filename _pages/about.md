@@ -61,4 +61,3 @@ My current research interests can be summarized as follows:
 * ACM International Conference on Multimedia [(MM)](https://2024.acmmm.org/)
 * ACM International Conference on Multimedia Retrieval [(ICMR)](http://icmr2024.org/)
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5x8uiokpnu8&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
