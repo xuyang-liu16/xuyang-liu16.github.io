@@ -16,8 +16,16 @@ My current research interests can be summarized as follows:
 * **Transfer Learning**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and zero-shot learning.
 * **Generative Models**: text-to-image generaction and text-to-video generaction.
 
-## Publications
+## Pre-print
 
+### **M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Efficient Referring Expression Comprehension**
+
+- **Xuyang Liu**, Ting Liu, Siteng Huang, Yue Hu, Quanjun Yin, Honggang Chen
+- *arXiv*, 2024
+- [paper]
+[code]
+
+## Publications
 
 ### **DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**
 
