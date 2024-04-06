@@ -33,6 +33,12 @@ My current research interests can be summarized as follows:
 - [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
 [[code]](https://github.com/xuyang-liu16/VGDiffZero)
 
+### **YOLO-CCA: An Encoder-Decoder Framework Vehicle Detector Based on Channel Attention**
+
+- **Xuyang Liu**, Lingyun Liu, Tianle Liu
+- *IEEE International Conference on Power, Intelligent Computing and Systems (ICPICS)*, 2023
+- [[paper]](https://ieeexplore.ieee.org/abstract/document/10235599/)
+[code]
 
 ### **GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**
 
