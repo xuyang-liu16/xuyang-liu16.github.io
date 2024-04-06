@@ -22,14 +22,14 @@ My current research interests can be summarized as follows:
 ### **DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**
 
 - Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
-- *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (**CCF-B**)
+- *IEEE International Conference on Multimedia & Expo*, 2024 (**CCF-B**)
 - [paper]
 [[code]](https://github.com/liuting20/DARA)
 
 ### **VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**
 
 - **Xuyang Liu**, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang
-- *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 (**CCF-B**)
+- *IEEE International Conference on Acoustics, Speech, and Signal Processing*, 2024 (**CCF-B**)
 - [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
 [[code]](https://github.com/xuyang-liu16/VGDiffZero)
 
