@@ -16,6 +16,7 @@ My current research interests can be summarized as follows:
 * **Transfer Learning**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and zero-shot learning.
 * **Generative Models**: text-to-image generaction and text-to-video generaction.
 
+Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## Publications
 
