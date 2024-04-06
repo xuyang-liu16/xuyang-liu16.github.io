@@ -24,7 +24,7 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 
 - Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
 - *IEEE International Conference on Multimedia & Expo*, 2024 (**CCF-B**)
-- [paper]
+- [[Paper]]()
 [[code]](https://github.com/liuting20/DARA)
 
 ### **VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**
