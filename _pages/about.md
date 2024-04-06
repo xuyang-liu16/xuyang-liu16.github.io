@@ -21,7 +21,7 @@ My current research interests can be summarized as follows:
 
 ### **DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**
 
-- Ting Liu†, **Xuyang Liu†**, <u>Siteng Huang</u>, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
+- Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
 - *IEEE International Conference on Multimedia & Expo (ICME)*, 2024
 - [paper]
 [[code]](https://github.com/liuting20/DARA)
