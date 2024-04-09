@@ -33,7 +33,7 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 - *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024
 - [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
 [[code]](https://github.com/xuyang-liu16/VGDiffZero)
-
+[[poster]](/files/ICASSP-2024-VGDiffZero-Poster.pdf)
 
 ### **GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**
 
