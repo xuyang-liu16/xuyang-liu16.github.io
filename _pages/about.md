@@ -23,7 +23,7 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 ### **DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**
 
 - Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
-- *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 
+- *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (**$\color{red}{Oral}$**)
 - [[Paper]]()
 [[code]](https://github.com/liuting20/DARA)
 
