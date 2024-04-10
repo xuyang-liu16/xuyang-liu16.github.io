@@ -24,23 +24,23 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 
 - Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
 - *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (**Oral Presentation**)
-- [[Paper]]()
-[[code]](https://github.com/liuting20/DARA)
+- [[Paper]()]
+[[code](https://github.com/liuting20/DARA)]
 
 ### **VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**
 
 - **Xuyang Liu**, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang
 - *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024
-- [[paper]](https://arxiv.org/pdf/2309.01141.pdf)
-[[code]](https://github.com/xuyang-liu16/VGDiffZero)
-[[poster]](/files/ICASSP-2024-VGDiffZero-Poster.pdf)
+- [[paper](https://arxiv.org/pdf/2309.01141.pdf)]
+[[code](https://github.com/xuyang-liu16/VGDiffZero)]
+[[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)]
 
 ### **GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**
 
 - **Xuyang Liu**
 - *Computer Communications*, 2022 (**SCI Q1**)
-- [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)
-[[code]](https://github.com/xuyang-liu16/GLMLP-TRANS)
+- [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)]
+[[code](https://github.com/xuyang-liu16/GLMLP-TRANS)]
 
 ## Services
 
