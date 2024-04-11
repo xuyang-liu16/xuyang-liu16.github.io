@@ -18,6 +18,13 @@ My current research interests can be summarized as follows:
 
 Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
+## News
+
+* **[April 9, 2024]**: Our [paper]() is selected as **Oral Presentation** in ICME 2024! Congratulations to all collaborators!
+* **[March 13, 2024]**: One co-first author [paper]() about parameter-efficient tuning for visual grounding got accepted by ICME 2024!
+* **[December 13, 2023]**: One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
+
+
 ## Publications
 
 ### **DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**
