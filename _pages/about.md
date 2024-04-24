@@ -20,8 +20,8 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 
 ## News
 
-* **[April 9, 2024]** Our [paper]() is selected as **Oral Presentation** in ICME 2024! Congratulations to all collaborators!
-* **[March 13, 2024]** One co-first author [paper]() about parameter-efficient tuning for visual grounding got accepted by ICME 2024!
+* **[April 9, 2024]** Our [paper](/files/ICME-2024-DARA.pdf) is selected as **Oral Presentation** in ICME 2024! Congratulations to all collaborators!
+* **[March 13, 2024]** One co-first author [paper](/files/ICME-2024-DARA.pdf) about parameter-efficient tuning for visual grounding got accepted by ICME 2024!
 * **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
@@ -31,7 +31,7 @@ Please feel free to reach out to me at [this email](liuxuyang@stu.scu.edu.cn), i
 
 - Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu
 - *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (**Oral Presentation**)
-- [[Paper]()]
+- [[Paper](/files/ICME-2024-DARA.pdf)]
 [[code](https://github.com/liuting20/DARA)]
 
 ### **VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**
