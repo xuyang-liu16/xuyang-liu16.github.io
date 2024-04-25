@@ -45,7 +45,7 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 ### **GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**
 
 - **Xuyang Liu**
-- *Computer Communications*, 2022 (**SCI Q1**)
+- *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**)
 - [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)]
 [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)]
 
