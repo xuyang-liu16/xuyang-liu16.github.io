@@ -29,20 +29,20 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 
 ### Peer-reviewed Conference
 
-<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, **Xuyang Liu†**, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">**Oral Presentation**</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
+<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">**Oral Presentation**</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
 
-<img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"> **Xuyang Liu**, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://arxiv.org/pdf/2405.06217)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)]
+<img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"> <u>Xuyang Liu</u>, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://arxiv.org/pdf/2405.06217)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)]
 
 
 ### Peer-reviewed Journal
 
-<img src="https://img.shields.io/badge/COMPUT COMMUN-2022-green?style=flat-square"> **Xuyang Liu**, &quot;**GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**&quot;. *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)] [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)]
+<img src="https://img.shields.io/badge/COMPUT COMMUN-2022-green?style=flat-square"> <u>Xuyang Liu</u>, &quot;**GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**&quot;. *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)] [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)]
 
 
 
 ### Preprints & Under Submission
 
-<a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, **Xuyang Liu**, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)]
+<a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, <u>Xuyang Liu</u>, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)]
  
 ## Services
 
