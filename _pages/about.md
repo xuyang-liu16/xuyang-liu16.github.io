@@ -40,7 +40,7 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 
 
 
-### Preprints
+### Preprints & Under Submission
 
 <a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, **Xuyang Liu**, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)]
  
