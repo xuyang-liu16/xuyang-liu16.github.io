@@ -30,7 +30,7 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile.
 ### Conference Papers
 
-<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">**Oral Presentation**</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
+<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">***Oral Presentation***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
 
 <img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"> <u>Xuyang Liu</u>, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://github.com/xuyang-liu16/VGDiffZero)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)]
 
