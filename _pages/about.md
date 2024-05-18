@@ -28,14 +28,14 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 ## Publications
 
 Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile.
-### Conference Paper
+### Conference Papers
 
 <img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">**Oral Presentation**</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
 
 <img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"> <u>Xuyang Liu</u>, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://github.com/xuyang-liu16/VGDiffZero)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)]
 
 
-### Journal Paper
+### Journal Papers
 
 <img src="https://img.shields.io/badge/COMPUT COMMUN-2022-green?style=flat-square"> <u>Xuyang Liu</u>, &quot;**GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**&quot;. *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)] [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)]
 
