@@ -25,9 +25,9 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 * **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
-## Publications
+## Publications ([Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN))
 
-Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile.
+
 ### Conference Papers
 
 <img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">***Oral Presentation***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)]
