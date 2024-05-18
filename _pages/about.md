@@ -25,8 +25,8 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 * **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
-## Publications ([Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN))
-
+## Publications 
+Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile.
 
 ### Conference Papers
 
