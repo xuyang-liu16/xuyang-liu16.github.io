@@ -19,6 +19,7 @@ My current research interests can be summarized as follows:
 Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## News
+* **[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for ViT has been released!
 * **[May 16, 2024]** One [paper](https://arxiv.org/abs/2405.09472) about reference-reduced super-resolution image quality assessment has been released!
 * **[April 9, 2024]** Our [paper](https://arxiv.org/abs/2405.06217) is selected as **Oral Presentation** in ICME 2024! Congratulations to all collaborators!
 * **[March 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024!
@@ -43,7 +44,10 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Preprints & Under Submission
 
+<a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu†, <u>Xuyang Liu†</u>, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[code](https://github.com/liuting20/Sparse-Tuning)]
+
 <a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, <u>Xuyang Liu</u>, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)]
+
  
 ## Services
 
