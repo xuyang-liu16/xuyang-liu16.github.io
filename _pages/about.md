@@ -21,8 +21,7 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 ## News
 * **[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for ViT has been released!
 * **[May 16, 2024]** One [paper](https://arxiv.org/abs/2405.09472) about reference-reduced super-resolution image quality assessment has been released!
-* **[April 9, 2024]** Our [paper](https://arxiv.org/abs/2405.06217) is selected as **Oral Presentation** in ICME 2024! Congratulations to all collaborators!
-* **[March 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024!
+* **[March 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024 (Oral)!
 * **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
