@@ -11,7 +11,7 @@ I am currently a first-year Master's student at [Sichuan University](https://www
 
 ## Research interests
 
-My current research interests can be summarized as **Efficient Multi-modal Large Language Models**, including:
+My research interests focus on **Efficient Multi-modal Large Language Models**, including:
 
 * **Discrimination**: [visual grounding](https://github.com/TheShadow29/awesome-grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
 * **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and zero-shot learning.  
