@@ -13,7 +13,7 @@ I am currently a first-year Master's student at [Sichuan University](https://www
 
 My current research interests can be summarized as **Efficient Multi-modal Large Language Models**, including:
 
-* **Discrimination**: [referring expression comprehension] and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
+* **Discrimination**: [referring expression comprehension](https://github.com/TheShadow29/awesome-grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
 * **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and zero-shot learning.  
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
 * **Generation**: customized & controllable text-to-image/video generation.
