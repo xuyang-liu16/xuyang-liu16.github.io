@@ -14,9 +14,9 @@ I am currently a first-year Master's student at [Sichuan University](https://www
 My research interests focus on **Efficient Multi-modal Large Language Models**, including:
 
 * **Discrimination**: [visual grounding](https://github.com/TheShadow29/awesome-grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
-* **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and zero-shot learning.  
+* **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and [model acceleration](https://github.imc.re/VainF/Torch-Pruning).  
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
-* **Generation**: customized & controllable [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies).
+* **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
 
 Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
