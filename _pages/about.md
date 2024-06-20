@@ -28,11 +28,11 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 
 
 ## Publications 
-Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile. (*: Equal contribution)
+Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile. (†: Equal contribution)
 
 ### Conference Papers
 
-<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu*, <u>Xuyang Liu*</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">***Oral Presentation***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)] <a href="https://github.com/liuting20/DARA" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/DARA?style=social"></a>
+<img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"> Ting Liu†, <u>Xuyang Liu†</u>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024 (<span style="color: red">***Oral Presentation***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)] <a href="https://github.com/liuting20/DARA" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/DARA?style=social"></a>
 
 <img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"> <u>Xuyang Liu</u>, Siteng Huang, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024 [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://github.com/xuyang-liu16/VGDiffZero)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)] <a href="https://github.com/xuyang-liu16/VGDiffZero" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VGDiffZero?style=social"></a>
 
@@ -45,7 +45,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Preprints & Under Submission
 
-<a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu*, <u>Xuyang Liu*</u>, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[code](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro](https://mp.weixin.qq.com/s/B1qRcFV1oq4p875ujXiEow)] [[Zhihu](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
+<a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu†, <u>Xuyang Liu†</u>, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[code](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro](https://mp.weixin.qq.com/s/B1qRcFV1oq4p875ujXiEow)] [[Zhihu](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
 <a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, <u>Xuyang Liu</u>, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)] 
 
