@@ -28,7 +28,7 @@ Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu
 
 
 ## Publications 
-Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile.
+Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=zh-CN) profile. (†: Equal contribution)
 
 ### Conference Papers
 
