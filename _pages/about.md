@@ -46,7 +46,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Preprints & Under Submission
 
-<a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u>, Ting Liu, Siteng Huang, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Memory-efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)]
+<a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu†</u>, Ting Liu†, Siteng Huang, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Memory-efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)]
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu†, <u>Xuyang Liu†</u>, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[code](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro](https://mp.weixin.qq.com/s/B1qRcFV1oq4p875ujXiEow)] [[Zhihu](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
