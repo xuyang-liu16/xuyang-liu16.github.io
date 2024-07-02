@@ -21,6 +21,7 @@ My research interests focus on **Efficient Multi-modal Large Language Models**, 
 Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## News
+* **[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!
 * **[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for Vision Transformers has been released!
 * **[May 16, 2024]** One [paper](https://arxiv.org/abs/2405.09472) about reference-reduced super-resolution image quality assessment has been released!
 * **[March 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral Presentation**!
@@ -44,6 +45,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 
 ### Preprints & Under Submission
+
+<a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u>, Ting Liu, Siteng Huang, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Memory-efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)]
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu†, <u>Xuyang Liu†</u>, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[code](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro](https://mp.weixin.qq.com/s/B1qRcFV1oq4p875ujXiEow)] [[Zhihu](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
