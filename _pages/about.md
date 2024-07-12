@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [Visual Intelligence & Perception Lab (VIP Lab)](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [Machine Intelligence Laboratory (MiLAB)](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from Zhejiang University and A/Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from Shanghai Jiao Tong University.
+I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [Visual Intelligence & Perception Lab (VIP Lab)](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [Machine Intelligence Laboratory (MiLAB)](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and A/Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 ## Research interests
 
@@ -52,7 +52,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, <u>Xuyang Liu</u>, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)] 
 
-## Experiences
+## Experience
 * Research Intern - **Taobao & Tmall Group, Alibaba Group (阿里巴巴淘天集团/未来生活实验室)**
   * Time: July 2024 - Present.
   * Thesis: Multi-modal Large Language Models (MLLM).
