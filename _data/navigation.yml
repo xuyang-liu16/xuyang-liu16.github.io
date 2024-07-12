@@ -2,8 +2,8 @@
 main:
   - title: "News"
     url: \#news
-    
- - title: "Publications"
+
+  - title: "Publications"
     url: \#publications
 
   - title: "Experience"
@@ -11,4 +11,3 @@ main:
 
   - title: "Services"
     url: \#services
-
