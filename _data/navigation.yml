@@ -4,11 +4,11 @@ main:
     url: \#News
     
   - title: "Publications"
-    url: \#publications
+    url: \#Publications
 
   - title: "Experience"
     url: \#Experience
 
   - title: "Services"
-    url: \#services
+    url: \#Services
 
