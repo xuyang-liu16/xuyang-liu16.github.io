@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [Visual Intelligence & Perception Lab (VIP Lab)](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [Machine Intelligence Laboratory (MiLAB)](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and A/Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
+I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and A/Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 ## Research interests
 
@@ -56,7 +56,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
   * Thesis: Multi-modal Large Language Models (MLLM).
-* Research Intern - **Machine Intelligence Laboratory (MiLAB), Westlake University**, Hangzhou
+* Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
   * Thesis: Zero-shot Visual Grounding.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
