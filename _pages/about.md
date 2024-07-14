@@ -11,14 +11,14 @@ I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichua
 
 ## Research interests
 
-My research interests focus on **Efficient Multi-modal Large Language Models**, including:
+My research interests span **Efficient Multi-modal Large Language Models**, including:
 
 * **Discrimination**: [visual grounding](https://github.com/TheShadow29/awesome-grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
 * **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and [model acceleration](https://github.com/MingSun-Tse/Efficient-Deep-Learning).  
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
 
-Please feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
+Recently, I am focusing on **[Efficient Generative Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## News
 * **[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!
