@@ -18,7 +18,7 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
 
-<span style="color:red;"> Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
+Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## News
 * **[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!
