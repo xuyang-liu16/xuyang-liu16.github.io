@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Xuyang Liu"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About me
 
 I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
@@ -21,6 +20,7 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
 
 Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
+
 
 ## News
 * **[Jul 22, 2024]** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
