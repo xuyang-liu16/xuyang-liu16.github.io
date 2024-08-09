@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "News"
-    url: "\# News"
+    url: "\## News"
 
   - title: "Publications"
-    url: "\# Publications "
+    url: "\## Publications "
 
   - title: "Experience"
-    url: "\# Experience"
+    url: "\## Experience"
 
   - title: "Services"
-    url: "\# Services"
+    url: "\## Services"
