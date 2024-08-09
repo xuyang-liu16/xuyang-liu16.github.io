@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Xuyang Liu (刘旭洋)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 
-I am Xuyang Liu (刘旭洋 in Chinese), a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
-
-## Research interests
+🌈 I am a first-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en). I also gained valuable experience at the [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am also very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from ZJU and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
@@ -19,10 +17,10 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
 
-Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
+📢 Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 
-## News
+## 📰 News
 * **[Jul 22, 2024]** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
 * **[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!
 * **[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for Vision Transformers has been released!
@@ -31,7 +29,7 @@ Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.c
 * **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
-## Publications 
+## 📃 Publications 
 Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
 ### Conference Papers
@@ -54,7 +52,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/abs/2405.09472" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.09472-B31B1B?style=flat-square"></a> Xinying Lin, <u>Xuyang Liu</u>, Hong Yang, Xiaohai He, Honggang Chen, &quot;**Perception- and Fidelity-aware Reduced-Reference Super-Resolution Image Quality Assessment**&quot;. *arXiv preprint arXiv:2405.09472*. [[paper](https://arxiv.org/pdf/2405.09472)] 
 
-## Experience
+## 💼 Experience
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
   * Thesis: Multi-modal Large Language Models (MLLM).
@@ -64,7 +62,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
 
-## Services
+## 📠 Services
 
 ### Conference Reviewer
 * ACM International Conference on Multimedia [(MM)](https://2024.acmmm.org/)
