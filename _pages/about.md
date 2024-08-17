@@ -41,7 +41,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Journal Papers
 
-<a href="https://www.sciencedirect.com/journal/computer-communications" target="_blank"><img src="https://img.shields.io/badge/COMPUT COMMUN-2022-green?style=flat-square"></a> <u>Xuyang Liu</u>, &quot;**GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**&quot;. *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)] [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)] 
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535" target="_blank"><img src="https://img.shields.io/badge/COMPUT COMMUN-2022-green?style=flat-square"></a> <u>Xuyang Liu</u>, &quot;**GLMLP-TRANS: A transportation mode detection model using lightweight sensors integrated in smartphones**&quot;. *Computer Communications*, 2022 (**SCI Q1, IF: 6.0**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0140366422002535)] [[code](https://github.com/xuyang-liu16/GLMLP-TRANS)] 
 
 
 ### Preprints & Under Submission
