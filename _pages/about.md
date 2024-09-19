@@ -25,8 +25,8 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 * **[Jul 22, 2024]** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
 * **[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!
 * **[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for Vision Transformers has been released!
-* **[March 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral Presentation**!
-* **[December 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
+* **[Mar 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral Presentation**!
+* **[Dec 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
 ## 📃 Publications 
