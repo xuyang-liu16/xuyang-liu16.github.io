@@ -21,13 +21,13 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 
 
 ## 📰 News
-* **[Sep 26, 2024]** One co-first author [paper](https://v-petl-bench.github.io/) about unified visual parameter-efficient transfer learning benchmark got accepted by NeurIPS 2024!
-* **[Sep 18, 2024]** One [paper](https://arxiv.org/abs/2405.09472) about reference-reduced super-resolution image quality assessment got accepted by TBC!
+* **[Sep 26, 2024]** One co-first author paper ([V-PETL](https://v-petl-bench.github.io/)) about unified visual parameter-efficient transfer learning benchmark got accepted by NeurIPS 2024!
+* **[Sep 18, 2024]** One paper ([PF-IQA](https://arxiv.org/abs/2405.09472)) about reference-reduced super-resolution image quality assessment got accepted by TBC!
 * **[Jul 22, 2024]** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
-<!--**[Jul 2, 2024]** One first author [paper](https://arxiv.org/abs/2407.01131) about memory-efficient fine-tuning for referring expression comprehension has been released!-->
-<!--**[May 24, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.14700) about efficient fine-tuning and inference for Vision Transformers has been released!-->
-* **[Mar 13, 2024]** One co-first author [paper](https://arxiv.org/abs/2405.06217) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral Presentation**!
-* **[Dec 13, 2023]** One first author [paper](https://arxiv.org/abs/2309.01141) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
+<!--**[Jul 2, 2024]** One first author paper ([M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131)) about memory-efficient fine-tuning for referring expression comprehension has been released!-->
+<!--**[May 24, 2024]** One co-first author paper ([Sparse-Tuning](https://arxiv.org/abs/2405.14700)) about efficient fine-tuning and inference for Vision Transformers has been released!-->
+* **[Mar 13, 2024]** One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral Presentation**!
+* **[Dec 13, 2023]** One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
 ## 📃 Publications 
@@ -39,7 +39,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://ieeexplore.ieee.org/document/10445945" target="_blank"><img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang<sup>\*</sup>, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024. [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://github.com/xuyang-liu16/VGDiffZero)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)] <a href="https://github.com/xuyang-liu16/VGDiffZero" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VGDiffZero?style=social"></a> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=9VhMC1QAAAAJ&citation_for_view=9VhMC1QAAAAJ:ULOm3_A8WrAC" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=citations&query=publications.0.citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social"></a>
 
-<a href="https://2024.ieeeicme.org/" target="_blank"><img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024. (<span style="color: red">***Oral***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)] [[poster](/files/ICME-2024-DARA-Poster.pdf)] <a href="https://github.com/liuting20/DARA" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/DARA?style=social"></a>
+<a href="https://2024.ieeeicme.org/" target="_blank"><img src="https://img.shields.io/badge/ICME-2024-blue?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Honggang Chen, Quanjun Yin, Long Qin, Donglin Wang, Yue Hu, &quot;**DARA: Domain- and Relation-aware Adapters Make Parameter-efficient Tuning for Visual Grounding**&quot;. In *IEEE International Conference on Multimedia & Expo (ICME)*, 2024. (<span style="color: red">***Oral***</span>) [[paper](https://arxiv.org/pdf/2405.06217)] [[code](https://github.com/liuting20/DARA)] [[poster](/files/ICME-2024-DARA-Poster.pdf)] <a href="https://github.com/liuting20/DARA" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/DARA?style=social"></a> 
 
 
 ### Journal Papers
@@ -60,10 +60,10 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 ## 💼 Experience
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
-  * Thesis: Multi-modal Large Language Models (MLLM).
+  * Thesis: Efficient Multi-modal Large Language Models.
 * Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
-  * Thesis: Zero-shot Visual Grounding.
+  * Thesis: Zero-shot Transfer of Vision-language Models.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
 
