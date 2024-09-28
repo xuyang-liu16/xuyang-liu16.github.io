@@ -10,7 +10,7 @@ redirect_from:
 
 🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I had the honor of visiting [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
-My research interests span **Efficient Multi-modal Large Language Models**, including:
+📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
 * **Discrimination**: [visual grounding](https://github.com/TheShadow29/awesome-grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
 * **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and [model acceleration](https://github.com/MingSun-Tse/Efficient-Deep-Learning).  
@@ -20,7 +20,7 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 📢 Recently, I am focusing on **[Acceleration of Diffusion Models](https://github.com/xuyang-liu16/Awesome-Diffusion-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 
-## 📰 News
+## 🔥 News
 * **[Sep 26, 2024]** One co-first author paper ([V-PETL](https://v-petl-bench.github.io/)) about unified visual parameter-efficient transfer learning benchmark got accepted by NeurIPS 2024!
 * **[Sep 18, 2024]** One paper ([PF-IQA](https://arxiv.org/abs/2405.09472)) about reference-reduced super-resolution image quality assessment got accepted by TBC!
 * **[Jul 22, 2024]** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
@@ -30,7 +30,7 @@ My research interests span **Efficient Multi-modal Large Language Models**, incl
 * **[Dec 13, 2023]** One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024!
 
 
-## 📃 Publications 
+## 📝 Publications 
 Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
 ### Conference Papers
