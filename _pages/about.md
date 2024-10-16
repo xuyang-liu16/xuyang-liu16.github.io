@@ -20,7 +20,7 @@ redirect_from:
 📢 Recently, I am focusing on **[Acceleration of Generative Models](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## 🔥 News
-* **`2024/10/12`** We release our work [ToCa](https://arxiv.org/abs/2410.05317) about training-free acceleration for diffusion transformers, which achieves nearly lossless **2.36×** acceleration on OpenSora! 
+* **`2024/10/12`** We release our work [ToCa](https://arxiv.org/abs/2410.05317) about training-free acceleration for diffusion transformers, which achieves nearly lossless acceleration of **2.36×** on OpenSora!
 * **`2024/09/26`** One co-first author paper ([V-PETL](https://v-petl-bench.github.io/)) about unified visual parameter-efficient transfer learning benchmark got accepted by NeurIPS 2024! 
 <!-- * **`2024/09/18`** One paper ([PF-IQA](https://arxiv.org/abs/2405.09472)) about reference-reduced super-resolution image quality assessment got accepted by TBC! -->
 * **`2024/07/22`** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
