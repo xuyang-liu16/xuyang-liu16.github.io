@@ -20,14 +20,14 @@ redirect_from:
 📢 Recently, I am focusing on **[Acceleration of Generative Models](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)**. Feel free to reach out to me at [this email](mailto:liuxuyang@stu.scu.edu.cn), if you are interested in collaborating with me.
 
 ## 🔥 News
-* **`2024/10/12`** We release our work [ToCa](https://arxiv.org/abs/2410.05317) about training-free acceleration for diffusion transformers, which achieves nearly lossless acceleration of **2.36×** on OpenSora!
-* **`2024/09/26`** One co-first author paper ([V-PETL](https://v-petl-bench.github.io/)) about unified visual parameter-efficient transfer learning benchmark got accepted by NeurIPS 2024! 
-<!-- * **`2024/09/18`** One paper ([PF-IQA](https://arxiv.org/abs/2405.09472)) about reference-reduced super-resolution image quality assessment got accepted by TBC! -->
-* **`2024/07/22`** I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
+* **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating diffusion transformers for FREE, which achieves nearly lossless acceleration of **2.36×** on OpenSora!
+* **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://v-petl-bench.github.io/)) about unified visual parameter-efficient transfer learning benchmark has been accepted by NeurIPS 2024! 
+* **2024.09.18**: One paper ([PF-IQA](https://arxiv.org/abs/2405.09472)) about reference-reduced image quality assessment has been accepted by IEEE Transactions on Broadcasting!
+* **2024.07.22**: ⛵ I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
 <!-- * **[Jul 2, 2024]** One first author paper ([M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131)) about memory-efficient fine-tuning for referring expression comprehension has been released! -->
 <!-- * **[May 24, 2024]** One co-first author paper ([Sparse-Tuning](https://arxiv.org/abs/2405.14700)) about efficient fine-tuning and inference for Vision Transformers has been released! -->
-* **`2024/03/13`** One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding got accepted by ICME 2024, and selected as **Oral**! 
-* **`2024/12/13`** One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about diffusion-based zero-shot visual grounding got accepted by ICASSP 2024! 
+* **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
+* **2024.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first paper during during master's studies.! 
 
 
 ## 📝 Publications 
