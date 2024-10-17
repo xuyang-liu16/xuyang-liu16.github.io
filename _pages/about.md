@@ -27,7 +27,7 @@ redirect_from:
 <!-- * **[Jul 2, 2024]** One first author paper ([M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131)) about memory-efficient fine-tuning for referring expression comprehension has been released! -->
 <!-- * **[May 24, 2024]** One co-first author paper ([Sparse-Tuning](https://arxiv.org/abs/2405.14700)) about efficient fine-tuning and inference for Vision Transformers has been released! -->
 * **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
-* **2024.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first paper during during master's studies.! 
+* **2024.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first work during during master's studies! 
 
 
 ## 📝 Publications 
