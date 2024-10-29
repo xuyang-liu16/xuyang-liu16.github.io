@@ -51,7 +51,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Preprints & Under Submission
 
-<a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu<sup>\*</sup>, Siteng Huang, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Memory-efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)]
+<a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu<sup>\*</sup>, Siteng Huang, Yi Xin, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)]
 
 <a href="https://arxiv.org/abs/2410.05317" target="_blank"><img src="https://img.shields.io/badge/arXiv-2410.05317-B31B1B?style=flat-square"></a> Chang Zou<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu, Siteng Huang, Linfeng Zhang &quot;**Accelerating Diffusion Transformers with Token-wise Feature Caching**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2410.05317)] [[page](https://toca2024.github.io/ToCa/)] [[code](https://github.com/Shenyi-Z/ToCa)] <a href="https://github.com/Shenyi-Z/ToCa" target="_blank"><img src="https://img.shields.io/github/stars/Shenyi-Z/ToCa?style=social"></a>
 
