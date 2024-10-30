@@ -57,6 +57,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Liangtao Shi, Zunnan Xu , Yi Xin, Quanjun Yin, Xiaohong Liu &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro](https://mp.weixin.qq.com/s/B1qRcFV1oq4p875ujXiEow)] [[Zhihu](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
+<a href="https://arxiv.org/abs/2410.21815" target="_blank"><img src="https://img.shields.io/badge/arXiv-2410.21815-B31B1B?style=flat-square"></a> Shaobo Wang, Hongxuan Tang, Mingyang Wang, Hongrui Zhang, <u>Xuyang Liu</u>, Weiya Li, Xuming Hu, Linfeng Zhang &quot;**Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Models**&quot;. *arXiv preprint arXiv:2410.21815*. [[paper](https://arxiv.org/pdf/2410.21815)] 
+
 
 
 ## 💻 Experience
