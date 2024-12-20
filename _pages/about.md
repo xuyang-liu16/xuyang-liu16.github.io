@@ -21,7 +21,7 @@ redirect_from:
 
 ## 🔥 News
 
-* **2024.11.17**: We release our work [FiCoCo](https://arxiv.org/abs/2411.17686) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs.
+* **2024.11.17**: We release our work [FiCoCo](https://ficoco-accelerate.github.io/) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs.
 * **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora!
 * **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by NeurIPS 2024! 
 <!-- * **2024.09.18**: One paper ([PFIQA](https://arxiv.org/abs/2405.09472)) about reference-reduced image quality assessment has been accepted by IEEE Transactions on Broadcasting! -->
