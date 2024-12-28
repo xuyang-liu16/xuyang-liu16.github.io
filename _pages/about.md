@@ -87,6 +87,6 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 ## 📠 Services
 
 ### Conference Reviewer
-* ACM International Conference on Multimedia [(MM)](https://2024.acmmm.org/)
-* ACM International Conference on Multimedia Retrieval [(ICMR)](http://icmr2024.org/)
+* ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
+* ACM International Conference on Multimedia Retrieval ([ICMR](http://icmr2024.org/))
 
