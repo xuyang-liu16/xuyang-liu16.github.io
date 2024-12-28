@@ -77,10 +77,10 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 ## 💻 Research Experience
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
-  * Thesis: Efficient Multi-modal Large Language Models.
+  * Thesis: *Efficient Multi-modal Large Language Models*.
 * Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
-  * Thesis: Zero-shot Transfer of Vision-language Models.
+  * Thesis: *Zero-shot Transfer of Vision-language Models*.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
 
