@@ -66,12 +66,17 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ## 🤗 Resources
 * [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
-  * Duty: Repo Owner.
-  * Description: An open-source repository that curates a collection of recent awesome papers on generation acceleration. This includes techniques such as fast sampling, pruning, quantization, distillation, caching mechanisms, and deployment optimization. Building on these exceptional works, we also offer two new perspectives on generation acceleration: [Training-free Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration/blob/main/TRAIN-FREE.md) and [Token-wise Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration/blob/main/TOKEN-WISE.md).
+  * Duty: Owner.
+  * Description: An open-source repository that curates a collection of recent awesome papers on AIGC acceleration.
  
-* [Awesome Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression) 
-  * Duty: Repo Owner.
-  * Description: An open-source repository that curates a collection of recent awesome papers on token reduction for model compression. This collection encompasses multiple downstream applications, including those in the vision domain, language domain, and multi-modal domain, with a focus on understanding and generation tasks across various scenarios.
+* [Awesome Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression.git)
+  * Duty: Owner.
+  * Description: An open-source repository that curates a collection of recent awesome papers on token reduction for model compression.
+ 
+* [Awesome Parameter-Efficient Transfer Learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) [![GitHub](https://img.shields.io/github/stars/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?style=social)](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning.git)
+  * Duty: Contributor.
+  * Description: An open-source repository that curates a collection of recent awesome papers on parameter-efficient transfer learning.
+
 
 
 ## 💻 Experience
