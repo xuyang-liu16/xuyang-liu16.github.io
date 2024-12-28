@@ -64,7 +64,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 <a href="https://arxiv.org/abs/2410.21815" target="_blank"><img src="https://img.shields.io/badge/arXiv-2410.21815-B31B1B?style=flat-square"></a> Shaobo Wang, Hongxuan Tang, Mingyang Wang, Hongrui Zhang, <u>Xuyang Liu</u>, Weiya Li, Xuming Hu, Linfeng Zhang &quot;**Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Models**&quot;. *arXiv preprint arXiv:2410.21815*. [[paper](https://arxiv.org/pdf/2410.21815)] 
 
 
-## 🤗 Open Resources
+## 🤗 Resources
 * [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
   * Duty: Repo Owner.
   * Description: An open-source repository that curates a collection of recent awesome papers on generation acceleration. This includes techniques such as fast sampling, pruning, quantization, distillation, caching mechanisms, and deployment optimization. Building on these exceptional works, we also offer two new perspectives on generation acceleration: [Training-free Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration/blob/main/TRAIN-FREE.md) and [Token-wise Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration/blob/main/TOKEN-WISE.md).
@@ -74,7 +74,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
   * Description: An open-source repository that curates a collection of recent awesome papers on token reduction for model compression. This collection encompasses multiple downstream applications, including those in the vision domain, language domain, and multi-modal domain, with a focus on understanding and generation tasks across various scenarios.
 
 
-## 💻 Research Experience
+## 💻 Experience
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
   * Thesis: *Efficient Multi-modal Large Language Models*.
@@ -84,7 +84,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
 
-## 📠 Academic Services
+## 📠 Services
 
 ### Conference Reviewer
 * ACM International Conference on Multimedia [(MM)](https://2024.acmmm.org/)
