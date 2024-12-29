@@ -65,6 +65,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 
 ## 🤗 Resources
+Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
+
 * [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
   * Duty: Owner.
   * Description: An open-source repository that curates a collection of recent awesome papers on AIGC acceleration.
