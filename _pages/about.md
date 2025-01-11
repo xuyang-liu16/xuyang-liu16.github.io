@@ -22,12 +22,12 @@ redirect_from:
 
 ## 🔥 News
 
-* **2025.01.10**: 🤗🤗 We release our latest work [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution MLLMs**. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
-* **2024.11.17**: We release our work [FiCoCo](https://ficoco-accelerate.github.io/) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs.
+* **2025.01.10**: 🤗🤗 We release our latest work [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution MLLMs** with AnyRes strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
+* **2024.11.17**: We release our work [FiCoCo](https://ficoco-accelerate.github.io/) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs. [Code](https://github.com/kawhiiiileo/FiCoCo) is available!
 * **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora!
 * **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by NeurIPS 2024! 
 <!-- * **2024.09.18**: One paper ([PFIQA](https://arxiv.org/abs/2405.09472)) about reference-reduced image quality assessment has been accepted by IEEE Transactions on Broadcasting! -->
-* **2024.07.22**: ⛵ I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
+* **2024.07.22**: ⛵⛵ I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
 <!-- * **[Jul 2, 2024]** One first author paper ([M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131)) about memory-efficient fine-tuning for referring expression comprehension has been released! -->
 <!-- * **[May 24, 2024]** One co-first author paper ([Sparse-Tuning](https://arxiv.org/abs/2405.14700)) about efficient fine-tuning and inference for Vision Transformers has been released! -->
 * **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
@@ -79,16 +79,17 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
   * Duty: Owner.
   * Description: An open-source repository that curates a collection of recent awesome papers on token reduction for model compression.
  
+<!-- 
 * [Awesome Parameter-Efficient Transfer Learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) [![GitHub](https://img.shields.io/github/stars/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?style=social)](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning.git)
   * Duty: Contributor.
-  * Description: An open-source repository that curates a collection of recent awesome papers on parameter-efficient transfer learning.
+  * Description: An open-source repository that curates a collection of recent awesome papers on parameter-efficient transfer learning. 
+-->
 
-
-
-## 💻 Experience
+## 💻 Internships
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: July 2024 - Present.
   * Thesis: *Efficient Multi-modal Large Language Models*.
+  
 * Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
   * Thesis: *Zero-shot Transfer of Vision-language Models*.
