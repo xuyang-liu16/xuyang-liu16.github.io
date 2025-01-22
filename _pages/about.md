@@ -22,6 +22,8 @@ redirect_from:
 
 ## 🔥 News
 
+
+* **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [Gnothi Seauton](https://arxiv.org/abs/2410.21815)) have been accepted by ICLR 2025! Congratulations to all collaborators!
 * **2025.01.10**: 🤗🤗 We release our latest work [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution MLLMs** with AnyRes strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
 * **2024.11.17**: We release our work [FiCoCo](https://ficoco-accelerate.github.io/) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs. [Code](https://github.com/kawhiiiileo/FiCoCo) is available!
 * **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora! 
@@ -38,6 +40,10 @@ redirect_from:
 Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
 ### Conference Papers
+
+<a href="https://arxiv.org/abs/2410.05317" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025-blue?style=flat-square"></a> Chang Zou<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu, Siteng Huang, Linfeng Zhang &quot;**Accelerating Diffusion Transformers with Token-wise Feature Caching**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2410.05317)] [[page](https://toca2024.github.io/ToCa/)] [[code](https://github.com/Shenyi-Z/ToCa)] <a href="https://github.com/Shenyi-Z/ToCa" target="_blank"><img src="https://img.shields.io/github/stars/Shenyi-Z/ToCa?style=social"></a>
+
+<a href="https://arxiv.org/abs/2410.21815" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025-blue?style=flat-square"></a> Shaobo Wang, Hongxuan Tang, Mingyang Wang, Hongrui Zhang, <u>Xuyang Liu</u>, Weiya Li, Xuming Hu, Linfeng Zhang &quot;**Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Models**&quot;. *arXiv preprint arXiv:2410.21815*. [[paper](https://arxiv.org/pdf/2410.21815)] 
 
 <a href="https://openreview.net/forum?id=yS1dUkQFnu#discussion" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2024-blue?style=flat-square"></a> Yi Xin<sup>\*</sup>, Siqi Luo<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Yuntao Du<sup>\*</sup>, Haodi Zhou, Xinyu Cheng, Christina Lee, and 10 more authors, &quot;**V-PETL Bench: A Unified Visual Parameter-Efficient Transfer Learning Benchmark**&quot;. In *Neural Information Processing Systems Datasets and Benchmarks Track (NeurlPS D&B Track)*, 2024. [[paper](https://openreview.net/forum?id=yS1dUkQFnu)][[page](https://v-petl-bench.github.io/)] [[code](https://github.com/synbol/Parameter-Efficient-Transfer-Learning-Benchmark)] [[poster](https://neurips.cc/virtual/2024/poster/97434)] <a href="https://github.com/synbol/Parameter-Efficient-Transfer-Learning-Benchmark" target="_blank"><img src="https://img.shields.io/github/stars/synbol/Parameter-Efficient-Transfer-Learning-Benchmark?style=social"></a>
 
@@ -61,11 +67,9 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/abs/2411.17686" target="_blank"><img src="https://img.shields.io/badge/arXiv-2411.17686-B31B1B?style=flat-square"></a> Yuhang Han<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Pengxiang Ding, Donglin Wang, Honggang Chen, Qingsen Yan, Siteng Huang &quot;**Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration**&quot;. *arXiv preprint arXiv:2411.17686*. [[paper](https://arxiv.org/pdf/2411.17686)] [[page](https://ficoco-accelerate.github.io/)] [[code](https://github.com/kawhiiiileo/FiCoCo)]
 
-<a href="https://arxiv.org/abs/2410.05317" target="_blank"><img src="https://img.shields.io/badge/arXiv-2410.05317-B31B1B?style=flat-square"></a> Chang Zou<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu, Siteng Huang, Linfeng Zhang &quot;**Accelerating Diffusion Transformers with Token-wise Feature Caching**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2410.05317)] [[page](https://toca2024.github.io/ToCa/)] [[code](https://github.com/Shenyi-Z/ToCa)] <a href="https://github.com/Shenyi-Z/ToCa" target="_blank"><img src="https://img.shields.io/github/stars/Shenyi-Z/ToCa?style=social"></a>
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Liangtao Shi, Zunnan Xu , Yi Xin, Quanjun Yin, Xiaohong Liu &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro (Zhihu)](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
-<a href="https://arxiv.org/abs/2410.21815" target="_blank"><img src="https://img.shields.io/badge/arXiv-2410.21815-B31B1B?style=flat-square"></a> Shaobo Wang, Hongxuan Tang, Mingyang Wang, Hongrui Zhang, <u>Xuyang Liu</u>, Weiya Li, Xuming Hu, Linfeng Zhang &quot;**Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Models**&quot;. *arXiv preprint arXiv:2410.21815*. [[paper](https://arxiv.org/pdf/2410.21815)] 
 
 
 ## 🤗 Resources
