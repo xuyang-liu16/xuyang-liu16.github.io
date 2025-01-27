@@ -22,12 +22,11 @@ redirect_from:
 
 ## 🔥 News
 
-
-* **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by ICLR 2025! Congratulations to all collaborators!
+* **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
 * **2025.01.10**: 🤗🤗 We release our latest work [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution MLLMs** with AnyRes strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
 * **2024.11.17**: We release our work [FiCoCo](https://ficoco-accelerate.github.io/) which proposes a **unified paradigm** to demystify the popular works and guide the future designs of training-free token reduction for MLLMs. [Code](https://github.com/kawhiiiileo/FiCoCo) is available!
 * **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora! 
-* **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by NeurIPS 2024! 
+* **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**! 
 <!-- * **2024.09.18**: One paper ([PFIQA](https://arxiv.org/abs/2405.09472)) about reference-reduced image quality assessment has been accepted by IEEE Transactions on Broadcasting! -->
 * **2024.07.22**: ⛵⛵ I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM).
 <!-- * **[Jul 2, 2024]** One first author paper ([M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131)) about memory-efficient fine-tuning for referring expression comprehension has been released! -->
