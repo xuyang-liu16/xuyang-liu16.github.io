@@ -64,13 +64,13 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : #"UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : "xuyang_liu16"  # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # https://www.zhihu.com/people/you-dian-yi-zhu-60
+  zhihu            : "you-dian-yi-zhu-60"
 
 
 # Site Settings
