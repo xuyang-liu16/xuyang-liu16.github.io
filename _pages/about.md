@@ -10,14 +10,22 @@ redirect_from:
 
 🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), under the supervision of Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). Currently, I am working as a research intern at [Taobao & Tmall Group](https://talent.taotian.com/) in Beijing, focusing on [Efficient MLLM](https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey). <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I had the honor of visiting [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
-📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
+<!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
 * **Discrimination**: [visual grounding](https://github.com/linhuixiao/Awesome-Visual-Grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
 * **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and [model compression](https://github.com/MingSun-Tse/Efficient-Deep-Learning).  
 * **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
-* **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation).
+* **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation). -->
 
-📢 Recently, I am mainly focusing on **[Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)**. Feel free to reach out to me at `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me.
+📌 My research interests span **Efficient Multi-modal Understanding and Generation**, including:
+
+* **Efficient Inference**: [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/pdf/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
+
+* **Efficient Transfer**: [M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [VGDiffZero](https://arxiv.org/abs/2309.01141), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
+
+📢 Recently, I am mainly focusing on **[Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn` or WeChat `SeanLeo2021`, if you are interested in collaborating with me.
+
+🙋 <span style="color:red;"> I’m actively seeking Ph.D. position in 2026 Fall! 
 
 
 ## 🔥 News
@@ -65,7 +73,6 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 <a href="https://arxiv.org/abs/2407.01131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2407.01131-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu<sup>\*</sup>, Siteng Huang, Yi Xin, Yue Hu, Quanjun Yin, Donglin Wang, Honggang Chen &quot;**M<sup>2</sup>IST: Multi-Modal Interactive Side-Tuning for Efficient Referring Expression Comprehension**&quot;. *arXiv preprint arXiv:2407.01131*. [[paper](https://arxiv.org/pdf/2407.01131)] [[code](https://github.com/xuyang-liu16/M2IST/tree/main)]
 
 <a href="https://arxiv.org/abs/2411.17686" target="_blank"><img src="https://img.shields.io/badge/arXiv-2411.17686-B31B1B?style=flat-square"></a> Yuhang Han<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Pengxiang Ding, Donglin Wang, Honggang Chen, Qingsen Yan, Siteng Huang &quot;**Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration**&quot;. *arXiv preprint arXiv:2411.17686*. [[paper](https://arxiv.org/pdf/2411.17686)] [[page](https://ficoco-accelerate.github.io/)] [[code](https://github.com/kawhiiiileo/FiCoCo)]
-
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Liangtao Shi, Zunnan Xu , Yi Xin, Quanjun Yin, Xiaohong Liu &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2410.05317*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro (Zhihu)](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
