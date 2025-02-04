@@ -21,7 +21,7 @@ redirect_from:
 * **Efficient Inference**: [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/pdf/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Transfer**: [M<sup>2</sup>IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [VGDiffZero](https://arxiv.org/abs/2309.01141), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
 
-📢 Recently, I am mainly focusing on **[Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn` or WeChat `SeanLeo2021`, if you are interested in collaborating with me. 🙋 <span style="color:rgba(255, 0, 0, 0.5);"> **I’m actively seeking Ph.D. position in 2026 Fall!**
+📢 Recently, I am mainly focusing on **[Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn` or WeChat `SeanLeo2021`, if you are interested in collaborating with me. 🙋 **I’m actively seeking Ph.D. position in 2026 Fall!**
 
 
 ## 🔥 News
