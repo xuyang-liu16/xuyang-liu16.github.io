@@ -99,7 +99,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
   
 * Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
-  * Thesis: *Zero-shot Transfer of Vision-language Models*.
+  * Thesis: *Efficient Transfer of Vision-language Models*.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
 
