@@ -93,6 +93,12 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 
 ## 💻 Internships
+
+<!-- 
+* Research Intern - **Ant Group**, Hangzhou
+  * Time: Apr 2025 - Present.
+  * Thesis: *Multi-modal Graphical User Interface (GUI) Agents*.
+-->
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: Jul 2024 - Mar 2025.
   * Thesis: *Efficient Multi-modal Large Language Models*.
