@@ -108,10 +108,11 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
   * Thesis: *Efficient Transfer of Vision-language Models*.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
    
+## 🎖️ Honors
+* Suzhou Industrial Park Scholarship, 2024 (12 Students in Sichuan University).
 
 ## 📠 Services
 
 ### Conference Reviewer
 * ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
-* ACM International Conference on Multimedia Retrieval ([ICMR](http://icmr2024.org/))
 
