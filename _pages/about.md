@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), supervised by Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). I will soon join [Ant Group](https://www.antgroup.com/) as a research intern in Hangzhou, focusing on GUI Agent. <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I completed an 8-month internship at [Taobao & Tmall Group](https://talent.taotian.com/) in Beijing, working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
+🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), supervised by Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). I am working as a research intern at [Ant Group](https://www.antgroup.com/) in Hangzhou, focusing on GUI Agent. <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I completed an 8-month internship at [Taobao & Tmall Group](https://talent.taotian.com/) in Beijing, working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 <!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
@@ -18,7 +18,7 @@ redirect_from:
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation). -->
 
 📌 My research interests span **Efficient Vision-Language Models**, including:
-* **Efficient Inference**: [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
+* **Efficient Inference**: [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Dense-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Transfer**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [VGDiffZero](https://arxiv.org/abs/2309.01141), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
 
 📢 Recently, I am mainly focusing on **[Token Reduction for Model Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me. 🙋 **I’m actively seeking Ph.D. position in 2026 Fall!**
@@ -96,11 +96,10 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ## 💻 Internships
 
-<!-- 
 * Research Intern - **Ant Group**, Hangzhou
   * Time: Apr 2025 - Present.
   * Thesis: *Multi-modal Graphical User Interface (GUI) Agents*.
--->
+
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: Jul 2024 - Mar 2025.
   * Thesis: *Efficient Multi-modal Large Language Models*.
