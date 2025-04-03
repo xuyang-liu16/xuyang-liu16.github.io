@@ -96,7 +96,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ## 💻 Internships
 
-* Research Intern - **Ant Group**, Hangzhou
+* Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
   * Time: Apr 2025 - Present.
   * Thesis: *Multi-modal Graphical User Interface (GUI) Agents*.
 
