@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), supervised by Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). I am working as a research intern at [Ant Group](https://www.antgroup.com/) in Hangzhou, focusing on GUI Agent. <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I completed an 8-month internship at [Taobao & Tmall Group](https://talent.taotian.com/) in Beijing, working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
+🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), supervised by Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). I am working as a research intern at [Ant Security Lab](https://securitylab.antgroup.com/home), part of Ant Group, focusing on GUI Agent. <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I completed an 8-month internship at [Taobao & Tmall Group](https://talent.taotian.com/), part of Alibaba Group, working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 <!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
@@ -109,9 +109,11 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
   * Time: Mar 2023 - Sep 2023.
   * Thesis: *Efficient Transfer of Vision-language Models*.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
-   
+
+<!-- 
 ## 🎖️ Honors
 * Suzhou Industrial Park Scholarship, 2024 (12 Students in Sichuan University).
+-->
 
 ## 📠 Services
 
