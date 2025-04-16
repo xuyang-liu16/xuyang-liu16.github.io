@@ -117,5 +117,6 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 ## 📠 Services
 
 ### Conference Reviewer
+* Advances in Neural Information Processing Systems ([NeurIPS](https://neurips.cc/))
 * ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
 
