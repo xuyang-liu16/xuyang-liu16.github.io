@@ -92,7 +92,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 -->
 
 
-## 💻 Experience
+## 💻 Experiences
 
 ### Internships
 
