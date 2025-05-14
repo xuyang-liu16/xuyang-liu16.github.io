@@ -26,19 +26,16 @@ redirect_from:
 
 ## 🔥 News
 
-* **2025.05.13**: 🎊🎊 [ToCa](https://arxiv.org/abs/2410.05317) is accepted as [VALSE 2025](https://valser.org/2025/#/poster) Poster! See you in Zhuhai this June!
+<!--* **2025.05.13**: 🎊🎊 [ToCa](https://arxiv.org/abs/2410.05317) is accepted as [VALSE 2025](https://valser.org/2025/#/poster) Poster! See you in Zhuhai this June!-->
 * **2025.04.07**: ⛵⛵ I begin my research internship at [Ant Security Lab](https://securitylab.antgroup.com/home) at Ant Group in Hangzhou, focusing on multi-modal graphical user interface (GUI) agents.
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
 * **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
 * **2025.01.10**: 🤗🤗 We release [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution LVLMs** with dynamic tiling strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
 * **2024.11.17**: We release [FiCoCo](https://ficoco-accelerate.github.io/), a "filter-correlate-compress" framework that decomposes the token reduction into three stages for training-free acceleration of MLLMs.
 * **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**!
-<!-- * **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora! -->
-<!-- * **2024.09.18**: One paper ([PFIQA](https://arxiv.org/abs/2405.09472)) about reference-reduced image quality assessment has been accepted by IEEE Transactions on Broadcasting! -->
-<!-- * **2024.07.22**: ⛵⛵ I begin my research internship at [Taobao & Tmall Group](https://talent.taotian.com/), focusing on multi-modal large language models (MLLM). -->
-<!-- * **[May 24, 2024]** One co-first author paper ([Sparse-Tuning](https://arxiv.org/abs/2405.14700)) about efficient fine-tuning and inference for Vision Transformers has been released! -->
-<!--* **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
-* **2023.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first work during during master's studies! -->
+* **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora!
+* **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
+* **2023.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first work during during master's studies!
 
 
 ## 📝 Publications 
@@ -95,7 +92,9 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 -->
 
 
-## 💻 Internships
+## 💻 Experience
+
+### Internships
 
 * Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
   * Time: Apr 2025 - Present.
@@ -104,8 +103,15 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
   * Time: Jul 2024 - Mar 2025.
   * Thesis: *Efficient Multi-modal Large Language Models*.
+ 
+### Visiting
+
+* Research Assistant - **EPIC Lab, Shanghai Jiao Tong University**, Remote
+  * Time: June 2024 - Present.
+  * Thesis: *Efficient Multi-modal Large Language Models*.
+  * Supervisers: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
   
-* Research Intern - **Machine Intelligence Laboratory, Westlake University**, Hangzhou
+* Visiting Student - **MiLab, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
   * Thesis: *Efficient Transfer of Vision-language Models*.
   * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
