@@ -18,7 +18,7 @@ redirect_from:
 * **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation). -->
 
 📌 My research interests span **Efficient Vision-Language Models**, including:
-* **Efficient Inference**: [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Dense-Tuning](https://arxiv.org/abs/2405.14700)
+* **Efficient Inference**: [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Dense-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Training**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [DARA](https://arxiv.org/abs/2405.06217), [Dense-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
 
 📢 Recently, I am mainly focusing on **[Token-level Model Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me. 🙋 **I’m actively seeking Ph.D. position in 2026 Fall!**
@@ -26,7 +26,7 @@ redirect_from:
 
 ## 🔥 News
 
-<!--* **2025.05.13**: 🎊🎊 [ToCa](https://arxiv.org/abs/2410.05317) is accepted as [VALSE 2025](https://valser.org/2025/#/poster) Poster! See you in Zhuhai this June!-->
+* **2025.05.21** 🤗🤗 We release [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), a plug-and-play inference acceleration method of **VideoLLMs**. [Code](https://github.com/xuyang-liu16/VidCom2) is available!
 * **2025.04.07**: ⛵⛵ I begin my research internship at [Ant Security Lab](https://securitylab.antgroup.com/home) at Ant Group in Hangzhou, focusing on multi-modal graphical user interface (GUI) agents.
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
 * **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
@@ -64,6 +64,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 
 ### Preprints & Under Submission
+
+<a href="https://arxiv.org/abs/2505.14454" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.14454-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, </a> Yiyu Wang<sup>\*</sup>, Junpeng Ma, Linfeng Zhang, &quot;**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**&quot;. *arXiv preprint arXiv:2505.14454*. [[paper](https://arxiv.org/pdf/2505.14454)] [[code](https://github.com/xuyang-liu16/VidCom2)] <a href="https://github.com/xuyang-liu16/VidCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VidCom2?style=social"></a>
 
 <a href="https://arxiv.org/abs/2501.05179" target="_blank"><img src="https://img.shields.io/badge/arXiv-2501.05179-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u>, Ziming Wang, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Bo Zheng, Linfeng Zhang, Siteng Huang, Honggang Chen, &quot;**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**&quot;. *arXiv preprint arXiv:2501.05179*. [[paper](https://arxiv.org/pdf/2501.05179)] [[code](https://github.com/xuyang-liu16/GlobalCom2)] <a href="https://github.com/xuyang-liu16/GlobalCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/GlobalCom2?style=social"></a>
 
