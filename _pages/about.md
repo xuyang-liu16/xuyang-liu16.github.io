@@ -34,9 +34,7 @@ redirect_from:
 * **2025.01.10**: 🤗🤗 We release [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution LVLMs** with dynamic tiling strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
 * **2024.11.17**: We release [FiCoCo](https://ficoco-accelerate.github.io/), a "filter-correlate-compress" framework that decomposes the token reduction into three stages for training-free acceleration of MLLMs.
 * **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**!
-* **2024.10.12**: 🚀🚀 We release our work [ToCa](https://arxiv.org/abs/2410.05317) about accelerating DiT models for FREE, which achieves nearly lossless acceleration of **1.51×** on FLUX, **1.93×** on PixArt-α, and **2.36×** on OpenSora!
-* **2024.03.13**: One co-first author paper ([DARA](https://arxiv.org/abs/2405.06217)) about parameter-efficient tuning for visual grounding has been by ICME 2024, and selected as **Oral**! 
-* **2023.12.13**: 🎊🎊 One first author paper ([VGDiffZero](https://arxiv.org/abs/2309.01141)) about zero-shot visual grounding has been accepted by ICASSP 2024, which is my first work during during master's studies!
+
 
 
 ## 📝 Publications 
