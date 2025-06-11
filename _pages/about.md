@@ -122,7 +122,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ## 🎤 Talks
 
-* **2025.06.10**: [PolyU NLP Group](https://polyunlp.github.io/) directed by Prof. [Maggie, Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[Slides]()]
+* **2025.06.10**: [PolyU NLP Group](https://polyunlp.github.io/) directed by Prof. [Maggie, Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides]()]
 
 
 <!-- 
