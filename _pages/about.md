@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-🌈 I am a second-year Master's student at [Sichuan University](https://en.scu.edu.cn/), supervised by Prof. [Honggang Chen](https://sites.google.com/view/honggangchen/). I am working as a research intern at [Ant Security Lab](https://securitylab.antgroup.com/home), part of Ant Group, focusing on GUI Agent. <!--Previously, I had the honor of visiting the [VIP Lab](https://zhengfenglab.com/) at [SUSTech](https://www.sustech.edu.cn/en/), supervised by Prof. [Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&go=1&iscss=1&snapid=1&lang=en).--> Previously, I completed an 8-month internship at [Taobao & Tmall Group](https://talent.taotian.com/), part of Alibaba Group, working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
+🌈 I am a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/). I am also working as a research intern at OPPO Research Institute, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). Previously, I have interned at [Ant Security Lab](https://securitylab.antgroup.com/home) (Ant Group) focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) (Alibaba Group) working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 <!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
@@ -28,7 +28,6 @@ redirect_from:
 
 * **2025.05.27** 🙌🙌 We release a new [paper](https://arxiv.org/abs/2505.19147), pointing to **shifting AI efficiency from model-centric to data-centric compression**. [Project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) is available! Our paper is honored to be the [#2 Paper of the day](https://huggingface.co/papers/2505.19147)!
 * **2025.05.21** 🤗🤗 We release [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), a plug-and-play inference acceleration method of **VideoLLMs**. [Code](https://github.com/xuyang-liu16/VidCom2) is available!
-* **2025.04.07**: ⛵⛵ I begin my research internship at [Ant Security Lab](https://securitylab.antgroup.com/home) at Ant Group in Hangzhou, focusing on multi-modal graphical user interface (GUI) agents.
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
 * **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
 * **2025.01.10**: 🤗🤗 We release [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), a "global-to-local" approach for training-free acceleration of **high-resolution LVLMs** with dynamic tiling strategy. [Code](https://github.com/xuyang-liu16/GlobalCom2) is available!
@@ -100,8 +99,13 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ### Internships
 
+* Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
+  * Time: Jul 2025 - Present.
+  * Thesis: *On-device Vision-language Models*.
+  * Superviser: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
+
 * Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
-  * Time: Apr 2025 - Present.
+  * Time: Apr 2025 - Jul 2025.
   * Thesis: *Multi-modal Graphical User Interface (GUI) Agents*.
 
 * Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
