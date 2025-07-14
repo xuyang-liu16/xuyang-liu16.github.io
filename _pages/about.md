@@ -38,7 +38,7 @@ redirect_from:
 
 ## 📝 Publications 
 
-Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <!-- <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a> -->
+Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
 ### Conference Papers
 
@@ -117,7 +117,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * Research Assistant - **EPIC Lab, Shanghai Jiao Tong University**, Remote
   * Time: June 2024 - Present.
   * Thesis: *Efficient Multi-modal Large Language Models*.
-  * Supervisers: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+  * Superviser: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
   
 * Visiting Student - **MiLab, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
