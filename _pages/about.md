@@ -108,7 +108,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
   * Time: Jul 2025 - Present.
   * Thesis: *On-device Vision-language Models*.
-  * Superviser: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
+  * Supervisor: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
 
 * Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
   * Time: Apr 2025 - Jul 2025.
@@ -123,12 +123,12 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * Research Assistant - **EPIC Lab, Shanghai Jiao Tong University**, Remote
   * Time: June 2024 - Present.
   * Thesis: *Efficient Multi-modal Large Language Models*.
-  * Superviser: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+  * Supervisor: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
   
 * Visiting Student - **MiLab, Westlake University**, Hangzhou
   * Time: Mar 2023 - Sep 2023.
   * Thesis: *Efficient Transfer of Vision-language Models*.
-  * Supervisers: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
+  * Supervisors: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
 
 ## 🎤 Talks
 
