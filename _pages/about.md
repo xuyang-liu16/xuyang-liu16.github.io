@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-🌈 I am a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/). I am also working as a research intern at OPPO Research Institute, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/). Previously, I have interned at [Ant Security Lab](https://securitylab.antgroup.com/home) focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am very glad to be supervised and collaborated with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Asst. Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
+🌈 I am a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/). I am also working as a research intern at OPPO Research Institute, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (PolyU HK, IEEE Fellow). Previously, I have interned at [Ant Security Lab](https://securitylab.antgroup.com/home) focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 <!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
 
