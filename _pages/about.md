@@ -136,10 +136,11 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * **2025.06.10**: [PolyU NLP Group](https://polyunlp.github.io/) directed by Prof. [Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides](/files/Talk@PolyUNLP.pdf)]
 
 
-<!-- 
 ## 🎖️ Honors
-* Suzhou Industrial Park Scholarship, 2024 (12 Students in Sichuan University).
--->
+
+* 2025 **Master's First Prize Scholarship** in  Sichuan University
+* 2025 Suzhou Industrial Park Scholarship, 2024 (**12 Students** in Sichuan University).
+
 
 ## 📠 Services
 
