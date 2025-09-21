@@ -10,13 +10,6 @@ redirect_from:
 
 🌈 I am a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/). I am also working as a research intern at OPPO Research Institute, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (PolyU HK, IEEE Fellow). Previously, I have interned at [Ant Security Lab](https://securitylab.antgroup.com/home) focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
-<!-- 📌 My research interests span **Efficient Multi-modal Large Language Models**, including:
-
-* **Discrimination**: [visual grounding](https://github.com/linhuixiao/Awesome-Visual-Grounding) and [referring video object segmentation](https://github.com/gaomingqi/Awesome-Video-Object-Segmentation).
-* **Adaptation**: [parameter-efficient transfer learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) and [model compression](https://github.com/MingSun-Tse/Efficient-Deep-Learning).  
-* **Reconstruction**: [super-resolution](https://github.com/ChaofWang/Awesome-Super-Resolution) and [image quality assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment).
-* **Generation**: [text-to-image generation](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies) and [text-to-video generation](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation). -->
-
 📌 My research interests span **Efficient Vision-Language Models**, including:
 * **Efficient Inference**: [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Training**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
@@ -94,12 +87,6 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * [Awesome Token-level Model Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression.git)
   * Duty: Owner.
   * Description: An open-source repository that curates a collection of recent awesome papers on token-level model compression.
- 
-<!-- 
-* [Awesome Parameter-Efficient Transfer Learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning) [![GitHub](https://img.shields.io/github/stars/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?style=social)](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning.git)
-  * Duty: Contributor.
-  * Description: An open-source repository that curates a collection of recent awesome papers on parameter-efficient transfer learning. 
--->
 
 
 ## 💻 Experiences
@@ -134,12 +121,6 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 ## 🎤 Talks
 
 * **2025.06.10**: [PolyU NLP Group](https://polyunlp.github.io/) directed by Prof. [Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides](/files/Talk@PolyUNLP.pdf)]
-
-
-## 🎖️ Honors
-
-* 2025 **Master's First Prize Scholarship** in  Sichuan University
-* 2025 Suzhou Industrial Park Scholarship, 2024 (**12 Students** in Sichuan University).
 
 
 ## 📠 Services
