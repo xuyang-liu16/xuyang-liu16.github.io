@@ -130,3 +130,5 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 * AAAI Conference on Artificial Intelligence ([AAAI](https://aaai.org/conference/aaai/))
 * ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
 
+### Journal Reviewer
+* IEEE Transactions on Circuits and Systems for Video Technology ([TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76))
