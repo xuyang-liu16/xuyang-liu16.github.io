@@ -14,7 +14,7 @@ redirect_from:
 * **Efficient Inference**: [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Training**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
 
-📢 Recently, I am mainly focusing on **[Token-level Model Compression](https://arxiv.org/abs/2505.19147)**, and applying it to efficient **long video understanding**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me.
+📢 Recently, I am mainly focusing on **[Data-centric Model Compression](https://arxiv.org/abs/2505.19147)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me.
 
 
 ## 🔥 News
@@ -77,8 +77,6 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang, Liangtao Shi, Zunnan Xu , Yi Xin, Quanjun Yin &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] [[Chinese intro (Zhihu)](https://zhuanlan.zhihu.com/p/702216557)] <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
-
-
 ## 🤗 Resources
 Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
 
@@ -97,7 +95,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 * Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
   * Time: Jul 2025 - Present.
-  * Thesis: *On-device Vision-language Models*.
+  * Thesis: *Efficient Long Video Understanding*.
   * Supervisor: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
 
 * Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
