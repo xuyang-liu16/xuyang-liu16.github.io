@@ -57,6 +57,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Preprints & Under Submission
 
+<a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.14359-B31B1B?style=flat-square"></a> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. *arXiv preprint arXiv:2510.14359*. [[paper](https://arxiv.org/pdf/2510.14359)] [[huggingface paper](https://huggingface.co/papers/2510.14359)]
+
 <a href="https://arxiv.org/abs/2509.01552" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.01552-B31B1B?style=flat-square"></a> Junjie Chen<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Zichen Wen, Yiyu Wang, Siteng Huang, Honggang Chen &quot;**Variation-aware Vision Token Dropping for Faster Large Vision-Language Models**&quot;. *arXiv preprint arXiv:2509.01552*. [[paper](https://arxiv.org/pdf/2509.01552)] [[code](https://github.com/xuyang-liu16/V2Drop)]
 
 <a href="https://arxiv.org/abs/2508.13305" target="_blank"><img src="https://img.shields.io/badge/arXiv-2508.13305-B31B1B?style=flat-square"></a> Minhao Xiong, Zichen Wen, Zhuangcheng Gu, <u>Xuyang Liu</u>, Rui Zhang, Hengrui Kang, Jiabing Yang, Junyuan Zhang, Weijia Li, Conghui He, Yafei Wang, Linfeng Zhang, &quot;**Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving**&quot;. *arXiv preprint arXiv:2508.13305*. [[paper](https://arxiv.org/pdf/2508.13305)] 
