@@ -11,7 +11,7 @@ redirect_from:
 🌈 I am a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/). I am also working as a research intern at OPPO Research Institute, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (PolyU HK, IEEE Fellow). Previously, I have interned at [Ant Security Lab](https://securitylab.antgroup.com/home) focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) working on Efficient MLLM. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at Westlake University, supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) from DAMO Academy and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from SJTU.
 
 📌 My research interests span **Efficient Vision-Language Models**, including:
-* **Efficient Inference**: [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
+* **Efficient Inference**: [MixKV](https://arxiv.org/abs/2510.20707), [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317), [Sparse-Tuning](https://arxiv.org/abs/2405.14700)
 * **Efficient Training**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
 
 📢 Recently, I am mainly focusing on **[Data-centric Model Compression](https://arxiv.org/abs/2505.19147)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me.
@@ -19,6 +19,7 @@ redirect_from:
 
 ## 🔥 News
 
+* **2025.10.24** 🤗🤗 We release [MixKV](https://arxiv.org/abs/2510.20707), a plug-and-play framework that enhances existing KV compression methods with consistent performance gains across multiple LVLMs and tasks.
 * **2025.05.27** 🙌🙌 We release a new [paper](https://arxiv.org/abs/2505.19147), pointing to **shifting AI efficiency from model-centric to data-centric compression**. [Project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) is available! Our paper is honored to be the [#2 Paper of the day](https://huggingface.co/papers/2505.19147)!
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
 * **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
@@ -56,6 +57,8 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 
 ### Preprints & Under Submission
+
+<a href="https://arxiv.org/abs/2510.20707" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.20707-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. *arXiv preprint arXiv:2510.20707*. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
 
 <a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.14359-B31B1B?style=flat-square"></a> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. *arXiv preprint arXiv:2510.14359*. [[paper](https://arxiv.org/pdf/2510.14359)] [[huggingface paper](https://huggingface.co/papers/2510.14359)]
 
