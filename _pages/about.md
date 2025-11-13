@@ -24,8 +24,8 @@ redirect_from:
 * **2025.08.21** 🎊🎊 One first author paper [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454) about plug-and-play inference acceleration for VideoLLMs has been accepted by **EMNLP 2025** main conference! [Code](https://github.com/xuyang-liu16/VidCom2) is available!
 * **2025.05.27** 🙌🙌 We release a new [paper](https://arxiv.org/abs/2505.19147), pointing to **shifting AI efficiency from model-centric to data-centric compression**. [Project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) is available! Our paper is honored to be the [#2 Paper of the day](https://huggingface.co/papers/2505.19147)!
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
-* **2025.02.22**: 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
-* **2024.09.26**: 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**!
+* **2025.02.22** 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
+* **2024.09.26** 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**!
 
 
 
