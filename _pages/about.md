@@ -71,6 +71,8 @@ Representative works are listed below. Please find my full publications on my [G
 
 ### Preprints & Under Submission
 
+<a href="https://arxiv.org/abs/2512.00891" target="_blank"><img src="https://img.shields.io/badge/arXiv-2512.00891-B31B1B?style=flat-square"></a> Yiyu Wang<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Xiyan Gui, Xinying Lin, Boxue Yang, Chenfei Liao, Tailai Chen, Linfeng Zhang, &quot;**Accelerating Streaming Video Large Language Models via Hierarchical Token Compression**&quot;. *arXiv preprint arXiv:2512.00891*. [[paper](https://arxiv.org/pdf/2512.00891)] [[code](https://github.com/lern-to-write/STC)] 
+
 <a href="https://arxiv.org/abs/2510.20707" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.20707-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. *arXiv preprint arXiv:2510.20707*. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
 
 <!-- 
