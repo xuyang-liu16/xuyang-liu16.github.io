@@ -19,6 +19,7 @@ redirect_from:
 
 ## 🔥 News
 
+* **2025.12.02** 🤗🤗 We release [STC](https://arxiv.org/pdf/2512.00891), a plug-and-play inference acceleration framework for streaming video understanding! [Code](https://github.com/lern-to-write/STC) is available!
 * **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
 * **2025.10.24** 🤗🤗 We release [MixKV](https://arxiv.org/abs/2510.20707), a plug-and-play framework that enhances existing KV compression methods with consistent performance gains across multiple LVLMs and tasks.
 * **2025.08.21** 🎊🎊 One first author paper [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454) about plug-and-play inference acceleration for VideoLLMs has been accepted by **EMNLP 2025** main conference! [Code](https://github.com/xuyang-liu16/VidCom2) is available!
@@ -31,7 +32,7 @@ redirect_from:
 
 ## 📝 Publications 
 
-Representative works are listed below. Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a> 
+Selected works are listed below. Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution †: Project leader <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a> 
 
 ### Conference Papers
 
@@ -112,7 +113,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 * Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
   * Time: Jul 2025 - Present.
-  * Thesis: *Efficient Long Video Understanding*.
+  * Thesis: *Video Understanding with Large Vision-Language Models*.
   * Supervisor: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
 
 * Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
