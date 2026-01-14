@@ -6,7 +6,21 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            {% if site.author.avatar %}
+              {% if site.author.avatar contains "://" %}
+                {% assign logo_src = site.author.avatar %}
+              {% else %}
+                {% assign logo_src = site.author.avatar | prepend: "/images/" | prepend: base_path %}
+              {% endif %}
+              <a href="{{ base_path }}/" class="site-logo">
+                <img src="{{ logo_src }}" alt="{{ site.title }}" class="site-logo__img">
+                <span class="site-logo__text">{{ site.title }}</span>
+              </a>
+            {% else %}
+              <a href="{{ base_path }}/">{{ site.title }}</a>
+            {% endif %}
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
