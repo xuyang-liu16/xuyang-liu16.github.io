@@ -19,7 +19,7 @@ redirect_from:
 
 ## 🔥 News
 
-<div class="news-scroll">
+<div class="news-scroll" markdown="1">
 
 * **2025.12.02** 🤗🤗 We release [STC](https://arxiv.org/pdf/2512.00891), a plug-and-play inference acceleration framework for streaming video understanding! [Code](https://github.com/lern-to-write/STC) is available!
 * **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
