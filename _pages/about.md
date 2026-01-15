@@ -12,9 +12,9 @@ redirect_from:
 
 📌 My research centers on **efficient Large Vision-Language Models (LVLMs)**, including:
 
-- 🖼️ **Image-Text LVLMs**: efficient high-resolution understanding via visual context compression and efficient decoding.
-- 🎬 **Video Understanding**: scalable long-video, audio-video, and streaming reasoning via efficient encoding and compression.
-- ⚙️ **Efficiency Toolbox**: efficient model transfer/fine-tuning and benchmarking for downstream task adaptation.
+- 🖼️ **Image-Text LVLMs**: high-resolution understanding via context compression and fast decoding.
+- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression.
+- ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation.
 
 📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
 
