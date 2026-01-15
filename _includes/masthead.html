@@ -6,23 +6,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg">
-            {% if site.author.avatar %}
-              {% assign avatar_path = site.author.avatar %}
-              {% if avatar_path contains "://" %}
-                {% assign logo_src = avatar_path %}
-              {% elsif avatar_path contains "/" %}
-                {% assign logo_src = avatar_path | relative_url %}
-              {% else %}
-                {% assign logo_src = "/images/" | append: avatar_path | relative_url %}
-              {% endif %}
-              <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="{{ site.title }}">
-                <img src="{{ logo_src }}" alt="{{ site.title }}" class="site-logo__img">
-              </a>
-            {% else %}
-              <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            {% endif %}
-          </li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

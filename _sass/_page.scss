@@ -107,6 +107,14 @@
   }
 }
 
+.news-scroll {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 0.75rem;
+  margin-bottom: 1.5rem;
+  scrollbar-gutter: stable;
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
