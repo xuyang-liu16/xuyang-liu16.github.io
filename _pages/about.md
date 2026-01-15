@@ -10,11 +10,13 @@ redirect_from:
 
 🌈 I am Xuyang Liu (刘旭洋), a third-year Master's student at [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am also working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>, supervised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) ([PolyU HK](https://www.polyu.edu.hk/), IEEE Fellow). Previously, I have interned at [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> focusing on GUI Agent, and [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> working on Efficient VLMs. I've also spent half a year visiting [MiLAB](https://milab.westlake.edu.cn/) at [Westlake University](https://www.westlake.edu.cn/), supervised by Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html). I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) from [DAMO Academy](https://damo.alibaba.com/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/) from [SJTU](https://en.sjtu.edu.cn/).
 
-📌 My research interests span **Efficient Vision-Language Models**, including:
-* **Efficient Inference**: [STC](https://arxiv.org/abs/2512.00891), [MixKV](https://arxiv.org/abs/2510.20707), [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), [ToCa](https://arxiv.org/abs/2410.05317)
-* **Efficient Training**: [M2IST](https://arxiv.org/abs/2407.01131), [V-PETL Bench](https://openreview.net/forum?id=yS1dUkQFnu), [DARA](https://arxiv.org/abs/2405.06217), [Sparse-Tuning](https://arxiv.org/abs/2405.14700), [AutoGnothi](https://arxiv.org/abs/2410.21815)
+📌 My research centers on **efficient Large Vision-Language Models (LVLMs)**, including:
 
-📢 Recently, I am mainly focusing on **[Data-centric Model Compression](https://arxiv.org/abs/2505.19147)**. Feel free to reach out to me via Email `liuxuyang@stu.scu.edu.cn`, if you are interested in collaborating with me.
+- 🖼️ **Image-Text LVLMs**: efficient high-resolution understanding via visual context compression and efficient decoding.
+- 🎬 **Video Understanding**: scalable long-video, audio-video, and streaming reasoning via efficient encoding and compression.
+- ⚙️ **Efficiency Toolbox**: efficient model transfer/fine-tuning and benchmarking for downstream task adaptation.
+
+📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
 
 
 ## 🔥 News
