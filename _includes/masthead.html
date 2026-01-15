@@ -13,9 +13,8 @@
               {% else %}
                 {% assign logo_src = site.author.avatar | prepend: "/images/" | prepend: base_path %}
               {% endif %}
-              <a href="{{ base_path }}/" class="site-logo">
+              <a href="{{ base_path }}/" class="site-logo" aria-label="{{ site.title }}">
                 <img src="{{ logo_src }}" alt="{{ site.title }}" class="site-logo__img">
-                <span class="site-logo__text">{{ site.title }}</span>
               </a>
             {% else %}
               <a href="{{ base_path }}/">{{ site.title }}</a>
