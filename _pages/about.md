@@ -23,10 +23,9 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
-* **2026.01.26** 🎊🎊 Two papers ([MixKV](https://arxiv.org/abs/2510.20707) and [DIJA](https://arxiv.org/abs/2507.11097)) have been accepted by **ICLR 2026**! Congratulations to all collaborators!
+* **2026.01.26** 🎊🎊 Two papers have been accepted by **ICLR 2026**, including fast decoding for VLM/LLM via [MixKV](https://arxiv.org/abs/2510.20707) and the first safety study of dLLMs [DIJA](https://arxiv.org/abs/2507.11097)! Congratulations to all collaborators!
 * **2025.12.02** 🤗🤗 We release [STC](https://arxiv.org/pdf/2512.00891), a plug-and-play inference acceleration framework for streaming video understanding! [Code](https://github.com/lern-to-write/STC) is available!
 * **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
-* **2025.10.24** 🤗🤗 We release [MixKV](https://arxiv.org/abs/2510.20707), a plug-and-play framework that enhances existing KV compression methods with consistent performance gains across multiple LVLMs and tasks.
 * **2025.08.21** 🎊🎊 One first author paper [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454) about plug-and-play inference acceleration for VideoLLMs has been accepted by **EMNLP 2025** main conference! [Code](https://github.com/xuyang-liu16/VidCom2) is available!
 * **2025.05.27** 🙌🙌 We release a new [paper](https://arxiv.org/abs/2505.19147), pointing to **shifting AI efficiency from model-centric to data-centric compression**. [Project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) is available! Our paper is honored to be the [#2 Paper of the day](https://huggingface.co/papers/2505.19147)!
 * **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
