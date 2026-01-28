@@ -151,6 +151,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ### Conference Reviewer
 * International Conference on Learning Representations ([ICLR](https://iclr.cc/))
+* International Conference on Machine Learning ([ICML](https://icml.cc/))
 * Advances in Neural Information Processing Systems ([NeurIPS](https://neurips.cc/))
 * AAAI Conference on Artificial Intelligence ([AAAI](https://aaai.org/conference/aaai/))
 * ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
