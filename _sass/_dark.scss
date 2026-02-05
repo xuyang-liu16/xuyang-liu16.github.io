@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Dark mode
+   ========================================================================== */
+
+.theme-toggle {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  background: transparent;
+  color: $masthead-link-color;
+  font-size: 1rem;
+  line-height: 1.2;
+  cursor: pointer;
+
+  &:hover {
+    color: $masthead-link-color-hover;
+  }
+}
+
+html[data-theme="dark"] {
+  body {
+    background-color: #0f172a;
+    color: #d1d5db;
+  }
+
+  .masthead {
+    background: #0b1220;
+    border-bottom-color: #334155;
+  }
+
+  .greedy-nav,
+  .greedy-nav a,
+  .masthead__menu-item a,
+  .theme-toggle,
+  .author__urls-wrapper button,
+  .archive__item-title,
+  .page__meta,
+  .page__footer,
+  .page__footer a,
+  .author__urls a,
+  .nav__list a {
+    color: #cbd5e1;
+  }
+
+  .greedy-nav .hidden-links,
+  .page__footer {
+    background: #0b1220;
+    border-color: #334155;
+  }
+
+  .page,
+  .archive,
+  .sidebar,
+  .author__content,
+  .author__urls-wrapper,
+  .notice,
+  .feature__wrapper {
+    background: transparent;
+  }
+
+  a {
+    color: #8ab4ff;
+  }
+
+  a:visited {
+    color: #9db7ff;
+  }
+
+  a:hover,
+  a:focus {
+    color: #b5ceff;
+  }
+
+  hr,
+  th,
+  td,
+  .archive__item,
+  .author__urls,
+  .sidebar .nav__list,
+  .toc {
+    border-color: #334155;
+  }
+
+  code,
+  pre,
+  .highlight {
+    background: #111827;
+    color: #e5e7eb;
+  }
+
+  input,
+  textarea,
+  select {
+    background: #111827;
+    color: #e5e7eb;
+    border-color: #334155;
+  }
+}
