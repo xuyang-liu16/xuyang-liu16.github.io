@@ -38,9 +38,9 @@ redirect_from:
 
 ## 📝 Publications 
 
-🚩 **Highlight:** ICLR: 4, NeurIPS: 1, AAAI: 3, EMNLP: 1.
-
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a> 
+
+🚩 **Highlight:** ICLR: 4, NeurIPS: 1, AAAI: 3, EMNLP: 1.
 
 ### Conference Papers
 
