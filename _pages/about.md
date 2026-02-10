@@ -42,6 +42,70 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 🚩 **Highlight:** ICLR: 4, NeurIPS: 1, AAAI: 3, EMNLP: 1.
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**](https://openreview.net/forum?id=B2iqbCQviR)
+
+<u>Xuyang Liu</u><sup>*</sup>, Xiyan Gui<sup>*</sup>, Yuchao Zhang, Linfeng Zhang
+
+- Works with diverse LVLMs and LLMs, including LLaVA, Qwen-VL, InternVL, Llama, and Mistral series.
+- Integrates with existing compressors (e.g., SnapKV, AdaKV, SparseMM) and consistently improves their performance.
+- Delivers accuracy gains without sacrificing speed or memory efficiency.
+
+<div style="display: inline">
+  <a href="https://arxiv.org/pdf/2510.20707"><strong>[paper]</strong></a>
+  <a href="https://github.com/xuyang-liu16/MixKV"><strong>[code]</strong></a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**](https://aclanthology.org/2025.emnlp-main.98/)
+
+<u>Xuyang Liu</u><sup>*</sup>, Yiyu Wang<sup>*</sup>, Junpeng Ma, Linfeng Zhang
+
+- Compatible with major VideoLLMs, including LLaVA, Qwen-VL, and Qwen-Omni series.
+- Uses only 25% of tokens while preserving 99.6% performance of LLaVA-OV.
+- Reduces LLaVA-OV generation time by 70.8% and overall latency by 43.0%.
+
+<div style="display: inline">
+  <a href="https://arxiv.org/pdf/2505.14454"><strong>[paper]</strong></a>
+  <a href="https://github.com/xuyang-liu16/VidCom2"><strong>[code]</strong></a>
+  <a href="http://xhslink.com/o/7SMiHSgXFFU"><strong>[Xiaohongshu]</strong></a>
+  <a href="https://www.jiqizhixin.com/articles/2025-12-15-6"><strong>[机器之心]</strong></a>
+  <a href="https://mp.weixin.qq.com/s/hQhEPlBWd4noVGSOWT4_XQ"><strong>[PaperWeekly]</strong></a>
+  <a href="/files/EMNLP-2025-main-262.pdf"><strong>[slides]</strong></a>
+  <a href="/files/EMNLP-2025-main-262-Poster.pdf"><strong>[poster]</strong></a>
+  <a href="https://underline.io/events/502/posters/20833/poster/129850-video-compression-commander-plug-and-play-inference-acceleration-for-video-large-language-models"><strong>[video]</strong></a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)
+
+<u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen
+
+- Compatible with major HR-LVLMs, including LLaVA-NeXT and LLaVA-OV.
+- Uses only 10% of tokens while maintaining above 90% performance across 10 tasks.
+- Reduces FLOPs and peak memory to 9.1% and 60%, and achieves 1.8x throughput.
+
+<div style="display: inline">
+  <a href="https://arxiv.org/pdf/2501.05179"><strong>[paper]</strong></a>
+  <a href="https://github.com/xuyang-liu16/GlobalCom2"><strong>[code]</strong></a>
+  <a href="/files/AAAI-2026-GlobalCom2-Poster.pdf"><strong>[poster]</strong></a>
+</div>
+
+</div>
+</div>
+
 ### Conference Papers
 
 <a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
