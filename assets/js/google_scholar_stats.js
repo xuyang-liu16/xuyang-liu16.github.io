@@ -1,27 +1,21 @@
----
----
-$(document).ready(function () {
-    {% if site.google_scholar_stats_use_cdn %}
-    var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-    {% else %}
-    var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-    {% endif %}
+(function () {
+    var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/xuyang-liu16/xuyang-liu16.github.io@';
     $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
         var citationEles = document.getElementsByClassName('show_paper_citations')
-        Array.prototype.forEach.call(citationEles, element => {
+        Array.prototype.forEach.call(citationEles, function (element) {
             var paperId = element.getAttribute('data')
             if (!paperId || !data.publications || !data.publications[paperId]) return;
             var numCitations = data.publications[paperId].num_citations
             element.innerHTML = '| Citations: ' + numCitations;
         });
         var allCitation = document.getElementsByClassName('all_citation_badges')
-        Array.prototype.forEach.call(allCitation, element => {
+        Array.prototype.forEach.call(allCitation, function (element) {
             var numCitations = data.citedby
-            element.href = '{{ site.author.googlescholar }}'
+            element.href = 'https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en'
             element.innerHTML = '<img src="https://img.shields.io/badge/Paper%20Citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
         });
         var citationBadges = document.getElementsByClassName('paper_citations_badges')
-        Array.prototype.forEach.call(citationBadges, element => {
+        Array.prototype.forEach.call(citationBadges, function (element) {
             var paperId = element.getAttribute('data')
             if (!paperId || !data.publications || !data.publications[paperId]) return;
             var numCitations = data.publications[paperId].num_citations
@@ -29,4 +23,4 @@ $(document).ready(function () {
             element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
         });
     });
-})
+})();
