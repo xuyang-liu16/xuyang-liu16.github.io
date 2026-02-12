@@ -51,7 +51,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 - Works with diverse LVLMs and LLMs, including LLaVA, Qwen-VL, InternVL, Llama, and Mistral series.
 - Integrates with existing compressors (e.g., SnapKV, AdaKV, SparseMM) and consistently improves their performance.
-- Delivers accuracy gains without sacrificing speed or memory efficiency.
+- Delivers accuracy gains (average of **+5.1%** across 5 tasks) without sacrificing speed or memory efficiency.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2510.20707"><strong>[paper]</strong></a>
@@ -68,9 +68,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <u>Xuyang Liu</u><sup>*</sup>, Yiyu Wang<sup>*</sup>, Junpeng Ma, Linfeng Zhang
 
-- Compatible with major VideoLLMs, including LLaVA, Qwen-VL, and Qwen-Omni series.
-- Uses only 25% of tokens while preserving 99.6% performance of LLaVA-OV.
-- Reduces LLaVA-OV generation time by 70.8% and overall latency by 43.0%.
+- Compatible with major VideoLLMs and OmniLLMs, including LLaVA, Qwen-VL, and Qwen-Omni series.
+- Uses only **25%** of visual tokens while preserving **99.6%** performance of LLaVA-OV.
+- Reduces LLaVA-OV LLM generation time by **70.8%** and overall latency by **43.0%**.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2505.14454"><strong>[paper]</strong></a>
@@ -94,8 +94,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen
 
 - Compatible with major HR-LVLMs, including LLaVA-NeXT and LLaVA-OV.
-- Uses only 10% of tokens while maintaining above 90% performance across 10 tasks.
-- Reduces FLOPs and peak memory to 9.1% and 60%, and achieves 1.8x throughput.
+- Uses only **10%** of visual tokens while maintaining above **90%** performance across **10** tasks.
+- Reduces FLOPs and peak memory to **9.1%** and **60%**, and achieves 1.8x throughput.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2501.05179"><strong>[paper]</strong></a>
