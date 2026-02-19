@@ -1,6 +1,10 @@
 (function () {
     var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/xuyang-liu16/xuyang-liu16.github.io@';
-    $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+    var cacheBuster = Date.now();
+    var primaryUrl = gsDataBaseUrl + "google-scholar-stats/gs_data.json?v=" + cacheBuster;
+    var fallbackUrl = 'https://raw.githubusercontent.com/xuyang-liu16/xuyang-liu16.github.io/google-scholar-stats/gs_data.json?v=' + cacheBuster;
+
+    function render(data) {
         var citationEles = document.getElementsByClassName('show_paper_citations')
         Array.prototype.forEach.call(citationEles, function (element) {
             var paperId = element.getAttribute('data')
@@ -22,5 +26,9 @@
             element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
             element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
         });
+    }
+
+    $.getJSON(primaryUrl, render).fail(function () {
+        $.getJSON(fallbackUrl, render);
     });
 })();
