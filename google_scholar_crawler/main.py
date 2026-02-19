@@ -1,30 +1,46 @@
 # Reference: https://github.com/song-chen1/song-chen1.github.io
 import json
 import os
+import signal
 import time
 from datetime import datetime, timezone
 
 from scholarly import scholarly
 
 
+class TimeoutError(RuntimeError):
+    pass
+
+
+def _timeout_handler(signum, frame):
+    raise TimeoutError("Google Scholar request timed out")
+
+
+def call_with_timeout(func, seconds, *args, **kwargs):
+    previous = signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(seconds)
+    try:
+        return func(*args, **kwargs)
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous)
+
+
 def fetch_author_with_retry(scholar_id: str, max_attempts: int = 3):
     last_error = None
     for attempt in range(1, max_attempts + 1):
         try:
-            author = scholarly.search_author_id(scholar_id)
+            author = call_with_timeout(scholarly.search_author_id, 120, scholar_id)
             if not author:
                 raise RuntimeError(f"Author not found for GOOGLE_SCHOLAR_ID={scholar_id}")
 
-            scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
-
-            # Refresh each publication to avoid stale per-paper citation counts.
-            refreshed_publications = []
-            for pub in author.get("publications", []):
-                try:
-                    refreshed_publications.append(scholarly.fill(pub))
-                except Exception:
-                    refreshed_publications.append(pub)
-            author["publications"] = refreshed_publications
+            # Keep this bounded: a single stuck request should fail fast and retry.
+            call_with_timeout(
+                scholarly.fill,
+                180,
+                author,
+                sections=["basics", "indices", "counts", "publications"],
+            )
             return author
         except Exception as exc:
             last_error = exc

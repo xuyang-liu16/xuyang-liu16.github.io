@@ -5,9 +5,14 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
+concurrency:
+  group: google-scholar-crawler
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v2
       - name: Install Reqs
@@ -16,7 +21,7 @@ jobs:
       - name: Run
         run: |
           cd ./google_scholar_crawler
-          pip3 install -r requirements.txt
+          pip3 install --no-cache-dir -r requirements.txt
           python3 main.py
 
           cd ..
