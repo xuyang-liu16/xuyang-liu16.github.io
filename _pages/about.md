@@ -12,11 +12,12 @@ redirect_from:
 
 📌 My research centers on **efficient Large Vision-Language Models (LVLMs)**, including:
 
-- 🖼️ **Image-Text LVLMs**: high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179), [FiCoCo](https://arxiv.org/abs/2411.17686), and [MixKV](https://arxiv.org/abs/2510.20707).
-- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454), [STC](https://arxiv.org/pdf/2512.00891), and [OmniSIFT](https://arxiv.org/abs/2602.04804).
-- ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131) and [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu).
+- 🖼️ **Image-Text LVLMs**: high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
+- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, and [OmniSIFT](https://arxiv.org/abs/2602.04804).
+- ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
 
 📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
+
 
 
 ## 🔥 News
@@ -116,7 +117,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://arxiv.org/abs/2508.13305" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a> Minhao Xiong, Zichen Wen, Zhuangcheng Gu, <u>Xuyang Liu</u>, Rui Zhang, Hengrui Kang, Jiabing Yang, Junyuan Zhang, Weijia Li, Conghui He, Yafei Wang, Linfeng Zhang, &quot;**Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2508.13305)] 
 
-
 <a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
 
 <a href="https://openreview.net/forum?id=rIPeatvPy3" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a> Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, <u>Xuyang Liu</u>, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang, &quot;**The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2507.11097)] [[code](https://github.com/ZichenWen1/DIJA)] [[huggingface paper](https://huggingface.co/papers/2507.11097)] [[量子位](https://mp.weixin.qq.com/s/nfyZFXN7ku07_9tTzG-W9Q)] <a href="https://github.com/ZichenWen1/DIJA" target="_blank"><img src="https://img.shields.io/github/stars/ZichenWen1/DIJA?style=social"></a> 
@@ -160,11 +160,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.04804-B31B1B?style=flat-square"></a> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. *arXiv preprint arXiv:2602.04804*. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)]
 
 
-
 <!-- 
 <a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.14359-B31B1B?style=flat-square"></a> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. *arXiv preprint arXiv:2510.14359*. [[paper](https://arxiv.org/pdf/2510.14359)] [[huggingface paper](https://huggingface.co/papers/2510.14359)]
 -->
-
 
 <a href="https://arxiv.org/abs/2505.19147" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.19147-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Zichen Wen<sup>\*</sup>, Shaobo Wang<sup>\*</sup>, Junjie Chen, Zhishan Tao, and 10 more authors, &quot;**Shifting AI Efficiency From Model-Centric to Data-Centric Compression**&quot;. *arXiv preprint arXiv:2505.19147*. [[paper](https://arxiv.org/pdf/2505.19147)] [[project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)] [[huggingface paper](https://huggingface.co/papers/2505.19147)] [[Twitter@Rohan Paul](https://x.com/rohanpaul_ai/status/1936896115078525067?s=20)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:hMod-77fHWUC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression?style=social"></a> 
 
