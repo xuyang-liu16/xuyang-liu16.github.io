@@ -91,7 +91,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"><p class="paper-caption"><i>📊 The <strong>first</strong> token compression framework for dynamic-cropping HR-LVLMs featuring <strong>adaptive crop budget allocation</strong>.</i></p></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"><p class="paper-caption"><i>📊 The <strong>first</strong> to systematically analyze token compression in HR-LVLMs with <strong>adaptive crop budget allocation</strong>. </i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)
