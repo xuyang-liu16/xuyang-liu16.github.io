@@ -43,6 +43,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 🚩 **Highlight:** ICLR: 4, NeurIPS: 1, CVPR: 3, AAAI: 3, EMNLP: 1.
 
+### Selected Publications
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -111,7 +113,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-### Conference Papers
+### All Publications
+
+#### Conference Papers
 
 <a href="https://arxiv.org/abs/2512.00891" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a> Yiyu Wang<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Xiyan Gui, Xinying Lin, Boxue Yang, Chenfei Liao, Tailai Chen, Linfeng Zhang, &quot;**Accelerating Streaming Video Large Language Models via Hierarchical Token Compression**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2512.00891)] [[code](https://github.com/lern-to-write/STC)] [[Xiaohongshu](http://xhslink.com/o/5Vm008DxkkH 
 )] [[PaperWeekly](https://mp.weixin.qq.com/s/PsNkR28yIFXqAQmAb62Yrg
@@ -146,7 +150,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 -->
 
 
-### Journal Papers
+#### Journal Papers
 
 <a href="https://ieeexplore.ieee.org/document/10929057" target="_blank"><img src="https://img.shields.io/badge/TCSVT-2025-54b345?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu<sup>\*</sup>, Siteng Huang, Yi Xin, Yue Hu, Quanjun Yin, Donglin Wang, Yuanyuan Wu, Honggang Chen, &quot;**M2IST: Multi-Modal Interactive Side-Tuning for Efficient Referring Expression Comprehension**&quot;. *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)*, 2025. [[paper](https://arxiv.org/pdf/2407.01131)] [[code](https://github.com/xuyang-liu16/M2IST)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:isC4tDSrTZIC' href="" target="_blank"></a>
 
@@ -159,7 +163,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 -->
 
 
-### Preprints & Under Submission
+#### Preprints & Under Submission
 
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.04804-B31B1B?style=flat-square"></a> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. *arXiv preprint arXiv:2602.04804*. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)]
 
