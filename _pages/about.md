@@ -44,6 +44,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"><p><i>💡 The <strong>first</strong> to identify <strong>heterogeneous head-wise redundancy</strong> in the KV cache of both LVLMs and LLMs.</i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**](https://openreview.net/forum?id=B2iqbCQviR)
@@ -66,6 +67,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"><p><i>⚡ The <strong>first</strong> token compression framework for VideoLLMs featuring <strong>dynamic frame budget allocation</strong>.</i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**](https://aclanthology.org/2025.emnlp-main.98/)
@@ -92,6 +94,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"><p><i> 📊 The <strong>first</strong> to systematically analyze token compression in HR-LVLMs with <strong>adaptive crop budget allocation</strong>. </i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)
@@ -110,6 +113,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 </div>
 </div>
+
 
 ### Conference Papers
 
