@@ -113,61 +113,31 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 ### Conference Papers
 
-<div class="pub-filter-controls" id="conference-paper-filters">
-  <button type="button" class="pub-filter-btn is-active" data-filter="all">All</button>
-  <button type="button" class="pub-filter-btn" data-filter="first-author">First author</button>
-</div>
-
-<div id="publication-filter-list">
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2512.00891" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a> Yiyu Wang<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Xiyan Gui, Xinying Lin, Boxue Yang, Chenfei Liao, Tailai Chen, Linfeng Zhang, &quot;**Accelerating Streaming Video Large Language Models via Hierarchical Token Compression**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2512.00891)] [[code](https://github.com/lern-to-write/STC)] [[Xiaohongshu](http://xhslink.com/o/5Vm008DxkkH 
 )] [[PaperWeekly](https://mp.weixin.qq.com/s/PsNkR28yIFXqAQmAb62Yrg
 )] <a href="https://github.com/lern-to-write/STC" target="_blank"><img src="https://img.shields.io/github/stars/lern-to-write/STC?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2509.01552" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a> Junjie Chen<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Zichen Wen, Yiyu Wang, Siteng Huang, Honggang Chen, &quot;**Variation-aware Vision Token Dropping for Faster Large Vision-Language Models**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2509.01552)] [[code](https://github.com/xuyang-liu16/V2Drop)] [[52CV](https://mp.weixin.qq.com/s/C2BO_lamuQcLQW5JedfvFg)] <a href="https://github.com/xuyang-liu16/V2Drop" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/V2Drop?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2508.13305" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a> Minhao Xiong, Zichen Wen, Zhuangcheng Gu, <u>Xuyang Liu</u>, Rui Zhang, Hengrui Kang, Jiabing Yang, Junyuan Zhang, Weijia Li, Conghui He, Yafei Wang, Linfeng Zhang, &quot;**Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2508.13305)] [[code](https://github.com/MinhaoXiong/Prune2Drive)]
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="true">
 <a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] [[Xiaohongshu](http://xhslink.com/o/9VKjxY3ZWbW)] [[52CV](https://mp.weixin.qq.com/s/rMKnBVWCwl6lq9eRdpjvdw)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://openreview.net/forum?id=rIPeatvPy3" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a> Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, <u>Xuyang Liu</u>, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang, &quot;**The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2507.11097)] [[code](https://github.com/ZichenWen1/DIJA)] [[huggingface paper](https://huggingface.co/papers/2507.11097)] [[量子位](https://mp.weixin.qq.com/s/nfyZFXN7ku07_9tTzG-W9Q)] <a href="https://github.com/ZichenWen1/DIJA" target="_blank"><img src="https://img.shields.io/github/stars/ZichenWen1/DIJA?style=social"></a> 
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="true">
 <a href="https://arxiv.org/abs/2501.05179" target="_blank"><img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"></a> <u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen, &quot;**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**&quot;. In *Proceedings of the 40th AAAI Conference on Artificial Intelligence*, 2026. [[paper](https://arxiv.org/pdf/2501.05179)] [[code](https://github.com/xuyang-liu16/GlobalCom2)] [[poster](/files/AAAI-2026-GlobalCom2-Poster.pdf)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:mB3voiENLucC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/GlobalCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/GlobalCom2?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2411.17686" target="_blank"><img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"></a> Yuhang Han<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Zihan Zhang, Pengxiang Ding, Junjie Chen, Donglin Wang, Honggang Chen, Qingsen Yan, Siteng Huang, &quot;**Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration**&quot;. In *Proceedings of the 40th AAAI Conference on Artificial Intelligence*, 2026. [[paper](https://arxiv.org/pdf/2411.17686)] [[page](https://ficoco-accelerate.github.io/)] [[code](https://github.com/kawhiiiileo/FiCoCo)][[poster](/files/AAAI-2026-Poster-FiCoCo.pdf)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:bEWYMUwI8FkC' href="" target="_blank"></a> <a href="https://github.com/kawhiiiileo/FiCoCo" target="_blank"><img src="https://img.shields.io/github/stars/kawhiiiileo/FiCoCo?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2507.15846" target="_blank"><img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"></a> Fei Tang, Zhangxuan Gu, Zhengxi Lu, <u>Xuyang Liu</u>, Shuheng Shen, Changhua Meng, Wen Wang, Wenqi Zhang, Yongliang Shen, Weiming Lu, Jun Xiao, Yueting Zhuang, &quot;**GUI-G<sup>2</sup>: Gaussian Reward Modeling for GUI Grounding**&quot;. In *Proceedings of the 40th AAAI Conference on Artificial Intelligence*, 2026. [[paper](https://arxiv.org/pdf/2507.15846)] [[code](https://github.com/zju-real/GUI-G2)] [[huggingface paper](https://huggingface.co/papers/2507.15846)] [[page](https://zju-real.github.io/GUI-G2)] [[机器之心](https://mp.weixin.qq.com/s/DRMtB-o9X_CzEFGkxw0Ycw)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:ns9cj8rnVeAC' href="" target="_blank"></a> <a href="https://github.com/zju-real/GUI-G2" target="_blank"><img src="https://img.shields.io/github/stars/zju-real/GUI-G2?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="true">
 <a href="https://aclanthology.org/2025.emnlp-main.98/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2025-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Yiyu Wang<sup>\*</sup>, Junpeng Ma, Linfeng Zhang, &quot;**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**&quot;. In *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 2025. [[paper](https://arxiv.org/pdf/2505.14454)] [[code](https://github.com/xuyang-liu16/VidCom2)] [[page](https://xuyang-liu16.github.io/VidCom2/)] [[Xiaohongshu](http://xhslink.com/o/7SMiHSgXFFU)] [[机器之心](https://www.jiqizhixin.com/articles/2025-12-15-6)] [[PaperWeekly](https://mp.weixin.qq.com/s/hQhEPlBWd4noVGSOWT4_XQ)] [[slides](/files/EMNLP-2025-main-262.pdf)] [[poster](/files/EMNLP-2025-main-262-Poster.pdf)] [[video](https://underline.io/events/502/posters/20833/poster/129850-video-compression-commander-plug-and-play-inference-acceleration-for-video-large-language-models)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:J_g5lzvAfSwC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/VidCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VidCom2?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://openreview.net/forum?id=yYZbZGo4ei" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025-blue?style=flat-square"></a> Chang Zou<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu, Siteng Huang, Linfeng Zhang, &quot;**Accelerating Diffusion Transformers with Token-wise Feature Caching**&quot;. In *International Conference on Learning Representations (ICLR)*, 2025. [[paper](https://arxiv.org/pdf/2410.05317)] [[page](https://toca2024.github.io/ToCa/)] [[code](https://github.com/Shenyi-Z/ToCa)] [[量子位](https://mp.weixin.qq.com/s/ZqVWslSEdjX00VMf6RqtcA)] [[poster](/files/ICLR-2025-ToCa-Poster.pdf)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:TQgYirikUcIC' href="" target="_blank"></a> <a href="https://github.com/Shenyi-Z/ToCa" target="_blank"><img src="https://img.shields.io/github/stars/Shenyi-Z/ToCa?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://openreview.net/forum?id=UvMSKonce8" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025-blue?style=flat-square"></a> Shaobo Wang, Hongxuan Tang, Mingyang Wang, Hongrui Zhang, <u>Xuyang Liu</u>, Weiya Li, Xuming Hu, Linfeng Zhang, &quot;**Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Transformers**&quot;. In *International Conference on Learning Representations (ICLR)*, 2025. [[paper](https://arxiv.org/pdf/2410.21815)] [[code](https://github.com/gszfwsb/AutoGnothi)] <a href="https://github.com/gszfwsb/AutoGnothi" target="_blank"><img src="https://img.shields.io/github/stars/gszfwsb/AutoGnothi?style=social"></a>
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://openreview.net/forum?id=yS1dUkQFnu" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2024-blue?style=flat-square"></a> Yi Xin<sup>\*</sup>, Siqi Luo<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Yuntao Du<sup>\*</sup>, Haodi Zhou, Xinyu Cheng, Christina Lee, and 10 more authors, &quot;**V-PETL Bench: A Unified Visual Parameter-Efficient Transfer Learning Benchmark**&quot;. In *Neural Information Processing Systems Datasets and Benchmarks Track (NeurlPS D&B Track)*, 2024. [[paper](https://openreview.net/forum?id=yS1dUkQFnu)][[page](https://v-petl-bench.github.io/)] [[code](https://github.com/synbol/Parameter-Efficient-Transfer-Learning-Benchmark)] [[poster](https://neurips.cc/virtual/2024/poster/97434)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:blknAaTinKkC' href="" target="_blank"></a> <a href="https://github.com/synbol/Parameter-Efficient-Transfer-Learning-Benchmark" target="_blank"><img src="https://img.shields.io/github/stars/synbol/Parameter-Efficient-Transfer-Learning-Benchmark?style=social"></a>
-</div>
 
 <!--
 <a href="https://ieeexplore.ieee.org/document/10445945" target="_blank"><img src="https://img.shields.io/badge/ICASSP-2024-blue?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Siteng Huang<sup>\*</sup>, Yachen Kang, Honggang Chen, Donglin Wang, &quot;**VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders**&quot;. In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*, 2024. [[paper](https://arxiv.org/pdf/2309.01141.pdf)] [[code](https://github.com/xuyang-liu16/VGDiffZero)] [[poster](/files/ICASSP-2024-VGDiffZero-Poster.pdf)] <a href="https://github.com/xuyang-liu16/VGDiffZero" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VGDiffZero?style=social"></a>
@@ -178,9 +148,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 ### Journal Papers
 
-<div class="publication-filter-item" markdown="1" data-first-author="true">
 <a href="https://ieeexplore.ieee.org/document/10929057" target="_blank"><img src="https://img.shields.io/badge/TCSVT-2025-54b345?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu<sup>\*</sup>, Siteng Huang, Yi Xin, Yue Hu, Quanjun Yin, Donglin Wang, Yuanyuan Wu, Honggang Chen, &quot;**M2IST: Multi-Modal Interactive Side-Tuning for Efficient Referring Expression Comprehension**&quot;. *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)*, 2025. [[paper](https://arxiv.org/pdf/2407.01131)] [[code](https://github.com/xuyang-liu16/M2IST)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:isC4tDSrTZIC' href="" target="_blank"></a>
-</div>
 
 <!-- 
 <a href="https://ieeexplore.ieee.org/document/11206397" target="_blank"><img src="https://img.shields.io/badge/TCSS-2025-54b345?style=flat-square"></a> Junjie Chen, <u>Xuyang Liu</u>, Subin Huang, Linfeng Zhang, Hang Yu &quot;**Seeing Sarcasm Through Different Eyes: Analyzing Multimodal Sarcasm Perception in Large Vision-Language Models**&quot;. *IEEE Transactions on Computational Social Systems (TCSS)*, 2025. [[paper](https://arxiv.org/pdf/2503.12149)] [[code](https://github.com/CoderChen01/LVLMSarcasmAnalysis)] 
@@ -193,53 +161,16 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 ### Preprints & Under Submission
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.04804-B31B1B?style=flat-square"></a> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. *arXiv preprint arXiv:2602.04804*. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)]
-</div>
 
 
 <!-- 
 <a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.14359-B31B1B?style=flat-square"></a> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. *arXiv preprint arXiv:2510.14359*. [[paper](https://arxiv.org/pdf/2510.14359)] [[huggingface paper](https://huggingface.co/papers/2510.14359)]
 -->
 
-<div class="publication-filter-item" markdown="1" data-first-author="true">
 <a href="https://arxiv.org/abs/2505.19147" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.19147-B31B1B?style=flat-square"></a> <u>Xuyang Liu</u><sup>\*</sup>, Zichen Wen<sup>\*</sup>, Shaobo Wang<sup>\*</sup>, Junjie Chen, Zhishan Tao, and 10 more authors, &quot;**Shifting AI Efficiency From Model-Centric to Data-Centric Compression**&quot;. *arXiv preprint arXiv:2505.19147*. [[paper](https://arxiv.org/pdf/2505.19147)] [[project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)] [[huggingface paper](https://huggingface.co/papers/2505.19147)] [[Twitter@Rohan Paul](https://x.com/rohanpaul_ai/status/1936896115078525067?s=20)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:hMod-77fHWUC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression?style=social"></a> 
-</div>
 
-<div class="publication-filter-item" markdown="1" data-first-author="false">
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Liangtao Shi, Zunnan Xu, Yue Hu, Siteng Huang, Yi Xin, Bineng Zhong, Donglin Wang, &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:ZeXyd9-uunAC' href="" target="_blank"></a> <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
-</div>
-
-</div>
-
-<script>
-(function() {
-  const controls = document.getElementById('conference-paper-filters');
-  if (!controls) return;
-
-  const buttons = controls.querySelectorAll('.pub-filter-btn');
-  const items = document.querySelectorAll('.publication-filter-item');
-
-  function applyFilter(filterType) {
-    items.forEach((item) => {
-      const isFirstAuthor = item.getAttribute('data-first-author') === 'true';
-      item.style.display = (filterType === 'all' || isFirstAuthor) ? '' : 'none';
-    });
-
-    buttons.forEach((btn) => {
-      btn.classList.toggle('is-active', btn.getAttribute('data-filter') === filterType);
-    });
-  }
-
-  controls.addEventListener('click', (event) => {
-    const btn = event.target.closest('.pub-filter-btn');
-    if (!btn) return;
-    applyFilter(btn.getAttribute('data-filter'));
-  });
-
-  applyFilter('all');
-})();
-</script>
 
 
 ## 🤗 Resources
