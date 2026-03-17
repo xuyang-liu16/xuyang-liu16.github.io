@@ -156,7 +156,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <div class="pub-filters" id="pub-filters" aria-label="Publication filters">
   <button type="button" class="pub-filter-btn is-active" data-filter="all">All</button>
-  <button type="button" class="pub-filter-btn" data-filter="first-author">First Author</button>
+  <button type="button" class="pub-filter-btn" data-filter="first-author">Core</button>
 </div>
 
 <div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, NeurIPS: 1, CVPR: 3, AAAI: 3, EMNLP: 1.</div>
@@ -198,7 +198,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
       var source = badge.getAttribute("src") || "";
       var match = source.match(/badge\/(ICLR|NeurIPS|CVPR|AAAI|EMNLP)-/i);
-      return match ? match[1].toUpperCase() : null;
+      return match ? match[1] : null;
     }
 
     function updateHighlight() {
