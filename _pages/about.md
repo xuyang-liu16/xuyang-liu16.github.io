@@ -40,9 +40,6 @@ redirect_from:
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a> 
 
-🚩 **Highlight:** ICLR: 4, NeurIPS: 1, CVPR: 3, AAAI: 3, EMNLP: 1.
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"><p class="paper-caption"><i>💡 The <strong>first</strong> to identify <strong>heterogeneous head-wise redundancy</strong> in the KV cache of both LVLMs and LLMs.</i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -114,30 +111,37 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <style>
   .pub-filters {
     display: flex;
-    gap: 0.6rem;
+    gap: 0.45rem;
     flex-wrap: wrap;
-    margin: 1.25rem 0 1.5rem;
+    margin: 1rem 0 0.4rem;
   }
 
   .pub-filter-btn {
     appearance: none;
-    border: 1px solid #1f6feb;
-    border-radius: 6px;
+    border: 1px solid #00369f;
+    border-radius: 4px;
     background: transparent;
     color: #111111;
     cursor: pointer;
-    font-size: 0.92rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    line-height: 1;
-    padding: 0.45rem 0.95rem;
+    line-height: 1.1;
+    padding: 0.24rem 0.58rem;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   }
 
   .pub-filter-btn:hover,
   .pub-filter-btn.is-active {
-    background: #1f6feb;
-    border-color: #1f6feb;
+    background: #00369f;
+    border-color: #00369f;
     color: #ffffff;
+  }
+
+  .pub-highlight {
+    margin: 0 0 1.15rem;
+    color: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
   }
 
   .pub-marker {
@@ -155,13 +159,17 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <button type="button" class="pub-filter-btn" data-filter="first-author">First Author</button>
 </div>
 
+<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, NeurIPS: 1, CVPR: 3, AAAI: 3, EMNLP: 1.</div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var filterRoot = document.getElementById("pub-filters");
+    var highlightNode = document.getElementById("pub-highlight");
     if (!filterRoot) return;
 
     var buttons = Array.prototype.slice.call(filterRoot.querySelectorAll(".pub-filter-btn"));
     var headings = Array.prototype.slice.call(document.querySelectorAll(".pub-section-heading"));
+    var highlightOrder = ["ICLR", "NeurIPS", "CVPR", "AAAI", "EMNLP"];
     var sections = headings.map(function (heading) {
       var items = [];
       var current = heading.nextElementSibling;
@@ -184,6 +192,46 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       };
     });
 
+    function getVenue(item) {
+      var badge = item.querySelector("a img");
+      if (!badge) return null;
+
+      var source = badge.getAttribute("src") || "";
+      var match = source.match(/badge\/(ICLR|NeurIPS|CVPR|AAAI|EMNLP)-/i);
+      return match ? match[1].toUpperCase() : null;
+    }
+
+    function updateHighlight() {
+      if (!highlightNode) return;
+
+      var counts = {
+        ICLR: 0,
+        NeurIPS: 0,
+        CVPR: 0,
+        AAAI: 0,
+        EMNLP: 0
+      };
+
+      sections.forEach(function (section) {
+        section.items.forEach(function (item) {
+          if (item.classList.contains("is-hidden")) return;
+
+          var venue = getVenue(item);
+          if (venue && Object.prototype.hasOwnProperty.call(counts, venue)) {
+            counts[venue] += 1;
+          }
+        });
+      });
+
+      var summary = highlightOrder
+        .map(function (venue) {
+          return venue + ": " + counts[venue];
+        })
+        .join(", ");
+
+      highlightNode.textContent = "🚩 Highlight: " + summary + ".";
+    }
+
     function applyFilter(filter) {
       buttons.forEach(function (button) {
         var isActive = button.getAttribute("data-filter") === filter;
@@ -205,6 +253,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
         section.heading.classList.toggle("is-hidden", visibleCount === 0);
       });
+
+      updateHighlight();
     }
 
     buttons.forEach(function (button) {
