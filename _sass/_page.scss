@@ -11,8 +11,8 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  @include breakpoint($medium) {
-    max-width: 95%;
+  @include breakpoint($x-large) {
+    max-width: 900px;  // Narrower width for better readability
     margin-left: auto;
     margin-right: auto;
   }
@@ -23,8 +23,8 @@
     margin-right: auto;
   }
 
-  @include breakpoint($x-large) {
-    max-width: 900px;
+  @include breakpoint($medium) {
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -32,8 +32,8 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(9.75 of 12 last);
-    @include prefix(0.6 of 12);
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
     @include suffix(0 of 12);
   }
 
