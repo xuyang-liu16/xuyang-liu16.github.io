@@ -13,7 +13,7 @@ redirect_from:
 📌 My research centers on **efficient Large Vision-Language Models (LVLMs)**, including:
 
 - 🖼️ **Image-Text LVLMs**: high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
-- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, and [OmniSIFT](https://arxiv.org/abs/2602.04804).
+- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804).
 - ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
 
 📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
@@ -24,6 +24,7 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
+* **2026.03.31** 🙌🙌 We release [V-CAST](https://arxiv.org/pdf/2603.27650), a **curvature-aware** spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! [Code](https://github.com/xinyouu/V-CAST) is available!
 * **2026.02.21** 🎊🎊 Four papers have been accepted by **CVPR 2026**, including token compression for VLMs via [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), efficient streaming video understanding via [STC](https://arxiv.org/abs/2512.00891), and token compression for autonomous driving via [Prune2Drive](https://arxiv.org/abs/2508.13305) to the main conference, and [Flash-Unified](https://arxiv.org/abs/2603.15271) to the findings! 
 * **2026.01.26** 🎊🎊 Two papers have been accepted by **ICLR 2026**, including fast decoding for VLM/LLM via [MixKV](https://arxiv.org/abs/2510.20707) and the first safety study of dLLMs [DIJA](https://arxiv.org/abs/2507.11097)! Congratulations to all collaborators!
 * **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
@@ -56,6 +57,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <a href="https://github.com/xuyang-liu16/MixKV"><strong>[code]</strong></a>
   <a href="https://xuyang-liu16.github.io/MixKV/"><strong>[page]</strong></a>
   <a href="http://xhslink.com/o/9VKjxY3ZWbW"><strong>[Xiaohongshu]</strong></a>
+  <a href="https://mp.weixin.qq.com/s/O1mIsIt6LSTZhAF536vGiA"><strong>[量子位]</strong></a>
   <a href="https://mp.weixin.qq.com/s/rMKnBVWCwl6lq9eRdpjvdw"><strong>[52CV]</strong></a>
 </div>
 
@@ -279,7 +281,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://arxiv.org/abs/2603.15271" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Junlong Ke, Zichen Wen, Boxue Yang, Yantai Yang, <u>Xuyang Liu</u>, Chenfei Liao, Zhaorun Chen, Shaobo Wang, Linfeng Zhang, &quot;**Flash-Unified: A Training-Free and Task-Aware Acceleration Framework for Native Unified Models**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings*, 2026. [[paper](https://arxiv.org/pdf/2603.15271)] [[code](https://github.com/Rirayh/FlashU)]
 
-<a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] [[Xiaohongshu](http://xhslink.com/o/9VKjxY3ZWbW)] [[52CV](https://mp.weixin.qq.com/s/rMKnBVWCwl6lq9eRdpjvdw)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
+<a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] [[Xiaohongshu](http://xhslink.com/o/9VKjxY3ZWbW)] [[量子位](https://mp.weixin.qq.com/s/O1mIsIt6LSTZhAF536vGiA)] [[52CV](https://mp.weixin.qq.com/s/rMKnBVWCwl6lq9eRdpjvdw)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
 
 <a href="https://openreview.net/forum?id=rIPeatvPy3" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, <u>Xuyang Liu</u>, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang, &quot;**The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2507.11097)] [[code](https://github.com/ZichenWen1/DIJA)] [[huggingface paper](https://huggingface.co/papers/2507.11097)] [[量子位](https://mp.weixin.qq.com/s/nfyZFXN7ku07_9tTzG-W9Q)] <a href="https://github.com/ZichenWen1/DIJA" target="_blank"><img src="https://img.shields.io/github/stars/ZichenWen1/DIJA?style=social"></a> 
 
@@ -320,6 +322,10 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 
 <h3 class="pub-section-heading">Preprints & Under Submission</h3>
+
+
+
+<a href="https://arxiv.org/abs/2603.27650" target="_blank"><img src="https://img.shields.io/badge/arXiv-2603.27650-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> Xinying Lin, <u>Xuyang Liu</u><sup>†</sup>, Yiyu Wang, Teng Ma, Wenqi Ren, &quot;**V-CAST: Video Curvature-Aware Spatio-Temporal Pruning for Efficient Video Large Language Models**&quot;. *arXiv preprint arXiv:2603.27650*. [[paper](https://arxiv.org/pdf/2603.27650)] [[code](https://github.com/xinyouu/V-CAST)] [[page](https://xinyouu.github.io/V-CAST/)]
 
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.04804-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. *arXiv preprint arXiv:2602.04804*. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)]
 
