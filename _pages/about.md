@@ -166,12 +166,10 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var filterRoot = document.getElementById("pub-filters");
-    var highlightNode = document.getElementById("pub-highlight");
     if (!filterRoot) return;
 
     var buttons = Array.prototype.slice.call(filterRoot.querySelectorAll(".pub-filter-btn"));
     var headings = Array.prototype.slice.call(document.querySelectorAll(".pub-section-heading"));
-    var highlightOrder = ["ICLR", "NeurIPS", "CVPR", "AAAI", "EMNLP"];
     var sections = headings.map(function (heading) {
       var items = [];
       var current = heading.nextElementSibling;
@@ -194,46 +192,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       };
     });
 
-    function getVenue(item) {
-      var badge = item.querySelector("a img");
-      if (!badge) return null;
-
-      var source = badge.getAttribute("src") || "";
-      var match = source.match(/badge\/(ICLR|NeurIPS|CVPR|AAAI|EMNLP)-/i);
-      return match ? match[1] : null;
-    }
-
-    function updateHighlight() {
-      if (!highlightNode) return;
-
-      var counts = {
-        ICLR: 0,
-        NeurIPS: 0,
-        CVPR: 0,
-        AAAI: 0,
-        EMNLP: 0
-      };
-
-      sections.forEach(function (section) {
-        section.items.forEach(function (item) {
-          if (item.classList.contains("is-hidden")) return;
-
-          var venue = getVenue(item);
-          if (venue && Object.prototype.hasOwnProperty.call(counts, venue)) {
-            counts[venue] += 1;
-          }
-        });
-      });
-
-      var summary = highlightOrder
-        .map(function (venue) {
-          return venue + ": " + counts[venue];
-        })
-        .join(", ");
-
-      highlightNode.textContent = "🚩 Highlight: " + summary + ".";
-    }
-
     function applyFilter(filter) {
       buttons.forEach(function (button) {
         var isActive = button.getAttribute("data-filter") === filter;
@@ -255,8 +213,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
         section.heading.classList.toggle("is-hidden", visibleCount === 0);
       });
-
-      updateHighlight();
     }
 
     buttons.forEach(function (button) {
