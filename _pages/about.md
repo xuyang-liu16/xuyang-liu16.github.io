@@ -12,7 +12,7 @@ redirect_from:
 📌 My research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
 
 - 🖼️ **Image Understanding**: high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
-- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804).
+- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
 - 🎨 **Content Generation**: lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
 - ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
 
@@ -22,7 +22,8 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
-* **2026.03.31** 🙌🙌 We release [V-CAST](https://arxiv.org/pdf/2603.27650), a **curvature-aware** spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! [Code](https://github.com/xinyouu/V-CAST) is available!
+* **2026.04.30** 🎊🎊 One paper [OmniSIFT](https://arxiv.org/abs/2602.04804) about modality-asymmetric token compression for efficient OmniLLMs has been accepted by **ICML 2026**! Congratulations to all collaborators!
+* **2026.03.31** 🙌🙌 We release [V-CAST](https://arxiv.org/abs/2603.27650), a **curvature-aware** spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! [Code](https://github.com/xinyouu/V-CAST) is available!
 * **2026.02.21** 🎊🎊 Four papers have been accepted by **CVPR 2026**, including token compression for VLMs via [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), efficient streaming video understanding via [STC](https://arxiv.org/abs/2512.00891), and token compression for autonomous driving via [Prune2Drive](https://arxiv.org/abs/2508.13305) to the main conference, and [Flash-Unified](https://arxiv.org/abs/2603.15271) to the findings! 
 * **2026.01.26** 🎊🎊 Two papers have been accepted by **ICLR 2026**, including fast decoding for VLM/LLM via [MixKV](https://arxiv.org/abs/2510.20707) and the first safety study of dLLMs [DIJA](https://arxiv.org/abs/2507.11097)! Congratulations to all collaborators!
 * **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
@@ -39,7 +40,7 @@ redirect_from:
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
-🚩 Highlight: ICLR: 4, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.
+🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"><p class="paper-caption"><i>💡 The <strong>first</strong> to identify <strong>heterogeneous head-wise redundancy</strong> in the KV cache of both LVLMs and LLMs.</i></p></div></div>
@@ -227,6 +228,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <h3 class="pub-section-heading">Conference Papers</h3>
 
+<a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/ICML-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. In *International Conference on Machine Learning (ICML)*, 2026. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)] [[量子位](https://mp.weixin.qq.com/s/49yUBxtEFqdST85g4ROQZQ)]
+
 <a href="https://arxiv.org/abs/2512.00891" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> Yiyu Wang<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Xiyan Gui, Xinying Lin, Boxue Yang, Chenfei Liao, Tailai Chen, Linfeng Zhang, &quot;**Accelerating Streaming Video Large Language Models via Hierarchical Token Compression**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2512.00891)] [[code](https://github.com/lern-to-write/STC)] [[Xiaohongshu](http://xhslink.com/o/5Vm008DxkkH 
 )] [[PaperWeekly](https://mp.weixin.qq.com/s/PsNkR28yIFXqAQmAb62Yrg
 )] <a href="https://github.com/lern-to-write/STC" target="_blank"><img src="https://img.shields.io/github/stars/lern-to-write/STC?style=social"></a>
@@ -283,8 +286,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <a href="https://arxiv.org/abs/2604.06330" target="_blank"><img src="https://img.shields.io/badge/arXiv-2604.06330-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Yuzhe Chen, Jiale Cao, <u>Xuyang Liu</u>, Jin Xie, Aiping Yang, Yanwei Pang, &quot;**STDec: Spatio-Temporal Stability Guided Decoding for dLLMs**&quot;. *arXiv preprint arXiv:2604.06330*. [[paper](https://arxiv.org/pdf/2604.06330)] [[page](https://yzchen02.github.io/STDec/)]
 
 <a href="https://arxiv.org/abs/2603.27650" target="_blank"><img src="https://img.shields.io/badge/arXiv-2603.27650-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> Xinying Lin, <u>Xuyang Liu</u><sup>†</sup>, Yiyu Wang, Teng Ma, Wenqi Ren, &quot;**V-CAST: Video Curvature-Aware Spatio-Temporal Pruning for Efficient Video Large Language Models**&quot;. *arXiv preprint arXiv:2603.27650*. [[paper](https://arxiv.org/pdf/2603.27650)] [[code](https://github.com/xinyouu/V-CAST)] [[page](https://xinyouu.github.io/V-CAST/)]
-
-<a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.04804-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="false" aria-hidden="true"></span> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. *arXiv preprint arXiv:2602.04804*. [[paper](https://arxiv.org/pdf/2602.04804)] [[huggingface paper](https://huggingface.co/papers/2602.04804)] [[量子位](https://mp.weixin.qq.com/s/49yUBxtEFqdST85g4ROQZQ)]
 
 
 <!-- 
