@@ -40,9 +40,6 @@ redirect_from:
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
-🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"><p class="paper-caption"><i>💡 The <strong>first</strong> to identify <strong>heterogeneous head-wise redundancy</strong> in the KV cache of both LVLMs and LLMs.</i></p></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -162,7 +159,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <button type="button" class="pub-filter-btn" data-filter="first-author">Core</button>
 </div>
 
-<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.</div>
+<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
