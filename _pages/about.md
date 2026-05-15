@@ -353,4 +353,5 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 ### Journal Reviewer
 * IEEE Transactions on Image Processing ([TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83))
 * IEEE Transactions on Circuits and Systems for Video Technology ([TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76))
+* IEEE Transactions on Cybernetics ([TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036))
 * Computer Vision and Image Understanding ([CVIU](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding))
