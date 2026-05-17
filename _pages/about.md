@@ -40,16 +40,16 @@ redirect_from:
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"><p class="paper-caption"><i>💡 The <strong>first</strong> to identify <strong>heterogeneous head-wise redundancy</strong> in the KV cache of both LVLMs and LLMs.</i></p></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**](https://openreview.net/forum?id=B2iqbCQviR)
 
 <u>Xuyang Liu</u><sup>*</sup>, Xiyan Gui<sup>*</sup>, Yuchao Zhang, Linfeng Zhang
 
-- Works with diverse LVLMs and LLMs, including LLaVA, Qwen-VL, InternVL, Llama, and Mistral series.
-- Integrates with existing compressors (e.g., SnapKV, AdaKV, SparseMM) and consistently improves their performance.
-- Delivers accuracy gains (average of **+5.1%** across 5 tasks) without sacrificing speed or memory efficiency.
+- **Model Capability** — Works with LLaVA, Qwen-VL, InternVL, Llama, and Mistral.
+- **Seamless Integration** — Plugs into SnapKV, AdaKV, and SparseMM.
+- **Strong Performance** — **+5.1%** accuracy gain across 5 tasks without speed/memory cost.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2510.20707"><strong>[paper]</strong></a>
@@ -62,16 +62,16 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"><p class="paper-caption"><i>⚡ The <strong>first</strong> token compression framework for VideoLLMs featuring <strong>dynamic frame budget allocation</strong>.</i></p></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**](https://aclanthology.org/2025.emnlp-main.98/)
 
 <u>Xuyang Liu</u><sup>*</sup>, Yiyu Wang<sup>*</sup>, Junpeng Ma, Linfeng Zhang
 
-- Compatible with major VideoLLMs and OmniLLMs, including LLaVA, Qwen-VL, and Qwen-Omni series.
-- Uses only **25%** of visual tokens while preserving **99.6%** performance of LLaVA-OV.
-- Reduces LLaVA-OV LLM generation time by **70.8%** and overall latency by **43.0%**.
+- **Model Capability** — Compatible with LLaVA, Qwen-VL, and Qwen-Omni series.
+- **Token Compression** — Uses only **25%** tokens while preserving **99.6%** performance.
+- **Fast Inference** — Cuts generation time by **70.8%** and overall latency by **43.0%**.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2505.14454"><strong>[paper]</strong></a>
@@ -79,25 +79,23 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <a href="https://xuyang-liu16.github.io/VidCom2/"><strong>[page]</strong></a>
   <a href="http://xhslink.com/o/7SMiHSgXFFU"><strong>[Xiaohongshu]</strong></a>
   <a href="https://www.jiqizhixin.com/articles/2025-12-15-6"><strong>[机器之心]</strong></a>
-  <a href="https://mp.weixin.qq.com/s/hQhEPlBWd4noVGSOWT4_XQ"><strong>[PaperWeekly]</strong></a>
   <a href="/files/EMNLP-2025-main-262.pdf"><strong>[slides]</strong></a>
   <a href="/files/EMNLP-2025-main-262-Poster.pdf"><strong>[poster]</strong></a>
-  <a href="https://underline.io/events/502/posters/20833/poster/129850-video-compression-commander-plug-and-play-inference-acceleration-for-video-large-language-models"><strong>[video]</strong></a>
 </div>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"><p class="paper-caption"><i>📊 The <strong>first</strong> to systematically analyze token compression in HR-LVLMs with <strong>adaptive crop budget allocation</strong>. </i></p></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)
 
 <u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen
 
-- Compatible with major HR-LVLMs, including LLaVA-NeXT and LLaVA-OV.
-- Uses only **10%** of visual tokens while maintaining above **90%** performance across **10** tasks.
-- Reduces FLOPs and peak memory to **9.1%** and **60%**, and achieves 1.8x throughput.
+- **Model Capability** — Compatible with LLaVA-NeXT and LLaVA-OV.
+- **Token Compression** — Uses only **10%** tokens with **90%+** performance across **10** tasks.
+- **High Efficiency** — Reduces FLOPs to **9.1%**, memory to **60%**, **1.8×** throughput.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2501.05179"><strong>[paper]</strong></a>
