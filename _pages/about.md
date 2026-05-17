@@ -47,9 +47,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <u>Xuyang Liu</u><sup>*</sup>, Xiyan Gui<sup>*</sup>, Yuchao Zhang, Linfeng Zhang
 
-- **Model Capability** — Works with LLaVA, Qwen-VL, InternVL, Llama, and Mistral.
-- **Seamless Integration** — Plugs into SnapKV, AdaKV, and SparseMM.
-- **Strong Performance** — **+5.1%** accuracy gain across 5 tasks without speed/memory cost.
+- **Model Capability**: LLaVA, Qwen-VL, InternVL, Llama, Mistral.
+- **Seamless Integration**: SnapKV, AdaKV, SparseMM.
+- **Strong Performance**: **+5.1%** gain across 5 tasks, no speed/memory cost.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2510.20707"><strong>[paper]</strong></a>
@@ -69,9 +69,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <u>Xuyang Liu</u><sup>*</sup>, Yiyu Wang<sup>*</sup>, Junpeng Ma, Linfeng Zhang
 
-- **Model Capability** — Compatible with LLaVA, Qwen-VL, and Qwen-Omni series.
-- **Token Compression** — Uses only **25%** tokens while preserving **99.6%** performance.
-- **Fast Inference** — Cuts generation time by **70.8%** and overall latency by **43.0%**.
+- **Model Capability**: LLaVA, Qwen-VL, Qwen-Omni.
+- **Token Compression**: Only **25%** tokens, **99.6%** performance.
+- **Fast Inference**: **-70.8%** generation time, **-43.0%** latency.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2505.14454"><strong>[paper]</strong></a>
@@ -93,9 +93,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen
 
-- **Model Capability** — Compatible with LLaVA-NeXT and LLaVA-OV.
-- **Token Compression** — Uses only **10%** tokens with **90%+** performance across **10** tasks.
-- **High Efficiency** — Reduces FLOPs to **9.1%**, memory to **60%**, **1.8×** throughput.
+- **Model Capability**: LLaVA-NeXT, LLaVA-OV.
+- **Token Compression**: Only **10%** tokens, **90%+** on **10** tasks.
+- **High Efficiency**: FLOPs **9.1%**, memory **60%**, **1.8×** throughput.
 
 <div style="display: inline">
   <a href="https://arxiv.org/pdf/2501.05179"><strong>[paper]</strong></a>
