@@ -292,13 +292,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <a href="https://arxiv.org/abs/2405.14700" target="_blank"><img src="https://img.shields.io/badge/arXiv-2405.14700-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" aria-hidden="true"></span> Ting Liu<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Liangtao Shi, Zunnan Xu, Yue Hu, Siteng Huang, Yi Xin, Bineng Zhong, Donglin Wang, &quot;**Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference**&quot;. *arXiv preprint arXiv:2405.14700*. [[paper](https://arxiv.org/pdf/2405.14700)] [[github](https://github.com/liuting20/Sparse-Tuning)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:ZeXyd9-uunAC' href="" target="_blank"></a> <a href="https://github.com/liuting20/Sparse-Tuning" target="_blank"><img src="https://img.shields.io/github/stars/liuting20/Sparse-Tuning?style=social"></a>
 
 
-
-<h3 class="pub-section-heading">Thesis</h3>
-
-<img src="https://img.shields.io/badge/Master's%20Thesis-2026-ec407a?style=flat-square"> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Sichuan University*, 2026.
-
-
-
 ## 🤗 Resources
 Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
 
