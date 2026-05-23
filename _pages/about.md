@@ -295,7 +295,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <h3 class="pub-section-heading">Thesis</h3>
 
-<img src="https://img.shields.io/badge/Master's%20Thesis-2026-ec407a?style=flat-square"> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Sichuan University*, 2026.
+<img src="https://img.shields.io/badge/Thesis-2026-pink?style=flat-square"> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Sichuan University*, 2026.
 
 
 
