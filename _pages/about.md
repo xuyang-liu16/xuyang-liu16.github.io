@@ -293,10 +293,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 
 
-<h3 class="pub-section-heading">Thesis</h3>
-
-<img src="https://img.shields.io/badge/Thesis-2026-pink?style=flat-square"> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Sichuan University*, 2026.
-
 
 ## 🤗 Resources
 Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
