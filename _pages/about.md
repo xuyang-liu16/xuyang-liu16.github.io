@@ -44,7 +44,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <div class='paper-box-text' markdown="1">
 
 [**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**](https://openreview.net/forum?id=B2iqbCQviR)
-
 <u>Xuyang Liu</u><sup>*</sup>, Xiyan Gui<sup>*</sup>, Yuchao Zhang, Linfeng Zhang
 
 - **Model Capability**: LLaVA, Qwen-VL, InternVL, Llama, Mistral.
@@ -66,7 +65,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <div class='paper-box-text' markdown="1">
 
 [**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**](https://aclanthology.org/2025.emnlp-main.98/)
-
 <u>Xuyang Liu</u><sup>*</sup>, Yiyu Wang<sup>*</sup>, Junpeng Ma, Linfeng Zhang
 
 - **Model Capability**: LLaVA, Qwen-VL, Qwen-Omni.
@@ -90,7 +88,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <div class='paper-box-text' markdown="1">
 
 [**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)
-
 <u>Xuyang Liu</u>, Ziming Wang, Junjie Chen, Yuhang Han, Yingyao Wang, Jiale Yuan, Jun Song, Siteng Huang, Honggang Chen
 
 - **Model Capability**: LLaVA-NeXT, LLaVA-OV.
