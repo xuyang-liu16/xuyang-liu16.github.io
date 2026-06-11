@@ -1,13 +1,88 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+<style>
+/* Hero section */
+.hero-section {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.hero-info {
+  flex: 1;
+  min-width: 0;
+}
+.hero-name {
+  font-size: 1.6em;
+  margin: 0 0 0.2em 0;
+  line-height: 1.2;
+}
+.hero-bio {
+  color: #666;
+  font-size: 0.95em;
+  margin: 0 0 0.6em 0;
+}
+.hero-links {
+  display: inline-flex;
+  gap: 0.6em;
+  align-items: center;
+  font-size: 1.3em;
+  margin-top: 0.4em;
+}
+.hero-links a {
+  color: #00369f;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.hero-links a:hover {
+  color: #555;
+}
+
+/* Full-width page */
+.page {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0;
+}
+
+/* Section heading styling */
+.pub-section-heading {
+  border-bottom: 2px solid #00369f;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+</style>
+
+<div class="hero-section">
+  <img class="hero-avatar" src="profile.png" alt="Xuyang Liu">
+  <div class="hero-info" markdown="1">
+    <h1 class="hero-name">Xuyang Liu (刘旭洋)</h1>
+    <p class="hero-bio">M.S.@SCU &nbsp;|&nbsp; Incoming PhD@PolyU &nbsp;|&nbsp; Intern@OPPO</p>
+    <p class="hero-intro">🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).</p>
+    <div class="hero-links">
+      <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/xuyang-liu16" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:liuxuyang@stu.scu.edu.cn"><i class="fas fa-envelope"></i></a>
+      <a href="https://twitter.com/xuyang_liu16" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.zhihu.com/people/you-dian-yi-zhu-60" target="_blank" style="font-size:0.8em;">知乎</a>
+    </div>
+  </div>
+</div>
 
 📌 My research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
 
