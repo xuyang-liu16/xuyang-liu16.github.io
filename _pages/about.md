@@ -68,7 +68,7 @@ redirect_from:
 
   .page__content .home-news-timeline {
     display: block !important;
-    max-height: 250px !important;
+    max-height: 340px !important;
     overflow-y: auto !important;
     margin: 0.55rem 0 1.65rem !important;
     padding: 0.85rem 0.95rem 0.2rem 1.35rem !important;
