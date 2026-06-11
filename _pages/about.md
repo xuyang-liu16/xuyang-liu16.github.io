@@ -7,31 +7,63 @@ redirect_from:
   - /about.html
 ---
 
+<div class="home-intro" markdown="1">
+
 🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+
+</div>
+
+<div class="home-section-lead" markdown="1">
 
 📌 My research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
 
-- 🖼️ **Image Understanding**: high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
-- 🎬 **Video Understanding**: long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
-- 🎨 **Content Generation**: lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
-- ⚙️ **Efficiency Toolbox**: efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
+</div>
+
+<div class="research-grid" markdown="1">
+<div class="research-card" markdown="1">
+
+### 🖼️ Image Understanding
+high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
+
+</div>
+<div class="research-card" markdown="1">
+
+### 🎬 Video Understanding
+long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
+
+</div>
+<div class="research-card" markdown="1">
+
+### 🎨 Content Generation
+lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
+
+</div>
+<div class="research-card" markdown="1">
+
+### ⚙️ Efficiency Toolbox
+efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
+
+</div>
+</div>
 
 📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
 
 ## 🔥 News
 
-<div class="news-scroll" markdown="1">
+<div class="news-scroll home-news-timeline">
 
-* **2026.04.30** 🎊🎊 One paper [OmniSIFT](https://arxiv.org/abs/2602.04804) about modality-asymmetric token compression for efficient OmniLLMs has been accepted by **ICML 2026**! Congratulations to all collaborators!
-* **2026.03.31** 🙌🙌 We release [V-CAST](https://arxiv.org/abs/2603.27650), a **curvature-aware** spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! [Code](https://github.com/xinyouu/V-CAST) is available!
-* **2026.02.21** 🎊🎊 Four papers have been accepted by **CVPR 2026**, including token compression for VLMs via [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552), efficient streaming video understanding via [STC](https://arxiv.org/abs/2512.00891), and token compression for autonomous driving via [Prune2Drive](https://arxiv.org/abs/2508.13305) to the main conference, and [Flash-Unified](https://arxiv.org/abs/2603.15271) to the findings! 
-* **2026.01.26** 🎊🎊 Two papers have been accepted by **ICLR 2026**, including fast decoding for VLM/LLM via [MixKV](https://arxiv.org/abs/2510.20707) and the first safety study of dLLMs [DIJA](https://arxiv.org/abs/2507.11097)! Congratulations to all collaborators!
-* **2025.11.08** 🎊🎊 Three papers have been accepted by **AAAI 2026**, including two LVLM acceleration methods [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179) and [FiCoCo](https://arxiv.org/abs/2411.17686), and a RL-based GUI grounding training framework [GUI-G<sup>2</sup>](https://arxiv.org/abs/2507.15846)!
-* **2025.08.21** 🎊🎊 One first author paper [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454) about plug-and-play inference acceleration for VideoLLMs has been accepted by **EMNLP 2025** main conference! [Code](https://github.com/xuyang-liu16/VidCom2) is available!
-* **2025.05.27** 🙌🙌 We release a new [paper](https://arxiv.org/abs/2505.19147), pointing to **shifting AI efficiency from model-centric to data-centric compression**. [Project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) is available! Our paper is honored to be the [#2 Paper of the day](https://huggingface.co/papers/2505.19147)!
-* **2025.03.11** 🎊🎊 One first author paper ([M2IST](https://arxiv.org/abs/2407.01131)) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)!
-* **2025.02.22** 🎊🎊 Two papers ([ToCa](https://arxiv.org/abs/2410.05317) and [AutoGnothi](https://arxiv.org/abs/2410.21815)) have been accepted by **ICLR 2025**! Congratulations to all collaborators!
-* **2024.09.26** 🎊🎊 One co-first author paper ([V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)) about unified visual parameter-efficient transfer learning benchmark has been accepted by **NeurIPS 2024**!
+<ul>
+  <li><span class="news-date">2026.04.30</span><div class="news-content">🎊🎊 One paper <a href="https://arxiv.org/abs/2602.04804">OmniSIFT</a> about modality-asymmetric token compression for efficient OmniLLMs has been accepted by <strong>ICML 2026</strong>! Congratulations to all collaborators!</div></li>
+  <li><span class="news-date">2026.03.31</span><div class="news-content">🙌🙌 We release <a href="https://arxiv.org/abs/2603.27650">V-CAST</a>, a <strong>curvature-aware</strong> spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! <a href="https://github.com/xinyouu/V-CAST">Code</a> is available!</div></li>
+  <li><span class="news-date">2026.02.21</span><div class="news-content">🎊🎊 Four papers have been accepted by <strong>CVPR 2026</strong>, including token compression for VLMs via <a href="https://arxiv.org/abs/2509.01552">V<sup>2</sup>Drop</a>, efficient streaming video understanding via <a href="https://arxiv.org/abs/2512.00891">STC</a>, and token compression for autonomous driving via <a href="https://arxiv.org/abs/2508.13305">Prune2Drive</a> to the main conference, and <a href="https://arxiv.org/abs/2603.15271">Flash-Unified</a> to the findings!</div></li>
+  <li><span class="news-date">2026.01.26</span><div class="news-content">🎊🎊 Two papers have been accepted by <strong>ICLR 2026</strong>, including fast decoding for VLM/LLM via <a href="https://arxiv.org/abs/2510.20707">MixKV</a> and the first safety study of dLLMs <a href="https://arxiv.org/abs/2507.11097">DIJA</a>! Congratulations to all collaborators!</div></li>
+  <li><span class="news-date">2025.11.08</span><div class="news-content">🎊🎊 Three papers have been accepted by <strong>AAAI 2026</strong>, including two LVLM acceleration methods <a href="https://arxiv.org/abs/2501.05179">GlobalCom<sup>2</sup></a> and <a href="https://arxiv.org/abs/2411.17686">FiCoCo</a>, and a RL-based GUI grounding training framework <a href="https://arxiv.org/abs/2507.15846">GUI-G<sup>2</sup></a>!</div></li>
+  <li><span class="news-date">2025.08.21</span><div class="news-content">🎊🎊 One first author paper <a href="https://arxiv.org/abs/2505.14454">VidCom<sup>2</sup></a> about plug-and-play inference acceleration for VideoLLMs has been accepted by <strong>EMNLP 2025</strong> main conference! <a href="https://github.com/xuyang-liu16/VidCom2">Code</a> is available!</div></li>
+  <li><span class="news-date">2025.05.27</span><div class="news-content">🙌🙌 We release a new <a href="https://arxiv.org/abs/2505.19147">paper</a>, pointing to <strong>shifting AI efficiency from model-centric to data-centric compression</strong>. <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression">Project</a> is available! Our paper is honored to be the <a href="https://huggingface.co/papers/2505.19147">#2 Paper of the day</a>!</div></li>
+  <li><span class="news-date">2025.03.11</span><div class="news-content">🎊🎊 One first author paper (<a href="https://arxiv.org/abs/2407.01131">M2IST</a>) about parameter-, memory-, and time-efficient fine-tuning for referring expression comprehension has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>)!</div></li>
+  <li><span class="news-date">2025.02.22</span><div class="news-content">🎊🎊 Two papers (<a href="https://arxiv.org/abs/2410.05317">ToCa</a> and <a href="https://arxiv.org/abs/2410.21815">AutoGnothi</a>) have been accepted by <strong>ICLR 2025</strong>! Congratulations to all collaborators!</div></li>
+  <li><span class="news-date">2024.09.26</span><div class="news-content">🎊🎊 One co-first author paper (<a href="https://openreview.net/forum?id=yS1dUkQFnu">V-PETL</a>) about unified visual parameter-efficient transfer learning benchmark has been accepted by <strong>NeurIPS 2024</strong>!</div></li>
+</ul>
 
 </div>
 
