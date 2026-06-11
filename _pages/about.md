@@ -7,6 +7,139 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .home-intro {
+    margin: 0.5rem 0 1.15rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #dbe7f7;
+    border-left: 4px solid #00369f;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+    box-shadow: 0 6px 18px rgba(0, 54, 159, 0.06);
+  }
+
+  .home-intro p:last-child,
+  .home-section-lead p,
+  .home-news-timeline .news-content p {
+    margin-bottom: 0;
+  }
+
+  .home-section-lead {
+    margin: 0.9rem 0 0.75rem;
+    color: #1f2937;
+    font-weight: 600;
+  }
+
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 0.65rem 0 1.15rem;
+  }
+
+  .research-card {
+    min-height: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #dbe7f7;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  .research-card h3 {
+    margin: 0 0 0.42rem;
+    color: #00369f;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  .research-card p {
+    margin-bottom: 0;
+    color: #333333;
+    font-size: 0.95rem;
+    line-height: 1.58;
+  }
+
+  .home-news-timeline {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-left: 0.2rem;
+    padding-right: 0.75rem;
+    border-left: 2px solid #dbe7f7;
+    scrollbar-gutter: stable;
+  }
+
+  .home-news-timeline ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .home-news-timeline li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 6.8rem minmax(0, 1fr);
+    gap: 0.75rem;
+    margin: 0 0 0.72rem;
+    padding-left: 1rem;
+    color: #333333;
+    line-height: 1.5;
+  }
+
+  .home-news-timeline li:before {
+    content: "";
+    position: absolute;
+    left: -0.48rem;
+    top: 0.42rem;
+    width: 0.58rem;
+    height: 0.58rem;
+    border: 2px solid #00369f;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+
+  .home-news-timeline .news-date {
+    color: #00369f;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .paper-box {
+    border: 1px solid #dbe7f7;
+    border-left: 4px solid #00369f;
+    border-radius: 8px;
+    padding: 1.1em;
+    margin: 1.1em 0;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 54, 159, 0.07);
+  }
+
+  .paper-box .paper-box-image img {
+    border-radius: 6px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
+  }
+
+  .pub-highlight {
+    padding: 0.62rem 0.8rem;
+    border: 1px solid #dbe7f7;
+    border-radius: 6px;
+    background: #f7fbff;
+  }
+
+  .pub-section-heading {
+    margin-top: 1.35rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #dbe7f7;
+    color: #00369f;
+  }
+
+  @media (max-width: 37.5em) {
+    .research-grid,
+    .home-news-timeline li {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 <div class="home-intro" markdown="1">
 
 🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
