@@ -12,8 +12,5 @@ main:
   - title: "Experiences"
     url: "/#-experiences"
 
-  - title: "Talks"
-    url: "/#-talks"
-
   - title: "Services"
     url: "/#-services"

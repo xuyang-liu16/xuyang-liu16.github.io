@@ -71,7 +71,7 @@ redirect_from:
     max-height: 250px !important;
     overflow-y: auto !important;
     margin: 0.55rem 0 1.65rem !important;
-    padding: 0.85rem 0.95rem 0.2rem 1rem !important;
+    padding: 0.85rem 0.95rem 0.2rem 1.35rem !important;
     border: 1px solid #e5e7eb !important;
     border-radius: 8px !important;
     background: #ffffff !important;
@@ -92,21 +92,37 @@ redirect_from:
     grid-template-columns: 5.85rem minmax(0, 1fr) !important;
     gap: 0.45rem !important;
     margin: 0 0 0.78rem !important;
-    padding-left: 1rem !important;
+    padding-left: 1.2rem !important;
     color: #333333 !important;
     line-height: 1.5 !important;
+  }
+
+  .home-news-timeline li:after {
+    content: "";
+    position: absolute;
+    left: -0.08rem;
+    top: 1rem;
+    bottom: -0.95rem;
+    width: 2px;
+    background: #2f80ed;
+    opacity: 0.45;
+  }
+
+  .home-news-timeline li:last-child:after {
+    display: none;
   }
 
   .home-news-timeline li:before {
     content: "";
     position: absolute;
-    left: -0.42rem;
+    left: -0.32rem;
     top: 0.42rem;
     width: 0.58rem;
     height: 0.58rem;
-    border: 2px solid #9ca3af;
+    border: 2px solid #2f80ed;
     border-radius: 50%;
     background: #ffffff;
+    z-index: 1;
   }
 
   .page__content .home-news-timeline .news-date {
@@ -196,6 +212,40 @@ redirect_from:
     grid-template-columns: 1fr !important;
     gap: 0.7rem !important;
     margin: 0.8rem 0 1.35rem !important;
+    position: relative !important;
+    padding-left: 1.35rem !important;
+  }
+
+  .page__content .timeline-list .timeline-card {
+    position: relative !important;
+  }
+
+  .page__content .timeline-list .timeline-card:before {
+    content: "";
+    position: absolute;
+    left: -1.72rem;
+    top: 1.08rem;
+    width: 0.62rem;
+    height: 0.62rem;
+    border: 2px solid #2f80ed;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: 1;
+  }
+
+  .page__content .timeline-list .timeline-card:after {
+    content: "";
+    position: absolute;
+    left: -1.43rem;
+    top: 1.68rem;
+    bottom: -0.95rem;
+    width: 2px;
+    background: #2f80ed;
+    opacity: 0.45;
+  }
+
+  .page__content .timeline-list .timeline-card:last-child:after {
+    display: none;
   }
 
   .page__content .service-list {
@@ -630,22 +680,6 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 </div>
 </div>
 </div>
-
-## 🎤 Talks
-
-<div class="timeline-list" markdown="1">
-<div class="structured-card timeline-card" markdown="1">
-
-<span class="timeline-date">2025.06.10</span>
-<div markdown="1">
-
-### [PolyU NLP Group](https://polyunlp.github.io/)
-Directed by Prof. [Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides](/files/Talk@PolyUNLP.pdf)]
-
-</div>
-</div>
-</div>
-
 
 ## 📠 Services
 
