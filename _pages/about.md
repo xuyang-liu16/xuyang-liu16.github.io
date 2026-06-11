@@ -180,8 +180,8 @@ redirect_from:
 
   .page__content .timeline-card {
     display: grid !important;
-    grid-template-columns: 6.6rem minmax(0, 1fr) !important;
-    gap: 0.7rem !important;
+    grid-template-columns: 11rem minmax(0, 1fr) !important;
+    gap: 0.85rem !important;
     align-items: start !important;
   }
 
@@ -189,6 +189,13 @@ redirect_from:
     color: #4b5563 !important;
     font-weight: 800 !important;
     white-space: nowrap !important;
+  }
+
+  .page__content .timeline-list {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.7rem !important;
+    margin: 0.8rem 0 1.35rem !important;
   }
 
   .page__content .service-list {
@@ -563,7 +570,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ### Internships
 
-<div class="structured-grid" markdown="1">
+<div class="timeline-list" markdown="1">
 <div class="structured-card timeline-card" markdown="1">
 
 <span class="timeline-date">Jul 2025 - Present</span>
@@ -599,7 +606,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
  
 ### Visiting
 
-<div class="structured-grid" markdown="1">
+<div class="timeline-list" markdown="1">
 <div class="structured-card timeline-card" markdown="1">
 
 <span class="timeline-date">June 2024 - Present</span>
@@ -626,7 +633,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ## 🎤 Talks
 
-<div class="structured-grid" markdown="1">
+<div class="timeline-list" markdown="1">
 <div class="structured-card timeline-card" markdown="1">
 
 <span class="timeline-date">2025.06.10</span>
