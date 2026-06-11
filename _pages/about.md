@@ -8,14 +8,20 @@ redirect_from:
 ---
 
 <style>
-  .home-intro {
-    margin: 0.5rem 0 1.15rem;
-    padding: 1rem 1.1rem;
-    border: 1px solid #dbe7f7;
-    border-left: 4px solid #00369f;
-    border-radius: 8px;
-    background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
-    box-shadow: 0 6px 18px rgba(0, 54, 159, 0.06);
+  .page__content .home-intro {
+    display: block !important;
+    margin: 0.2rem 0 1.35rem !important;
+    padding: 1.05rem 1.15rem !important;
+    border: 1px solid #b9d4f5 !important;
+    border-left: 6px solid #00369f !important;
+    border-radius: 8px !important;
+    background: linear-gradient(180deg, #eef6ff 0%, #ffffff 100%) !important;
+    box-shadow: 0 10px 24px rgba(0, 54, 159, 0.1) !important;
+  }
+
+  .page__content .home-intro p {
+    font-size: 1.03rem !important;
+    line-height: 1.72 !important;
   }
 
   .home-intro p:last-child,
@@ -24,71 +30,80 @@ redirect_from:
     margin-bottom: 0;
   }
 
-  .home-section-lead {
-    margin: 0.9rem 0 0.75rem;
-    color: #1f2937;
-    font-weight: 600;
+  .page__content .home-section-lead {
+    margin: 1.05rem 0 0.78rem !important;
+    color: #1f2937 !important;
+    font-weight: 700 !important;
   }
 
-  .research-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
-    margin: 0.65rem 0 1.15rem;
+  .page__content .research-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(260px, 1fr)) !important;
+    gap: 0.85rem !important;
+    margin: 0.7rem 0 1.35rem !important;
   }
 
-  .research-card {
-    min-height: 100%;
-    padding: 0.9rem 1rem;
-    border: 1px solid #dbe7f7;
-    border-radius: 8px;
-    background: #ffffff;
+  .page__content .research-card {
+    display: block !important;
+    min-height: 100% !important;
+    padding: 0.95rem 1rem 1rem !important;
+    border: 1px solid #c8dcf6 !important;
+    border-top: 4px solid #00369f !important;
+    border-radius: 8px !important;
+    background: #f8fbff !important;
+    box-shadow: 0 7px 18px rgba(0, 54, 159, 0.08) !important;
   }
 
-  .research-card h3 {
-    margin: 0 0 0.42rem;
-    color: #00369f;
-    font-size: 1rem;
-    line-height: 1.25;
+  .page__content .research-card h3 {
+    margin: 0 0 0.45rem !important;
+    color: #00369f !important;
+    font-size: 1.04rem !important;
+    line-height: 1.25 !important;
   }
 
-  .research-card p {
-    margin-bottom: 0;
-    color: #333333;
-    font-size: 0.95rem;
-    line-height: 1.58;
+  .page__content .research-card p {
+    margin-bottom: 0 !important;
+    color: #333333 !important;
+    font-size: 0.95rem !important;
+    line-height: 1.58 !important;
   }
 
-  .home-news-timeline {
-    max-height: 250px;
-    overflow-y: auto;
-    padding-left: 0.2rem;
-    padding-right: 0.75rem;
-    border-left: 2px solid #dbe7f7;
-    scrollbar-gutter: stable;
+  .page__content .home-news-timeline {
+    display: block !important;
+    max-height: 250px !important;
+    overflow-y: auto !important;
+    margin: 0.55rem 0 1.65rem !important;
+    padding: 0.85rem 0.95rem 0.2rem 1rem !important;
+    border: 1px solid #b9d4f5 !important;
+    border-left: 5px solid #00369f !important;
+    border-radius: 8px !important;
+    background: linear-gradient(180deg, #f3f8ff 0%, #ffffff 100%) !important;
+    box-shadow: 0 8px 20px rgba(0, 54, 159, 0.08) !important;
+    scrollbar-gutter: stable !important;
   }
 
   .home-news-timeline ul {
     margin-left: 0;
     padding-left: 0;
     list-style: none;
+    margin-bottom: 0;
   }
 
-  .home-news-timeline li {
-    position: relative;
-    display: grid;
-    grid-template-columns: 6.8rem minmax(0, 1fr);
-    gap: 0.75rem;
-    margin: 0 0 0.72rem;
-    padding-left: 1rem;
-    color: #333333;
-    line-height: 1.5;
+  .page__content .home-news-timeline li {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: 5.85rem minmax(0, 1fr) !important;
+    gap: 0.45rem !important;
+    margin: 0 0 0.78rem !important;
+    padding-left: 1rem !important;
+    color: #333333 !important;
+    line-height: 1.5 !important;
   }
 
   .home-news-timeline li:before {
     content: "";
     position: absolute;
-    left: -0.48rem;
+    left: -0.42rem;
     top: 0.42rem;
     width: 0.58rem;
     height: 0.58rem;
@@ -97,20 +112,20 @@ redirect_from:
     background: #ffffff;
   }
 
-  .home-news-timeline .news-date {
-    color: #00369f;
-    font-weight: 700;
-    white-space: nowrap;
+  .page__content .home-news-timeline .news-date {
+    color: #00369f !important;
+    font-weight: 800 !important;
+    white-space: nowrap !important;
   }
 
-  .paper-box {
-    border: 1px solid #dbe7f7;
-    border-left: 4px solid #00369f;
-    border-radius: 8px;
-    padding: 1.1em;
-    margin: 1.1em 0;
-    background: #ffffff;
-    box-shadow: 0 6px 18px rgba(0, 54, 159, 0.07);
+  .page__content .paper-box {
+    border: 1px solid #dbe7f7 !important;
+    border-left: 4px solid #00369f !important;
+    border-radius: 8px !important;
+    padding: 1.1em !important;
+    margin: 1.1em 0 !important;
+    background: #ffffff !important;
+    box-shadow: 0 6px 18px rgba(0, 54, 159, 0.07) !important;
   }
 
   .paper-box .paper-box-image img {
@@ -132,10 +147,79 @@ redirect_from:
     color: #00369f;
   }
 
+  .page__content .structured-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(260px, 1fr)) !important;
+    gap: 0.85rem !important;
+    margin: 0.8rem 0 1.35rem !important;
+  }
+
+  .page__content .structured-card {
+    border: 1px solid #dbe7f7 !important;
+    border-left: 4px solid #00369f !important;
+    border-radius: 8px !important;
+    padding: 0.9rem 1rem !important;
+    background: #ffffff !important;
+    box-shadow: 0 6px 16px rgba(0, 54, 159, 0.06) !important;
+  }
+
+  .page__content .structured-card h3 {
+    margin: 0 0 0.42rem !important;
+    color: #00369f !important;
+    font-size: 1rem !important;
+    line-height: 1.28 !important;
+  }
+
+  .page__content .structured-card p,
+  .page__content .structured-card ul {
+    margin-bottom: 0 !important;
+  }
+
+  .page__content .structured-card ul {
+    padding-left: 1.05rem !important;
+  }
+
+  .page__content .structured-card li {
+    margin-bottom: 0.2rem !important;
+  }
+
+  .page__content .timeline-card {
+    display: grid !important;
+    grid-template-columns: 6.6rem minmax(0, 1fr) !important;
+    gap: 0.7rem !important;
+    align-items: start !important;
+  }
+
+  .page__content .timeline-date {
+    color: #00369f !important;
+    font-weight: 800 !important;
+    white-space: nowrap !important;
+  }
+
+  .page__content .service-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.42rem !important;
+    margin: 0.35rem 0 0 !important;
+    padding-left: 0 !important;
+    list-style: none !important;
+  }
+
+  .page__content .service-list li {
+    margin: 0 !important;
+    padding: 0.2rem 0.5rem !important;
+    border: 1px solid #dbe7f7 !important;
+    border-radius: 999px !important;
+    background: #f8fbff !important;
+    font-size: 0.92rem !important;
+  }
+
   @media (max-width: 37.5em) {
-    .research-grid,
-    .home-news-timeline li {
-      grid-template-columns: 1fr;
+    .page__content .research-grid,
+    .page__content .home-news-timeline li,
+    .page__content .structured-grid,
+    .page__content .timeline-card {
+      grid-template-columns: 1fr !important;
     }
   }
 </style>
@@ -156,25 +240,25 @@ redirect_from:
 <div class="research-card" markdown="1">
 
 ### 🖼️ Image Understanding
-high-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
+High-resolution understanding via context compression and fast decoding, including [GlobalCom<sup>2</sup>](https://arxiv.org/abs/2501.05179)<sub>[AAAI'26]</sub>, [V<sup>2</sup>Drop](https://arxiv.org/abs/2509.01552)<sub>[CVPR'26]</sub>, [FiCoCo](https://arxiv.org/abs/2411.17686)<sub>[AAAI'26]</sub>, and [MixKV](https://arxiv.org/abs/2510.20707)<sub>[ICLR'26]</sub>.
 
 </div>
 <div class="research-card" markdown="1">
 
 ### 🎬 Video Understanding
-long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
+Long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
 
 </div>
 <div class="research-card" markdown="1">
 
 ### 🎨 Content Generation
-lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
+Lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
 
 </div>
 <div class="research-card" markdown="1">
 
 ### ⚙️ Efficiency Toolbox
-efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
+Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
 
 </div>
 </div>
@@ -462,60 +546,120 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 ## 🤗 Resources
 Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
 
-* [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
-  * Duty: Owner.
-  * Description: An open-source repository that curates a collection of recent awesome papers on AIGC acceleration.
- 
-* [Awesome Token-level Model Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression.git)
-  * Duty: Owner.
-  * Description: An open-source repository that curates a collection of recent awesome papers on token-level model compression.
+<div class="structured-grid" markdown="1">
+<div class="structured-card" markdown="1">
+
+### [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
+- **Duty:** Owner.
+- **Description:** An open-source repository that curates a collection of recent awesome papers on AIGC acceleration.
+
+</div>
+<div class="structured-card" markdown="1">
+
+### [Awesome Token-level Model Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression.git)
+- **Duty:** Owner.
+- **Description:** An open-source repository that curates a collection of recent awesome papers on token-level model compression.
+
+</div>
+</div>
 
 
 ## 💻 Experiences
 
 ### Internships
 
-* Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
-  * Time: Jul 2025 - Present.
-  * Thesis: *Video Understanding with Large Vision-Language Models*.
-  * Supervisor: Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
+<div class="structured-grid" markdown="1">
+<div class="structured-card timeline-card" markdown="1">
 
-* Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
-  * Time: Apr 2025 - Jul 2025.
-  * Thesis: *Multi-modal Graphical User Interface (GUI) Agents*.
+<span class="timeline-date">Jul 2025 - Present</span>
+<div markdown="1">
 
-* Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
-  * Time: Jul 2024 - Mar 2025.
-  * Thesis: *Efficient Multi-modal Large Language Models*.
+### Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
+- **Thesis:** *Video Understanding with Large Vision-Language Models*.
+- **Supervisor:** Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
+
+</div>
+</div>
+<div class="structured-card timeline-card" markdown="1">
+
+<span class="timeline-date">Apr 2025 - Jul 2025</span>
+<div markdown="1">
+
+### Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
+- **Thesis:** *Multi-modal Graphical User Interface (GUI) Agents*.
+
+</div>
+</div>
+<div class="structured-card timeline-card" markdown="1">
+
+<span class="timeline-date">Jul 2024 - Mar 2025</span>
+<div markdown="1">
+
+### Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
+- **Thesis:** *Efficient Multi-modal Large Language Models*.
+
+</div>
+</div>
+</div>
  
 ### Visiting
 
-* Research Assistant - **EPIC Lab, Shanghai Jiao Tong University**, Remote
-  * Time: June 2024 - Present.
-  * Thesis: *Efficient Multi-modal Large Language Models*.
-  * Supervisor: Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
-  
-* Visiting Student - **MiLab, Westlake University**, Hangzhou
-  * Time: Mar 2023 - Sep 2023.
-  * Thesis: *Efficient Transfer of Vision-language Models*.
-  * Supervisors: Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
+<div class="structured-grid" markdown="1">
+<div class="structured-card timeline-card" markdown="1">
+
+<span class="timeline-date">June 2024 - Present</span>
+<div markdown="1">
+
+### Research Assistant - **EPIC Lab, Shanghai Jiao Tong University**, Remote
+- **Thesis:** *Efficient Multi-modal Large Language Models*.
+- **Supervisor:** Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+
+</div>
+</div>
+<div class="structured-card timeline-card" markdown="1">
+
+<span class="timeline-date">Mar 2023 - Sep 2023</span>
+<div markdown="1">
+
+### Visiting Student - **MiLab, Westlake University**, Hangzhou
+- **Thesis:** *Efficient Transfer of Vision-language Models*.
+- **Supervisors:** Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Donglin Wang](https://en.westlake.edu.cn/faculty/donglin-wang.html).
+
+</div>
+</div>
+</div>
 
 ## 🎤 Talks
 
-* **2025.06.10**: [PolyU NLP Group](https://polyunlp.github.io/) directed by Prof. [Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides](/files/Talk@PolyUNLP.pdf)]
+<div class="structured-grid" markdown="1">
+<div class="structured-card timeline-card" markdown="1">
+
+<span class="timeline-date">2025.06.10</span>
+<div markdown="1">
+
+### [PolyU NLP Group](https://polyunlp.github.io/)
+Directed by Prof. [Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/): **Shifting AI Efficiency From Model-Centric to Data-Centric Compression**. [[slides](/files/Talk@PolyUNLP.pdf)]
+
+</div>
+</div>
+</div>
 
 
 ## 📠 Services
 
 ### Conference Reviewer
-* International Conference on Learning Representations ([ICLR](https://iclr.cc/))
-* International Conference on Machine Learning ([ICML](https://icml.cc/))
-* Advances in Neural Information Processing Systems ([NeurIPS](https://neurips.cc/))
-* AAAI Conference on Artificial Intelligence ([AAAI](https://aaai.org/conference/aaai/))
-* ACM International Conference on Multimedia ([MM](https://2024.acmmm.org/))
+<ul class="service-list">
+  <li>International Conference on Learning Representations (<a href="https://iclr.cc/">ICLR</a>)</li>
+  <li>International Conference on Machine Learning (<a href="https://icml.cc/">ICML</a>)</li>
+  <li>Advances in Neural Information Processing Systems (<a href="https://neurips.cc/">NeurIPS</a>)</li>
+  <li>AAAI Conference on Artificial Intelligence (<a href="https://aaai.org/conference/aaai/">AAAI</a>)</li>
+  <li>ACM International Conference on Multimedia (<a href="https://2024.acmmm.org/">MM</a>)</li>
+</ul>
 
 ### Journal Reviewer
-* IEEE Transactions on Image Processing ([TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83))
-* IEEE Transactions on Circuits and Systems for Video Technology ([TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76))
-* IEEE Transactions on Cybernetics ([TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036))
-* Computer Vision and Image Understanding ([CVIU](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding))
+<ul class="service-list">
+  <li>IEEE Transactions on Image Processing (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">TIP</a>)</li>
+  <li>IEEE Transactions on Circuits and Systems for Video Technology (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>)</li>
+  <li>IEEE Transactions on Cybernetics (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036">TCYB</a>)</li>
+  <li>Computer Vision and Image Understanding (<a href="https://www.sciencedirect.com/journal/computer-vision-and-image-understanding">CVIU</a>)</li>
+</ul>
