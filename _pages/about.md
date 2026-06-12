@@ -95,6 +95,7 @@ redirect_from:
     padding-left: 1.2rem !important;
     color: #333333 !important;
     line-height: 1.5 !important;
+    transition: background-color 0.16s ease !important;
   }
 
   .home-news-timeline li:after {
@@ -106,6 +107,7 @@ redirect_from:
     width: 2px;
     background: #2f80ed;
     opacity: 0.45;
+    transition: opacity 0.16s ease;
   }
 
   .home-news-timeline li:last-child:after {
@@ -123,6 +125,17 @@ redirect_from:
     border-radius: 50%;
     background: #ffffff;
     z-index: 1;
+    transition: background-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+  }
+
+  .home-news-timeline li:hover:before {
+    background: #2f80ed;
+    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    transform: scale(1.04);
+  }
+
+  .home-news-timeline li:hover:after {
+    opacity: 0.72;
   }
 
   .page__content .home-news-timeline .news-date {
@@ -138,6 +151,13 @@ redirect_from:
     margin: 1.1em 0 !important;
     background: #ffffff !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
+  }
+
+  .page__content .paper-box:hover {
+    border-color: #cfd8e3 !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07) !important;
+    transform: translateY(-1px) !important;
   }
 
   .paper-box .paper-box-image img {
@@ -217,6 +237,7 @@ redirect_from:
 
   .page__content .timeline-list .timeline-card {
     position: relative !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
   }
 
   .page__content .timeline-list .timeline-card:before {
@@ -230,6 +251,7 @@ redirect_from:
     border-radius: 50%;
     background: #ffffff;
     z-index: 1;
+    transition: background-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
   }
 
   .page__content .timeline-list .timeline-card:after {
@@ -241,6 +263,17 @@ redirect_from:
     width: 2px;
     background: #2f80ed;
     opacity: 0.45;
+    transition: opacity 0.16s ease;
+  }
+
+  .page__content .timeline-list .timeline-card:hover:before {
+    background: #2f80ed;
+    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    transform: scale(1.04);
+  }
+
+  .page__content .timeline-list .timeline-card:hover:after {
+    opacity: 0.72;
   }
 
   .page__content .timeline-list .timeline-card:last-child:after {
@@ -468,7 +501,21 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   .pub-section-box .pub-item {
     border-bottom: 1px solid #eef0f3;
     margin: 0;
-    padding: 0.72rem 0;
+    padding: 0.72rem 0.45rem;
+    opacity: 1;
+    border-radius: 6px;
+    transform: translateY(0);
+    transition: background-color 0.16s ease, opacity 0.16s ease, transform 0.16s ease;
+  }
+
+  .pub-section-box .pub-item:hover {
+    background: #fafbfc;
+    transform: translateY(-1px);
+  }
+
+  .pub-section-box .pub-item.is-entering {
+    opacity: 0;
+    transform: translateY(4px);
   }
 
   .pub-section-box .pub-item:last-child {
@@ -486,6 +533,19 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   .paper-box-text > p:nth-of-type(2) u + sup {
     color: #2f3437;
     font-weight: 700;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page__content .home-news-timeline li,
+    .home-news-timeline li:before,
+    .home-news-timeline li:after,
+    .page__content .paper-box,
+    .page__content .timeline-list .timeline-card,
+    .page__content .timeline-list .timeline-card:before,
+    .page__content .timeline-list .timeline-card:after,
+    .pub-section-box .pub-item {
+      transition: none !important;
+    }
   }
 
 </style>
@@ -586,7 +646,21 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
           var isPhysicalFirst = marker && marker.getAttribute("data-physical-first") === "true";
           var shouldShow = filter === "all" || (filter === "first-author" && isFirstAuthor) || (filter === "physical-first" && isPhysicalFirst);
 
-          item.classList.toggle("is-hidden", !shouldShow);
+          var wasHidden = item.classList.contains("is-hidden");
+
+          if (shouldShow) {
+            item.classList.remove("is-hidden");
+            if (wasHidden) {
+              item.classList.add("is-entering");
+              window.requestAnimationFrame(function () {
+                item.classList.remove("is-entering");
+              });
+            }
+          } else {
+            item.classList.add("is-hidden");
+            item.classList.remove("is-entering");
+          }
+
           if (shouldShow) visibleCount += 1;
         });
 
