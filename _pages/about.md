@@ -201,7 +201,7 @@ redirect_from:
     transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
   }
 
-  .page__content .structured-card:not(.timeline-card):hover {
+  .page__content .structured-card:hover {
     border-color: #b8c7d9 !important;
     box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
     transform: translateY(-2px) !important;
