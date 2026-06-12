@@ -185,6 +185,15 @@ redirect_from:
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
   }
 
+  .paper-box .paper-box-image a {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .paper-box .paper-box-image a:hover img {
+    box-shadow: 0 8px 20px rgba(0, 54, 159, 0.22);
+  }
+
   .pub-highlight {
     padding: 0;
     border: 0;
@@ -400,7 +409,7 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><a href="https://arxiv.org/pdf/2510.20707" target="_blank" aria-label="Open MixKV paper PDF"><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**](https://openreview.net/forum?id=B2iqbCQviR)
@@ -422,7 +431,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><a href="https://arxiv.org/pdf/2505.14454" target="_blank" aria-label="Open VidCom2 paper PDF"><img src='images/VidCom2_teaser.png' alt="VidCom2 teaser" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**](https://aclanthology.org/2025.emnlp-main.98/)
@@ -446,7 +455,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><a href="https://arxiv.org/pdf/2501.05179" target="_blank" aria-label="Open GlobalCom2 paper PDF"><img src='images/GlobalCom2_teaser.png' alt="GlobalCom2 teaser" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models**](https://arxiv.org/abs/2501.05179)

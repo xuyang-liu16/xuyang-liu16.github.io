@@ -74,6 +74,15 @@
       object-fit: cover;
     }
 
+    a {
+      display: inline-block;
+      cursor: pointer;
+
+      &:hover img {
+        box-shadow: 0 8px 20px rgba(0, 54, 159, 0.22);
+      }
+    }
+
     .paper-caption {
       margin: 10px 0 0 0;
       line-height: 1.45;
