@@ -104,7 +104,8 @@ redirect_from:
     top: 1rem;
     bottom: -0.95rem;
     width: 2px;
-    background: linear-gradient(180deg, rgba(47, 128, 237, 0.88) 0%, rgba(47, 128, 237, 0.42) 32%, rgba(47, 128, 237, 0.08) 68%, rgba(255, 255, 255, 0) 100%);
+    background: #2f80ed;
+    opacity: 0.45;
   }
 
   .home-news-timeline li:last-child:after {
@@ -238,7 +239,8 @@ redirect_from:
     top: 1.68rem;
     bottom: -0.95rem;
     width: 2px;
-    background: linear-gradient(180deg, rgba(47, 128, 237, 0.88) 0%, rgba(47, 128, 237, 0.42) 32%, rgba(47, 128, 237, 0.08) 68%, rgba(255, 255, 255, 0) 100%);
+    background: #2f80ed;
+    opacity: 0.45;
   }
 
   .page__content .timeline-list .timeline-card:last-child:after {
