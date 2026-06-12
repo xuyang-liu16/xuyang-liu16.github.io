@@ -146,10 +146,9 @@ redirect_from:
   }
 
   .pub-highlight {
-    padding: 0.62rem 0.8rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    background: #ffffff;
+    padding: 0;
+    border: 0;
+    background: transparent;
   }
 
   .pub-section-heading {
