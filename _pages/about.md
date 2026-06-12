@@ -50,6 +50,13 @@ redirect_from:
     border-radius: 8px !important;
     background: #ffffff !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035) !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
+  }
+
+  .page__content .research-card:hover {
+    border-color: #b8c7d9 !important;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    transform: translateY(-2px) !important;
   }
 
   .page__content .research-card h3 {
@@ -155,9 +162,9 @@ redirect_from:
   }
 
   .page__content .paper-box:hover {
-    border-color: #cfd8e3 !important;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07) !important;
-    transform: translateY(-1px) !important;
+    border-color: #b8c7d9 !important;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    transform: translateY(-2px) !important;
   }
 
   .paper-box .paper-box-image img {
@@ -191,6 +198,13 @@ redirect_from:
     padding: 0.9rem 1rem !important;
     background: #ffffff !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035) !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
+  }
+
+  .page__content .structured-card:not(.timeline-card):hover {
+    border-color: #b8c7d9 !important;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    transform: translateY(-2px) !important;
   }
 
   .page__content .structured-card h3 {
@@ -509,8 +523,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-section-box .pub-item:hover {
-    background: #fafbfc;
-    transform: translateY(-1px);
+    background: #f7f9fc;
+    box-shadow: 0 5px 14px rgba(15, 23, 42, 0.055);
+    transform: translateY(-2px);
   }
 
   .pub-section-box .pub-item.is-entering {
@@ -540,6 +555,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     .home-news-timeline li:before,
     .home-news-timeline li:after,
     .page__content .paper-box,
+    .page__content .research-card,
+    .page__content .structured-card,
     .page__content .timeline-list .timeline-card,
     .page__content .timeline-list .timeline-card:before,
     .page__content .timeline-list .timeline-card:after,
