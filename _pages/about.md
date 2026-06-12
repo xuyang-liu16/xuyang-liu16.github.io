@@ -448,8 +448,64 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-item.is-hidden,
-  .pub-section-heading.is-hidden {
+  .pub-section-heading.is-hidden,
+  .pub-section-box.is-hidden {
     display: none;
+  }
+
+  .pub-section-box {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035);
+    margin: 1rem 0 1.3rem;
+    padding: 0.8rem 1rem 0.2rem;
+  }
+
+  .pub-section-box .pub-section-heading {
+    margin-top: 0;
+  }
+
+  .pub-section-box .pub-item {
+    border-bottom: 1px solid #eef0f3;
+    margin: 0;
+    padding: 0.72rem 0;
+  }
+
+  .pub-section-box .pub-item:last-child {
+    border-bottom: 0;
+  }
+
+  .pub-authors,
+  .paper-box-text > p:nth-of-type(2) {
+    color: #9aa0a6;
+  }
+
+  .pub-authors u,
+  .pub-authors u + sup,
+  .paper-box-text > p:nth-of-type(2) u,
+  .paper-box-text > p:nth-of-type(2) u + sup {
+    color: #2f3437;
+    font-weight: 700;
+  }
+
+  .pub-relation-tags {
+    display: inline-flex;
+    gap: 0.28rem;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+  }
+
+  .pub-relation-tag {
+    border: 1px solid #d7e5fb;
+    border-radius: 999px;
+    color: #2f5f9f;
+    background: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.12rem 0.38rem;
+    white-space: nowrap;
   }
 </style>
 
@@ -489,6 +545,87 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       };
     });
 
+    function enhanceAuthors(item) {
+      var marker = item.querySelector(".pub-marker");
+      if (!marker || item.querySelector(".pub-authors")) return;
+
+      var authorSpan = document.createElement("span");
+      authorSpan.className = "pub-authors";
+      var current = marker.nextSibling;
+
+      while (current) {
+        var next = current.nextSibling;
+
+        if (current.nodeType === Node.TEXT_NODE) {
+          var quoteIndex = current.nodeValue.indexOf("\"");
+          if (quoteIndex !== -1) {
+            var before = current.nodeValue.slice(0, quoteIndex);
+            var after = current.nodeValue.slice(quoteIndex);
+            if (before) authorSpan.appendChild(document.createTextNode(before));
+            current.nodeValue = after;
+            item.insertBefore(authorSpan, current);
+            return;
+          }
+        }
+
+        if (current.nodeType === Node.ELEMENT_NODE && current.tagName === "STRONG") break;
+        authorSpan.appendChild(current);
+        current = next;
+      }
+
+      if (authorSpan.childNodes.length) item.insertBefore(authorSpan, current);
+    }
+
+    function inferTopic(text) {
+      if (/GUI|grounding/i.test(text)) return "GUI/Grounding";
+      if (/video|streaming|omni/i.test(text)) return "Video/Omni";
+      if (/diffusion|decoding|generation|unified|AIGC/i.test(text)) return "Generation";
+      if (/benchmark|transfer|tuning|PETL|side-tuning|referring/i.test(text)) return "Transfer/Benchmark";
+      if (/token|compression|cache|KV|prun|accelerat/i.test(text)) return "Efficiency";
+      return "";
+    }
+
+    function addRelationTags(item) {
+      if (item.querySelector(".pub-relation-tags")) return;
+
+      var marker = item.querySelector(".pub-marker");
+      var tags = [];
+      if (marker && marker.getAttribute("data-first-author") === "true") tags.push("Core");
+
+      var topic = inferTopic(item.textContent || "");
+      if (topic) tags.push(topic);
+      if (!tags.length) return;
+
+      var tagRoot = document.createElement("span");
+      tagRoot.className = "pub-relation-tags";
+      tags.slice(0, 2).forEach(function (tag) {
+        var node = document.createElement("span");
+        node.className = "pub-relation-tag";
+        node.textContent = tag;
+        tagRoot.appendChild(node);
+      });
+
+      var marker = item.querySelector(".pub-marker");
+      if (marker && marker.nextSibling) {
+        item.insertBefore(tagRoot, marker.nextSibling);
+      } else {
+        item.appendChild(tagRoot);
+      }
+    }
+
+    sections.forEach(function (section) {
+      var box = document.createElement("div");
+      box.className = "pub-section-box";
+      section.heading.parentNode.insertBefore(box, section.heading);
+      box.appendChild(section.heading);
+      section.items.forEach(function (item) {
+        enhanceAuthors(item);
+        addRelationTags(item);
+        box.appendChild(item);
+      });
+      section.box = box;
+    });
+
     function applyFilter(filter) {
       buttons.forEach(function (button) {
         var isActive = button.getAttribute("data-filter") === filter;
@@ -509,6 +646,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
         });
 
         section.heading.classList.toggle("is-hidden", visibleCount === 0);
+        if (section.box) section.box.classList.toggle("is-hidden", visibleCount === 0);
       });
     }
 
