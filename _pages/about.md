@@ -16,6 +16,13 @@ redirect_from:
     border-radius: 8px !important;
     background: #ffffff !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
+  }
+
+  .page__content .home-intro:hover {
+    border-color: #b8c7d9 !important;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    transform: translateY(-2px) !important;
   }
 
   .page__content .home-intro p {
@@ -100,9 +107,15 @@ redirect_from:
     gap: 0.45rem !important;
     margin: 0 0 0.78rem !important;
     padding-left: 1.2rem !important;
+    padding-right: 0.45rem !important;
     color: #333333 !important;
     line-height: 1.5 !important;
     transition: background-color 0.16s ease !important;
+    border-radius: 6px !important;
+  }
+
+  .page__content .home-news-timeline li:hover {
+    background: #f7f9fc !important;
   }
 
   .home-news-timeline li:after {
@@ -455,30 +468,37 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <style>
   .pub-filters {
-    display: flex;
-    gap: 0.45rem;
+    display: inline-flex;
+    gap: 0.12rem;
     flex-wrap: wrap;
     margin: 1rem 0 0.4rem;
+    padding: 0.15rem;
+    border: 1px solid #d9e1ec;
+    border-radius: 7px;
+    background: #f7f9fc;
   }
 
   .pub-filter-btn {
     appearance: none;
-    border: 1px solid #00369f;
-    border-radius: 4px;
+    border: 0;
+    border-radius: 5px;
     background: transparent;
-    color: #111111;
+    color: #4b5563;
     cursor: pointer;
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.1;
-    padding: 0.24rem 0.58rem;
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    padding: 0.28rem 0.62rem;
+    transition: background-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
   }
 
-  .pub-filter-btn:hover,
+  .pub-filter-btn:hover {
+    color: #00369f;
+  }
+
   .pub-filter-btn.is-active {
     background: #00369f;
-    border-color: #00369f;
+    box-shadow: 0 2px 6px rgba(0, 54, 159, 0.18);
     color: #ffffff;
   }
 
@@ -554,6 +574,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     .page__content .home-news-timeline li,
     .home-news-timeline li:before,
     .home-news-timeline li:after,
+    .page__content .home-intro,
     .page__content .paper-box,
     .page__content .research-card,
     .page__content .structured-card,
