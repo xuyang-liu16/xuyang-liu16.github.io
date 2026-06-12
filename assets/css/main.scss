@@ -303,25 +303,6 @@
   font-weight: 700;
 }
 
-.pub-relation-tags {
-  display: inline-flex;
-  gap: 0.28rem;
-  margin-left: 0.35rem;
-  vertical-align: middle;
-}
-
-.pub-relation-tag {
-  border: 1px solid #d7e5fb;
-  border-radius: 999px;
-  color: #2f5f9f;
-  background: #ffffff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  line-height: 1;
-  padding: 0.12rem 0.38rem;
-  white-space: nowrap;
-}
-
 .page__content .structured-grid {
   display: grid !important;
   grid-template-columns: 1fr !important;

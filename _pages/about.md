@@ -489,24 +489,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     font-weight: 700;
   }
 
-  .pub-relation-tags {
-    display: inline-flex;
-    gap: 0.28rem;
-    margin-left: 0.35rem;
-    vertical-align: middle;
-  }
-
-  .pub-relation-tag {
-    border: 1px solid #d7e5fb;
-    border-radius: 999px;
-    color: #2f5f9f;
-    background: #ffffff;
-    font-size: 0.72rem;
-    font-weight: 700;
-    line-height: 1;
-    padding: 0.12rem 0.38rem;
-    white-space: nowrap;
-  }
 </style>
 
 <div class="pub-filters" id="pub-filters" aria-label="Publication filters">
@@ -576,43 +558,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       if (authorSpan.childNodes.length) item.insertBefore(authorSpan, current);
     }
 
-    function inferTopic(text) {
-      if (/GUI|grounding/i.test(text)) return "GUI/Grounding";
-      if (/video|streaming|omni/i.test(text)) return "Video/Omni";
-      if (/diffusion|decoding|generation|unified|AIGC/i.test(text)) return "Generation";
-      if (/benchmark|transfer|tuning|PETL|side-tuning|referring/i.test(text)) return "Transfer/Benchmark";
-      if (/token|compression|cache|KV|prun|accelerat/i.test(text)) return "Efficiency";
-      return "";
-    }
-
-    function addRelationTags(item) {
-      if (item.querySelector(".pub-relation-tags")) return;
-
-      var marker = item.querySelector(".pub-marker");
-      var tags = [];
-      if (marker && marker.getAttribute("data-first-author") === "true") tags.push("Core");
-
-      var topic = inferTopic(item.textContent || "");
-      if (topic) tags.push(topic);
-      if (!tags.length) return;
-
-      var tagRoot = document.createElement("span");
-      tagRoot.className = "pub-relation-tags";
-      tags.slice(0, 2).forEach(function (tag) {
-        var node = document.createElement("span");
-        node.className = "pub-relation-tag";
-        node.textContent = tag;
-        tagRoot.appendChild(node);
-      });
-
-      var marker = item.querySelector(".pub-marker");
-      if (marker && marker.nextSibling) {
-        item.insertBefore(tagRoot, marker.nextSibling);
-      } else {
-        item.appendChild(tagRoot);
-      }
-    }
-
     sections.forEach(function (section) {
       var box = document.createElement("div");
       box.className = "pub-section-box";
@@ -620,7 +565,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       box.appendChild(section.heading);
       section.items.forEach(function (item) {
         enhanceAuthors(item);
-        addRelationTags(item);
         box.appendChild(item);
       });
       section.box = box;
