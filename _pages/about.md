@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+browser_title: "Xuyang Liu | Homepage"
 author_profile: true
 redirect_from: 
   - /about/
