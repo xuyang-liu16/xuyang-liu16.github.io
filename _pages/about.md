@@ -346,7 +346,7 @@ redirect_from:
 
 <div class="home-intro" markdown="1">
 
-🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Taobao & Tmall Group](https://talent.taotian.com/) <a href='https://talent.taotian.com/' target="_blank"><img src='./images/taobao_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and [Ant Group](https://www.antgroup.com/en) <a href='https://www.antgroup.com/en' target="_blank"><img src='./images/alipay_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
+🌈 I am Xuyang Liu (刘旭洋), an incoming PhD student at [PolyU](https://www.polyu.edu.hk/) <a href='https://www.polyu.edu.hk/' target="_blank"><img src='./images/polyu_logo.png' align="center" style='vertical-align: middle; width: 21px;'></a>, where I will join the [VC Lab](https://polyu-vclab.github.io/) <a href='https://polyu-vclab.github.io/' target="_blank"><img src='./images/vclab_logo.png.jpg' align="center" style='vertical-align: middle; width: 22px;'></a> under the supervision of Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) (IEEE Fellow). I am also currently working as a research intern at [OPPO Research Institute](https://www.oppo.com/uk/) <a href='https://www.oppo.com/uk/' target="_blank"><img src='./images/oppo_logo.png' align="center" style='vertical-align: middle; width: 52px;'></a>. Previously, I earned my M.S. from [Sichuan University](https://en.scu.edu.cn/) <a href='https://en.scu.edu.cn/' target="_blank"><img src='./images/scu_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a> and spent a wonderful year interning at [Alibaba Group](https://x.com/AlibabaGroup) <a href='https://x.com/AlibabaGroup' target="_blank"><img src='./images/alibaba_group_x_logo.png' align="center" style='vertical-align: middle; width: 24px;'></a> and [Ant Group](https://x.com/AntGroup) <a href='https://x.com/AntGroup' target="_blank"><img src='./images/ant_group_x_logo.png' align="center" style='vertical-align: middle; width: 22px;'></a>. I am fortunate to work closely with Dr. [Siteng Huang](https://kyonhuang.top/) and Prof. [Linfeng Zhang](http://www.zhanglinfeng.tech/).
 
 </div>
 
@@ -841,7 +841,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 <span class="timeline-date">Apr 2025 - Jul 2025</span>
 <div markdown="1">
 
-### Research Intern - **Ant Security Lab, Ant Group**, Hangzhou
+### Research Intern - **Venus Team, Ant Group**, Hangzhou
 - **Thesis:** *Multi-modal Graphical User Interface (GUI) Agents*.
 
 </div>
@@ -851,7 +851,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 <span class="timeline-date">Jul 2024 - Mar 2025</span>
 <div markdown="1">
 
-### Research Intern - **Taobao & Tmall Group, Alibaba Group**, Beijing
+### Research Intern - **Future Living Lab, Alibaba Group**, Beijing
 - **Thesis:** *Efficient Multi-modal Large Language Models*.
 
 </div>
