@@ -126,7 +126,9 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
+  font-weight: 700;
+  line-height: 1.18;
 }
 
 .sidebar .author__desktop {
