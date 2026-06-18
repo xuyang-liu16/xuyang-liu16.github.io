@@ -604,7 +604,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <button type="button" class="pub-filter-btn" data-filter="physical-first">First</button>
 </div>
 
-<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1.</div>
+<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, EMNLP: 1, ECCV: 1.</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -731,6 +731,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/ICML-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. In *International Conference on Machine Learning (ICML)*, 2026. [[paper](https://arxiv.org/pdf/2602.04804)] [[code](https://github.com/dingyue772/OmniSIFT)] [[huggingface paper](https://huggingface.co/papers/2602.04804)] [[量子位](https://mp.weixin.qq.com/s/49yUBxtEFqdST85g4ROQZQ)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:rO6llkc54NcC' href="" target="_blank"></a>
 
+<a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/ECCV-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang, &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. In *Proceedings of the European Conference on Computer Vision (ECCV)*, 2026. [[paper](https://arxiv.org/pdf/2510.14359)] [[page](https://kawhiiiileo.github.io/KAWHI_PAGE/)] [[huggingface paper](https://huggingface.co/papers/2510.14359)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:pyW8ca7W8N0C' href="" target="_blank"></a>
+
 <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Accelerating_Streaming_Video_Large_Language_Models_via_Hierarchical_Token_Compression_CVPR_2026_paper.html" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="false" aria-hidden="true"></span> Yiyu Wang<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*,†</sup>, Xiyan Gui, Xinying Lin, Boxue Yang, Chenfei Liao, Tailai Chen, Linfeng Zhang, &quot;**Accelerating Streaming Video Large Language Models via Hierarchical Token Compression**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026. [[paper](https://arxiv.org/pdf/2512.00891)] [[code](https://github.com/lern-to-write/STC)] [[Xiaohongshu](http://xhslink.com/o/5Vm008DxkkH 
 )] [[PaperWeekly](https://mp.weixin.qq.com/s/PsNkR28yIFXqAQmAb62Yrg
 )] <a href="https://github.com/lern-to-write/STC" target="_blank"><img src="https://img.shields.io/github/stars/lern-to-write/STC?style=social"></a>
@@ -788,10 +790,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://arxiv.org/abs/2603.27650" target="_blank"><img src="https://img.shields.io/badge/arXiv-2603.27650-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="false" aria-hidden="true"></span> Xinying Lin, <u>Xuyang Liu</u><sup>†</sup>, Yiyu Wang, Teng Ma, Wenqi Ren, &quot;**V-CAST: Video Curvature-Aware Spatio-Temporal Pruning for Efficient Video Large Language Models**&quot;. *arXiv preprint arXiv:2603.27650*. [[paper](https://arxiv.org/pdf/2603.27650)] [[code](https://github.com/xinyouu/V-CAST)] [[page](https://xinyouu.github.io/V-CAST/)]
 
-
-<!-- 
-<a href="https://arxiv.org/abs/2510.14359" target="_blank"><img src="https://img.shields.io/badge/arXiv-2510.14359-B31B1B?style=flat-square"></a> Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, <u>Xuyang Liu</u>, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang &quot;**AI for Service: Proactive Assistance with AI Glasses**&quot;. *arXiv preprint arXiv:2510.14359*. [[paper](https://arxiv.org/pdf/2510.14359)] [[huggingface paper](https://huggingface.co/papers/2510.14359)]
--->
 
 <a href="https://arxiv.org/abs/2505.19147" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.19147-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Zichen Wen<sup>\*</sup>, Shaobo Wang<sup>\*</sup>, Junjie Chen, Zhishan Tao, and 10 more authors, &quot;**Shifting AI Efficiency From Model-Centric to Data-Centric Compression**&quot;. *arXiv preprint arXiv:2505.19147*. [[paper](https://arxiv.org/pdf/2505.19147)] [[project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)] [[huggingface paper](https://huggingface.co/papers/2505.19147)] [[Twitter@Rohan Paul](https://x.com/rohanpaul_ai/status/1936896115078525067?s=20)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:hMod-77fHWUC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression?style=social"></a> 
 
