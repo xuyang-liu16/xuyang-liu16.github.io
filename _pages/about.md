@@ -335,6 +335,18 @@ redirect_from:
     font-size: 0.92rem !important;
   }
 
+  .page__content .home-reveal-section {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.62s cubic-bezier(0.16, 1, 0.3, 1), transform 0.62s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+
+  .page__content .home-reveal-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   @media (max-width: 37.5em) {
     .page__content .research-grid,
     .page__content .home-news-timeline li,
@@ -592,8 +604,14 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     .page__content .timeline-list .timeline-card,
     .page__content .timeline-list .timeline-card:before,
     .page__content .timeline-list .timeline-card:after,
+    .page__content .home-reveal-section,
     .pub-section-box .pub-item {
       transition: none !important;
+    }
+
+    .page__content .home-reveal-section {
+      opacity: 1 !important;
+      transform: none !important;
     }
   }
 
@@ -725,6 +743,63 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     });
 
     applyFilter("all");
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var sectionNames = ["news", "publications", "resources", "experiences", "services"];
+    var headings = Array.prototype.slice.call(document.querySelectorAll(".page__content h2"));
+    var sections = [];
+
+    headings.forEach(function (heading) {
+      var headingText = heading.textContent.toLowerCase();
+      var shouldReveal = sectionNames.some(function (name) {
+        return headingText.indexOf(name) !== -1;
+      });
+
+      if (!shouldReveal || heading.parentElement.classList.contains("home-reveal-section")) return;
+
+      var wrapper = document.createElement("div");
+      wrapper.className = "home-reveal-section";
+      heading.parentNode.insertBefore(wrapper, heading);
+
+      var current = heading;
+      while (current) {
+        var next = current.nextSibling;
+        wrapper.appendChild(current);
+
+        if (next && next.nodeType === Node.ELEMENT_NODE && next.tagName === "H2") break;
+        current = next;
+      }
+
+      sections.push(wrapper);
+    });
+
+    if (!sections.length) return;
+
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduceMotion || !("IntersectionObserver" in window)) {
+      sections.forEach(function (section) {
+        section.classList.add("is-visible");
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    }, {
+      threshold: 0.08,
+      rootMargin: "0px 0px -8% 0px"
+    });
+
+    sections.forEach(function (section) {
+      observer.observe(section);
+    });
   });
 </script>
 
