@@ -21,7 +21,7 @@ redirect_from:
   }
 
   .page__content .home-intro:hover {
-    border-color: #b8c7d9 !important;
+    border-color: #B5484F !important;
     box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
     transform: translateY(-2px) !important;
   }
@@ -62,7 +62,7 @@ redirect_from:
   }
 
   .page__content .research-card:hover {
-    border-color: #b8c7d9 !important;
+    border-color: #B5484F !important;
     box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
     transform: translateY(-2px) !important;
   }
@@ -116,7 +116,7 @@ redirect_from:
   }
 
   .page__content .home-news-timeline li:hover {
-    background: #f7f9fc !important;
+    background: #F8EDEF !important;
   }
 
   .home-news-timeline li:after {
@@ -126,7 +126,7 @@ redirect_from:
     top: 1rem;
     bottom: -0.95rem;
     width: 2px;
-    background: #2f80ed;
+    background: #8A1F2D;
     opacity: 0.45;
     transition: opacity 0.16s ease;
   }
@@ -142,7 +142,7 @@ redirect_from:
     top: 0.42rem;
     width: 0.58rem;
     height: 0.58rem;
-    border: 2px solid #2f80ed;
+    border: 2px solid #8A1F2D;
     border-radius: 50%;
     background: #ffffff;
     z-index: 1;
@@ -150,8 +150,8 @@ redirect_from:
   }
 
   .home-news-timeline li:hover:before {
-    background: #2f80ed;
-    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    background: #8A1F2D;
+    box-shadow: 0 0 0 4px rgba(138, 31, 45, 0.12);
     transform: scale(1.04);
   }
 
@@ -176,7 +176,7 @@ redirect_from:
   }
 
   .page__content .paper-box:hover {
-    border-color: #b8c7d9 !important;
+    border-color: #B5484F !important;
     box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
     transform: translateY(-2px) !important;
   }
@@ -192,7 +192,7 @@ redirect_from:
   }
 
   .paper-box .paper-box-image a:hover img {
-    box-shadow: 0 8px 20px rgba(0, 54, 159, 0.22);
+    box-shadow: 0 8px 20px rgba(138, 31, 45, 0.22);
   }
 
   .pub-highlight {
@@ -225,7 +225,7 @@ redirect_from:
   }
 
   .page__content .structured-card:hover {
-    border-color: #b8c7d9 !important;
+    border-color: #B5484F !important;
     box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
     transform: translateY(-2px) !important;
   }
@@ -284,7 +284,7 @@ redirect_from:
     top: 1.08rem;
     width: 0.62rem;
     height: 0.62rem;
-    border: 2px solid #2f80ed;
+    border: 2px solid #8A1F2D;
     border-radius: 50%;
     background: #ffffff;
     z-index: 1;
@@ -298,14 +298,14 @@ redirect_from:
     top: 1.68rem;
     bottom: -0.95rem;
     width: 2px;
-    background: #2f80ed;
+    background: #8A1F2D;
     opacity: 0.45;
     transition: opacity 0.16s ease;
   }
 
   .page__content .timeline-list .timeline-card:hover:before {
-    background: #2f80ed;
-    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    background: #8A1F2D;
+    box-shadow: 0 0 0 4px rgba(138, 31, 45, 0.12);
     transform: scale(1.04);
   }
 
@@ -496,9 +496,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     flex-wrap: wrap;
     margin: 1rem 0 0.4rem;
     padding: 0.15rem;
-    border: 1px solid #d9e1ec;
+    border: 1px solid #ead1d5;
     border-radius: 7px;
-    background: #f7f9fc;
+    background: #F8EDEF;
   }
 
   .pub-filter-btn {
@@ -516,12 +516,12 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-filter-btn:hover {
-    color: #00369f;
+    color: #8A1F2D;
   }
 
   .pub-filter-btn.is-active {
-    background: #00369f;
-    box-shadow: 0 2px 6px rgba(0, 54, 159, 0.18);
+    background: #8A1F2D;
+    box-shadow: 0 2px 6px rgba(138, 31, 45, 0.18);
     color: #ffffff;
   }
 
@@ -566,7 +566,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-section-box .pub-item:hover {
-    background: #f7f9fc;
+    background: #F8EDEF;
     box-shadow: 0 5px 14px rgba(15, 23, 42, 0.055);
     transform: translateY(-2px);
   }
