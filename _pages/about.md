@@ -10,6 +10,7 @@ redirect_from:
 
 <style>
   .page__content .home-intro {
+    position: relative !important;
     display: block !important;
     margin: 0.2rem 0 1.35rem !important;
     padding: 1.05rem 1.15rem !important;
@@ -20,10 +21,47 @@ redirect_from:
     transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
   }
 
+  .page__content .home-intro:before,
+  .page__content .research-card:before,
+  .page__content .home-news-timeline:before,
+  .page__content .paper-box:before,
+  .page__content .structured-card:before,
+  .page__content .pub-section-box:before {
+    content: "";
+    position: absolute;
+    left: 0.9rem;
+    right: 0.9rem;
+    top: 0;
+    height: 3px;
+    border-radius: 999px;
+    background: #8A1F2D;
+    opacity: 0.18;
+    transform: scaleX(0.72);
+    transform-origin: left center;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .page__content .home-intro:hover:before,
+  .page__content .research-card:hover:before,
+  .page__content .home-news-timeline:hover:before,
+  .page__content .paper-box:hover:before,
+  .page__content .structured-card:hover:before,
+  .page__content .pub-section-box:hover:before {
+    opacity: 0.95;
+    transform: scaleX(1);
+  }
+
   .page__content .home-intro:hover {
     border-color: #B5484F !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.11) !important;
     transform: translateY(-2px) !important;
+  }
+
+  .page__content .home-intro:active,
+  .page__content .research-card:active,
+  .page__content .paper-box:active,
+  .page__content .structured-card:active {
+    transform: translateY(-1px) scale(0.995) !important;
   }
 
   .page__content .home-intro p {
@@ -63,6 +101,7 @@ redirect_from:
   }
 
   .page__content .research-card {
+    position: relative !important;
     display: block !important;
     min-height: 100% !important;
     padding: 0.95rem 1rem 1rem !important;
@@ -75,7 +114,7 @@ redirect_from:
 
   .page__content .research-card:hover {
     border-color: #B5484F !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.11) !important;
     transform: translateY(-2px) !important;
   }
 
@@ -94,6 +133,7 @@ redirect_from:
   }
 
   .page__content .home-news-timeline {
+    position: relative !important;
     display: block !important;
     max-height: 340px !important;
     overflow-y: auto !important;
@@ -104,6 +144,12 @@ redirect_from:
     background: #ffffff !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
     scrollbar-gutter: stable !important;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease !important;
+  }
+
+  .page__content .home-news-timeline:hover {
+    border-color: #B5484F !important;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.1) !important;
   }
 
   .home-news-timeline ul {
@@ -178,6 +224,7 @@ redirect_from:
   }
 
   .page__content .paper-box {
+    position: relative !important;
     border: 1px solid #e5e7eb !important;
     border-radius: 8px !important;
     padding: 1.1em !important;
@@ -189,7 +236,7 @@ redirect_from:
 
   .page__content .paper-box:hover {
     border-color: #B5484F !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.11) !important;
     transform: translateY(-2px) !important;
   }
 
@@ -228,6 +275,7 @@ redirect_from:
   }
 
   .page__content .structured-card {
+    position: relative !important;
     border: 1px solid #e5e7eb !important;
     border-radius: 8px !important;
     padding: 0.9rem 1rem !important;
@@ -238,7 +286,7 @@ redirect_from:
 
   .page__content .structured-card:hover {
     border-color: #B5484F !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.11) !important;
     transform: translateY(-2px) !important;
   }
 
@@ -555,12 +603,20 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-section-box {
+    position: relative;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
     background: #ffffff;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035);
     margin: 1rem 0 1.3rem;
     padding: 0.8rem 1rem 0.2rem;
+    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+  }
+
+  .pub-section-box:hover {
+    border-color: #B5484F;
+    box-shadow: 0 8px 22px rgba(138, 31, 45, 0.1);
+    transform: translateY(-1px);
   }
 
   .pub-section-box .pub-section-heading {
@@ -579,7 +635,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
   .pub-section-box .pub-item:hover {
     background: #F8EDEF;
-    box-shadow: 0 5px 14px rgba(15, 23, 42, 0.055);
+    box-shadow: 0 5px 14px rgba(138, 31, 45, 0.08);
     transform: translateY(-2px);
   }
 
@@ -611,8 +667,14 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     .home-news-timeline li:after,
     .page__content .home-intro,
     .page__content .paper-box,
+    .page__content .paper-box:before,
     .page__content .research-card,
+    .page__content .research-card:before,
     .page__content .structured-card,
+    .page__content .structured-card:before,
+    .page__content .home-intro:before,
+    .page__content .home-news-timeline:before,
+    .page__content .pub-section-box:before,
     .page__content .timeline-list .timeline-card,
     .page__content .timeline-list .timeline-card:before,
     .page__content .timeline-list .timeline-card:after,
