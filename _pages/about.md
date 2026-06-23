@@ -31,6 +31,18 @@ redirect_from:
     line-height: 1.72 !important;
   }
 
+  .page__content a {
+    color: #8A1F2D !important;
+    text-decoration-color: rgba(138, 31, 45, 0.45) !important;
+    text-underline-offset: 2px !important;
+    transition: color 0.16s ease, text-decoration-color 0.16s ease, background-color 0.16s ease !important;
+  }
+
+  .page__content a:hover {
+    color: #B5484F !important;
+    text-decoration-color: rgba(181, 72, 79, 0.72) !important;
+  }
+
   .home-intro p:last-child,
   .home-section-lead p,
   .home-news-timeline .news-content p {
