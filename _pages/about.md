@@ -907,5 +907,6 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
   <li>IEEE Transactions on Image Processing (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">TIP</a>)</li>
   <li>IEEE Transactions on Circuits and Systems for Video Technology (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>)</li>
   <li>IEEE Transactions on Cybernetics (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036">TCYB</a>)</li>
+  <li>IEEE Transactions on Vehicular Technology (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25">TVT</a>)</li>
   <li>Computer Vision and Image Understanding (<a href="https://www.sciencedirect.com/journal/computer-vision-and-image-understanding">CVIU</a>)</li>
 </ul>
