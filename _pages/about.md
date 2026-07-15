@@ -391,7 +391,7 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 <div class="news-scroll home-news-timeline">
 
 <ul>
-  <li><span class="news-date">2026.07.15</span><div class="news-content">🎊🎊 My first-author paper <a href="https://ieeexplore.ieee.org/document/10929057">M2IST</a> was selected as an <strong>ESI top 1% highly cited papers</strong>!</div></li>
+  <li><span class="news-date">2026.07.15</span><div class="news-content">🎊🎊 My first-author paper <a href="https://ieeexplore.ieee.org/document/10929057">M2IST</a> (TCSVT 2025) was selected as an <strong>ESI top 1% highly cited paper</strong>!</div></li>
   <li><span class="news-date">2026.07.10</span><div class="news-content">🎊🎊 Two papers about efficient large audio language models (LALMs) have been accepted by <strong>MM 2026</strong>, including task-adaptive audio token pruning via <a href="https://arxiv.org/abs/2604.23717">HeadRouter</a> and KV cache eviction via <a href="https://arxiv.org/abs/2604.06694">AudioKV</a>.</div></li>
   <li><span class="news-date">2026.06.26</span><div class="news-content">🎓🎓 I successfully received my M.S. degree from Sichuan University, and my Master's thesis was selected as an <strong>Outstanding Master’s Thesis (top 2%)</strong>.</div></li>
   <li><span class="news-date">2026.04.30</span><div class="news-content">🎊🎊 One paper <a href="https://arxiv.org/abs/2602.04804">OmniSIFT</a> about modality-asymmetric token compression for efficient OmniLLMs has been accepted by <strong>ICML 2026</strong>! Congratulations to all collaborators!</div></li>
