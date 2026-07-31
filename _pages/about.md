@@ -561,6 +561,14 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     transform: translateY(-2px);
   }
 
+  .pub-section-box .pub-item.is-first-author-highlight {
+    background: #f2f6fc;
+  }
+
+  .pub-section-box .pub-item.is-first-author-highlight:hover {
+    background: #eaf1fb;
+  }
+
   .pub-section-box .pub-item.is-entering {
     opacity: 0;
     transform: translateY(4px);
@@ -696,6 +704,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
           var isFirstAuthor = marker && marker.getAttribute("data-first-author") === "true";
           var isPhysicalFirst = marker && marker.getAttribute("data-physical-first") === "true";
           var shouldShow = filter === "all" || (filter === "first-author" && isFirstAuthor) || (filter === "physical-first" && isPhysicalFirst);
+
+          item.classList.toggle("is-first-author-highlight", filter === "all" && isFirstAuthor);
 
           var wasHidden = item.classList.contains("is-hidden");
 
