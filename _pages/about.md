@@ -703,9 +703,10 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
           var marker = item.querySelector(".pub-marker");
           var isFirstAuthor = marker && marker.getAttribute("data-first-author") === "true";
           var isPhysicalFirst = marker && marker.getAttribute("data-physical-first") === "true";
+          var shouldHighlightInAll = marker && marker.getAttribute("data-highlight-in-all") !== "false";
           var shouldShow = filter === "all" || (filter === "first-author" && isFirstAuthor) || (filter === "physical-first" && isPhysicalFirst);
 
-          item.classList.toggle("is-physical-first-highlight", filter === "all" && isPhysicalFirst);
+          item.classList.toggle("is-physical-first-highlight", filter === "all" && isPhysicalFirst && shouldHighlightInAll);
 
           var wasHidden = item.classList.contains("is-hidden");
 
@@ -816,7 +817,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <h3 class="pub-section-heading">Thesis</h3>
 
-<img src="https://img.shields.io/badge/Thesis-M.S.-f28c28?style=flat-square" alt="Thesis M.S."><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Master's thesis, Sichuan University*, 2026. <span style="color: red">(Outstanding Master's Thesis, top 2%)</span>.
+<img src="https://img.shields.io/badge/Thesis-M.S.-f28c28?style=flat-square" alt="Thesis M.S."><span class="pub-marker" data-first-author="true" data-physical-first="true" data-highlight-in-all="false" aria-hidden="true"></span> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Master's thesis, Sichuan University*, 2026. <span style="color: red">(Outstanding Master's Thesis, top 2%)</span>.
 
 
 
