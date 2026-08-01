@@ -1,8 +1,7 @@
 (function () {
-    var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/xuyang-liu16/xuyang-liu16.github.io@';
     var cacheBuster = Date.now();
-    var primaryUrl = gsDataBaseUrl + "google-scholar-stats/gs_data.json?v=" + cacheBuster;
-    var fallbackUrl = 'https://raw.githubusercontent.com/xuyang-liu16/xuyang-liu16.github.io/google-scholar-stats/gs_data.json?v=' + cacheBuster;
+    var primaryUrl = 'https://raw.githubusercontent.com/xuyang-liu16/xuyang-liu16.github.io/google-scholar-stats/gs_data.json?v=' + cacheBuster;
+    var fallbackUrl = 'https://cdn.jsdelivr.net/gh/xuyang-liu16/xuyang-liu16.github.io@google-scholar-stats/gs_data.json?v=' + cacheBuster;
 
     function render(data) {
         var citationEles = document.getElementsByClassName('show_paper_citations')
