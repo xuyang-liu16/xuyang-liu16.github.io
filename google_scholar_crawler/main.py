@@ -8,6 +8,14 @@ from datetime import datetime, timezone
 from scholarly import scholarly
 
 
+CANONICAL_PUBLICATION_IDS = {
+    "Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models":
+        "9VhMC1QAAAAJ:CHSYGLWDkRkC",
+    "Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models":
+        "9VhMC1QAAAAJ:1sJd4Hv_s6UC",
+}
+
+
 class TimeoutError(RuntimeError):
     pass
 
@@ -55,11 +63,17 @@ def main():
     author = fetch_author_with_retry(scholar_id)
 
     author["updated"] = datetime.now(timezone.utc).isoformat()
-    author["publications"] = {
-        v["author_pub_id"]: v
-        for v in author.get("publications", [])
-        if isinstance(v, dict) and v.get("author_pub_id")
-    }
+    publications = {}
+    for publication in author.get("publications", []):
+        if not isinstance(publication, dict) or not publication.get("author_pub_id"):
+            continue
+
+        title = publication.get("bib", {}).get("title", "")
+        publication_id = CANONICAL_PUBLICATION_IDS.get(title, publication["author_pub_id"])
+        publication["author_pub_id"] = publication_id
+        publications[publication_id] = publication
+
+    author["publications"] = publications
 
     os.makedirs("results", exist_ok=True)
     with open("results/gs_data.json", "w", encoding="utf-8") as outfile:

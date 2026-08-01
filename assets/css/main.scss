@@ -375,14 +375,6 @@
     transform: translateY(-2px);
   }
 
-  .pub-item.is-physical-first-highlight {
-    background: #f2f6fc;
-  }
-
-  .pub-item.is-physical-first-highlight:hover {
-    background: #eaf1fb;
-  }
-
   .pub-item.is-entering {
     opacity: 0;
     transform: translateY(4px);

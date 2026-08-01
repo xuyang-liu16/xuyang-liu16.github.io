@@ -561,14 +561,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     transform: translateY(-2px);
   }
 
-  .pub-section-box .pub-item.is-physical-first-highlight {
-    background: #f2f6fc;
-  }
-
-  .pub-section-box .pub-item.is-physical-first-highlight:hover {
-    background: #eaf1fb;
-  }
-
   .pub-section-box .pub-item.is-entering {
     opacity: 0;
     transform: translateY(4px);
@@ -610,8 +602,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </style>
 
 <div class="pub-filters" id="pub-filters" aria-label="Publication filters">
-  <button type="button" class="pub-filter-btn is-active" data-filter="all">All</button>
-  <button type="button" class="pub-filter-btn" data-filter="first-author">Core</button>
+  <button type="button" class="pub-filter-btn" data-filter="all">All</button>
+  <button type="button" class="pub-filter-btn is-active" data-filter="first-author">Core</button>
   <button type="button" class="pub-filter-btn" data-filter="physical-first">First</button>
 </div>
 
@@ -703,10 +695,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
           var marker = item.querySelector(".pub-marker");
           var isFirstAuthor = marker && marker.getAttribute("data-first-author") === "true";
           var isPhysicalFirst = marker && marker.getAttribute("data-physical-first") === "true";
-          var shouldHighlightInAll = marker && marker.getAttribute("data-highlight-in-all") !== "false";
           var shouldShow = filter === "all" || (filter === "first-author" && isFirstAuthor) || (filter === "physical-first" && isPhysicalFirst);
-
-          item.classList.toggle("is-physical-first-highlight", filter === "all" && isPhysicalFirst && shouldHighlightInAll);
 
           var wasHidden = item.classList.contains("is-hidden");
 
@@ -737,7 +726,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
       });
     });
 
-    applyFilter("all");
+    applyFilter("first-author");
   });
 </script>
 
@@ -761,7 +750,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://openaccess.thecvf.com/content/CVPR2026F/html/Ke_Flash-Unified_A_Training-Free_and_Task-Aware_Acceleration_Framework_for_Native_Unified_CVPRF_2026_paper.html" target="_blank"><img src="https://img.shields.io/badge/CVPR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Junlong Ke, Zichen Wen, Boxue Yang, Yantai Yang, <u>Xuyang Liu</u>, Chenfei Liao, Zhaorun Chen, Shaobo Wang, Linfeng Zhang, &quot;**Flash-Unified: A Training-Free and Task-Aware Acceleration Framework for Native Unified Models**&quot;. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings*, 2026. [[paper](https://arxiv.org/pdf/2603.15271)] [[code](https://github.com/Rirayh/FlashU)]
 
-<a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] [[Xiaohongshu](http://xhslink.com/o/9VKjxY3ZWbW)] [[量子位](https://mp.weixin.qq.com/s/O1mIsIt6LSTZhAF536vGiA)] <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
+<a href="https://openreview.net/forum?id=B2iqbCQviR" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Xiyan Gui<sup>\*</sup>, Yuchao Zhang, Linfeng Zhang, &quot;**Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2510.20707)] [[code](https://github.com/xuyang-liu16/MixKV)] [[page](https://xuyang-liu16.github.io/MixKV/)] [[Xiaohongshu](http://xhslink.com/o/9VKjxY3ZWbW)] [[量子位](https://mp.weixin.qq.com/s/O1mIsIt6LSTZhAF536vGiA)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:CHSYGLWDkRkC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/MixKV" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/MixKV?style=social"></a>
 
 <a href="https://openreview.net/forum?id=rIPeatvPy3" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, <u>Xuyang Liu</u>, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang, &quot;**The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs**&quot;. In *International Conference on Learning Representations (ICLR)*, 2026. [[paper](https://arxiv.org/pdf/2507.11097)] [[code](https://github.com/ZichenWen1/DIJA)] [[huggingface paper](https://huggingface.co/papers/2507.11097)] [[量子位](https://mp.weixin.qq.com/s/nfyZFXN7ku07_9tTzG-W9Q)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:BqipwSGYUEgC' href="" target="_blank"></a> <a href="https://github.com/ZichenWen1/DIJA" target="_blank"><img src="https://img.shields.io/github/stars/ZichenWen1/DIJA?style=social"></a> 
 
@@ -772,7 +761,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/40606" target="_blank"><img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Fei Tang, Zhangxuan Gu, Zhengxi Lu, <u>Xuyang Liu</u>, Shuheng Shen, Changhua Meng, Wen Wang, Wenqi Zhang, Yongliang Shen, Weiming Lu, Jun Xiao, Yueting Zhuang, &quot;**GUI-G<sup>2</sup>: Gaussian Reward Modeling for GUI Grounding**&quot;. In *Proceedings of the 40th AAAI Conference on Artificial Intelligence*, 2026. [[paper](https://arxiv.org/pdf/2507.15846)] [[code](https://github.com/zju-real/GUI-G2)] [[huggingface paper](https://huggingface.co/papers/2507.15846)] [[page](https://zju-real.github.io/GUI-G2)] [[机器之心](https://mp.weixin.qq.com/s/DRMtB-o9X_CzEFGkxw0Ycw)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:ns9cj8rnVeAC' href="" target="_blank"></a> <a href="https://github.com/zju-real/GUI-G2" target="_blank"><img src="https://img.shields.io/github/stars/zju-real/GUI-G2?style=social"></a>
 
-<a href="https://aclanthology.org/2025.emnlp-main.98/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2025-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Yiyu Wang<sup>\*</sup>, Junpeng Ma, Linfeng Zhang, &quot;**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**&quot;. In *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 2025. [[paper](https://arxiv.org/pdf/2505.14454)] [[code](https://github.com/xuyang-liu16/VidCom2)] [[page](https://xuyang-liu16.github.io/VidCom2/)] [[Xiaohongshu](http://xhslink.com/o/7SMiHSgXFFU)] [[机器之心](https://www.jiqizhixin.com/articles/2025-12-15-6)] [[PaperWeekly](https://mp.weixin.qq.com/s/hQhEPlBWd4noVGSOWT4_XQ)] [[slides](/files/EMNLP-2025-main-262.pdf)] [[poster](/files/EMNLP-2025-main-262-Poster.pdf)] [[video](https://underline.io/events/502/posters/20833/poster/129850-video-compression-commander-plug-and-play-inference-acceleration-for-video-large-language-models)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:a0OBvERweLwC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/VidCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VidCom2?style=social"></a>
+<a href="https://aclanthology.org/2025.emnlp-main.98/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2025-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Yiyu Wang<sup>\*</sup>, Junpeng Ma, Linfeng Zhang, &quot;**Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models**&quot;. In *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 2025. [[paper](https://arxiv.org/pdf/2505.14454)] [[code](https://github.com/xuyang-liu16/VidCom2)] [[page](https://xuyang-liu16.github.io/VidCom2/)] [[Xiaohongshu](http://xhslink.com/o/7SMiHSgXFFU)] [[机器之心](https://www.jiqizhixin.com/articles/2025-12-15-6)] [[PaperWeekly](https://mp.weixin.qq.com/s/hQhEPlBWd4noVGSOWT4_XQ)] [[slides](/files/EMNLP-2025-main-262.pdf)] [[poster](/files/EMNLP-2025-main-262-Poster.pdf)] [[video](https://underline.io/events/502/posters/20833/poster/129850-video-compression-commander-plug-and-play-inference-acceleration-for-video-large-language-models)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:1sJd4Hv_s6UC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/VidCom2" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/VidCom2?style=social"></a>
 
 <a href="https://openreview.net/forum?id=yYZbZGo4ei" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="false" aria-hidden="true"></span> Chang Zou<sup>\*</sup>, <u>Xuyang Liu</u><sup>\*</sup>, Ting Liu, Siteng Huang, Linfeng Zhang, &quot;**Accelerating Diffusion Transformers with Token-wise Feature Caching**&quot;. In *International Conference on Learning Representations (ICLR)*, 2025. [[paper](https://arxiv.org/pdf/2410.05317)] [[page](https://toca2024.github.io/ToCa/)] [[code](https://github.com/Shenyi-Z/ToCa)] [[量子位](https://mp.weixin.qq.com/s/ZqVWslSEdjX00VMf6RqtcA)] [[poster](/files/ICLR-2025-ToCa-Poster.pdf)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:TQgYirikUcIC' href="" target="_blank"></a> <a href="https://github.com/Shenyi-Z/ToCa" target="_blank"><img src="https://img.shields.io/github/stars/Shenyi-Z/ToCa?style=social"></a>
 
@@ -817,7 +806,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <h3 class="pub-section-heading">Thesis</h3>
 
-<img src="https://img.shields.io/badge/Thesis-M.S.-f28c28?style=flat-square" alt="Thesis M.S."><span class="pub-marker" data-first-author="true" data-physical-first="true" data-highlight-in-all="false" aria-hidden="true"></span> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Master's thesis, Sichuan University*, 2026. <span style="color: red">(Outstanding Master's Thesis, top 2%)</span>.
+<img src="https://img.shields.io/badge/Thesis-M.S.-f28c28?style=flat-square" alt="Thesis M.S."><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Master's thesis, Sichuan University*, 2026. <span style="color: red">(Outstanding Master's Thesis, top 2%)</span>.
 
 
 
