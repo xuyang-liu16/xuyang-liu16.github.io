@@ -384,7 +384,7 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 </div>
 </div>
 
-📢 Interested? Email `liuxuyang@stu.scu.edu.cn`. **I am actively seeking internship opportunities!**
+📢 Please email me at `liuxuyang@stu.scu.edu.cn` for research inquiries. **I am actively seeking internship opportunities!**
 
 ## 🔥 News
 
