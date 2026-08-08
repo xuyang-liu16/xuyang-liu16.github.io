@@ -40,7 +40,7 @@ redirect_from:
   .page__content .home-section-lead {
     margin: 1.05rem 0 0.78rem !important;
     color: #1f2937 !important;
-    font-weight: 700 !important;
+    font-weight: 400 !important;
   }
 
   .page__content .research-grid {
@@ -384,7 +384,7 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 </div>
 </div>
 
-📢 If you find these directions interesting, feel free to reach out via email: `liuxuyang@stu.scu.edu.cn`.
+📢 Interested? Email `liuxuyang@stu.scu.edu.cn`. **I am actively seeking internship opportunities!**
 
 ## 🔥 News
 
