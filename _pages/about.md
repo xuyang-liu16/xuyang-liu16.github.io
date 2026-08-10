@@ -406,6 +406,105 @@ redirect_from:
     display: none;
   }
 
+  .page__content .experience-timeline {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    margin: 0.8rem 0 1.35rem !important;
+    padding: 0.55rem 0.75rem 0.35rem 2.15rem !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+  }
+
+  .page__content .experience-timeline:before {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 3.6rem;
+    bottom: 1.45rem;
+    width: 2px;
+    background: #2f80ed;
+    opacity: 0.45;
+  }
+
+  .page__content .experience-group-label {
+    margin: 0.12rem 0 0.2rem !important;
+    padding: 0.25rem 0.55rem !important;
+    color: #2f3437 !important;
+    font-size: 0.98rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .page__content .experience-group-label--visiting {
+    margin-top: 0.35rem !important;
+    padding-top: 0.75rem !important;
+    border-top: 1px solid #eef0f3 !important;
+  }
+
+  .page__content .experience-timeline .timeline-card {
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0.78rem 0.55rem !important;
+    border: 0 !important;
+    border-bottom: 1px solid #eef0f3 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: background-color 0.16s ease !important;
+  }
+
+  .page__content .experience-timeline .timeline-card:hover {
+    border-color: #eef0f3 !important;
+    background: #f7f9fc !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  .page__content .experience-timeline .timeline-card:before {
+    content: "";
+    position: absolute;
+    left: -1.55rem !important;
+    top: 1.02rem !important;
+    width: 0.58rem;
+    height: 0.58rem;
+    border: 2px solid #2f80ed;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: 1;
+    transition: background-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+  }
+
+  .page__content .experience-timeline .timeline-card:after {
+    display: none !important;
+  }
+
+  .page__content .experience-timeline .timeline-card:hover:before {
+    background: #2f80ed;
+    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    transform: scale(1.04);
+  }
+
+  .page__content .experience-timeline .timeline-card:last-child {
+    border-bottom: 0 !important;
+  }
+
+  @media (min-width: 48em) {
+    .page__content .experience-timeline {
+      padding-left: 2.6rem !important;
+      padding-right: 0.95rem !important;
+    }
+
+    .page__content .experience-timeline:before {
+      left: 1.35rem;
+    }
+
+    .page__content .experience-timeline .timeline-card:before {
+      left: -1.72rem !important;
+    }
+  }
+
   .page__content .service-list {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -927,9 +1026,9 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 ## 💻 Experiences
 
-### Internships
+<div class="experience-timeline">
 
-<div class="timeline-list" markdown="1">
+<h3 class="experience-group-label">Internships</h3>
 <div class="structured-card timeline-card" markdown="1">
 
 <span class="timeline-date">Jul 2025 - Present</span>
@@ -961,11 +1060,8 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 </div>
 </div>
-</div>
- 
-### Visiting
 
-<div class="timeline-list" markdown="1">
+<h3 class="experience-group-label experience-group-label--visiting">Visiting</h3>
 <div class="structured-card timeline-card" markdown="1">
 
 <span class="timeline-date">June 2024 - Present</span>
