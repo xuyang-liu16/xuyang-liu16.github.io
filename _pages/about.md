@@ -417,17 +417,6 @@ redirect_from:
     background: #ffffff !important;
   }
 
-  .page__content .experience-timeline:before {
-    content: "";
-    position: absolute;
-    left: 1rem;
-    top: 3.6rem;
-    bottom: 1.45rem;
-    width: 2px;
-    background: #2f80ed;
-    opacity: 0.45;
-  }
-
   .page__content .experience-group-label {
     margin: 0.12rem 0 0.2rem !important;
     padding: 0.25rem 0.55rem !important;
@@ -477,13 +466,31 @@ redirect_from:
   }
 
   .page__content .experience-timeline .timeline-card:after {
-    display: none !important;
+    content: "";
+    display: block !important;
+    position: absolute;
+    left: -1.26rem;
+    top: 1.62rem;
+    bottom: -1.02rem;
+    width: 2px;
+    background: #2f80ed;
+    opacity: 0.45;
+    transition: opacity 0.16s ease;
   }
 
   .page__content .experience-timeline .timeline-card:hover:before {
     background: #2f80ed;
     box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
     transform: scale(1.04);
+  }
+
+  .page__content .experience-timeline .timeline-card:hover:after {
+    opacity: 0.72;
+  }
+
+  .page__content .experience-timeline .timeline-card--group-end:after,
+  .page__content .experience-timeline .timeline-card:last-child:after {
+    display: none !important;
   }
 
   .page__content .experience-timeline .timeline-card:last-child {
@@ -496,12 +503,12 @@ redirect_from:
       padding-right: 0.95rem !important;
     }
 
-    .page__content .experience-timeline:before {
-      left: 1.35rem;
-    }
-
     .page__content .experience-timeline .timeline-card:before {
       left: -1.72rem !important;
+    }
+
+    .page__content .experience-timeline .timeline-card:after {
+      left: -1.43rem;
     }
   }
 
@@ -1050,7 +1057,7 @@ Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16)
 
 </div>
 </div>
-<div class="structured-card timeline-card" markdown="1">
+<div class="structured-card timeline-card timeline-card--group-end" markdown="1">
 
 <span class="timeline-date">Jul 2024 - Mar 2025</span>
 <div markdown="1">
