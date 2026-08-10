@@ -181,6 +181,95 @@ redirect_from:
     transform: translateY(-2px) !important;
   }
 
+  .page__content .featured-paper-list {
+    margin: 1.1em 0 1.35em !important;
+    overflow: hidden !important;
+    border: 1px solid #dfe4ea !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+  }
+
+  .page__content .featured-paper-list .paper-box {
+    gap: 0.9rem !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 1.1rem !important;
+    border: 0 !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: background-color 0.16s ease !important;
+  }
+
+  .page__content .featured-paper-list .paper-box:hover {
+    border-color: #e5e7eb !important;
+    background: #f7f9fc !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  .page__content .featured-paper-list .paper-box:last-child {
+    border-bottom: 0 !important;
+  }
+
+  .page__content .featured-paper-list .paper-box-image {
+    order: 1 !important;
+  }
+
+  .page__content .featured-paper-list .paper-box-image > div {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 34rem !important;
+    margin: 0 auto !important;
+  }
+
+  .page__content .featured-paper-list .paper-box-image a {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .page__content .featured-paper-list .paper-box-image img {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    object-fit: contain !important;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12) !important;
+  }
+
+  .page__content .featured-paper-list .paper-box-text {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    order: 2 !important;
+  }
+
+  @media (min-width: 48em) {
+    .page__content .featured-paper-list .paper-box {
+      flex-wrap: nowrap !important;
+      gap: 1.4rem !important;
+      padding: 1.2rem 1.25rem !important;
+    }
+
+    .page__content .featured-paper-list .paper-box-image {
+      flex: 0 0 40% !important;
+      min-width: 0 !important;
+      max-width: 40% !important;
+    }
+
+    .page__content .featured-paper-list .paper-box-image > div {
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    .page__content .featured-paper-list .paper-box-text {
+      flex: 1 1 0 !important;
+      max-width: none !important;
+      padding-left: 0 !important;
+    }
+  }
+
   .paper-box .paper-box-image img {
     border-radius: 6px;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
@@ -413,6 +502,8 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
+<div class="featured-paper-list">
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><a href="https://arxiv.org/pdf/2510.20707" target="_blank" aria-label="Open MixKV paper PDF"><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -477,6 +568,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 </div>
 
 </div>
+</div>
+
 </div>
 
 <style>
