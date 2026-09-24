@@ -562,19 +562,19 @@ High-resolution understanding via context compression and fast decoding, includi
 <div class="research-card" markdown="1">
 
 ### 🎬 Video Understanding
-Long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650), and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
+Long/audio-video, and streaming reasoning via efficient encoding and compression, including [VidCom<sup>2</sup>](https://arxiv.org/abs/2505.14454)<sub>[EMNLP'25]</sub>, [STC](https://arxiv.org/pdf/2512.00891)<sub>[CVPR'26]</sub>, [V-CAST](https://arxiv.org/abs/2603.27650)<sub>[NeurIPS'26]</sub>, and [OmniSIFT](https://arxiv.org/abs/2602.04804)<sub>[ICML'26]</sub>.
 
 </div>
 <div class="research-card" markdown="1">
 
 ### 🎨 Content Generation
-Lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330).
+Lightweight and efficient AIGC via feature caching, pruning and fast decoding, including [ToCa](https://arxiv.org/abs/2410.05317)<sub>[ICLR'25]</sub>, [Flash-Unified](https://arxiv.org/abs/2603.15271)<sub>[CVPR'26 Findings]</sub>, and [STDec](https://arxiv.org/abs/2604.06330)<sub>[NeurIPS'26]</sub>.
 
 </div>
 <div class="research-card" markdown="1">
 
 ### ⚙️ Efficiency Toolbox
-Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
+Efficient adaptation, benchmarking, and agent memory management, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub>, [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>, and [MemForest](https://arxiv.org/abs/2609.08273)<sub>[NeurIPS'26]</sub>.
 
 </div>
 </div>
@@ -586,11 +586,11 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 <div class="news-scroll home-news-timeline">
 
 <ul>
+  <li><span class="news-date">2026.09.24</span><div class="news-content">🎊🎊 Three papers have been accepted by <strong>NeurIPS 2026</strong>, including spatio-temporal token pruning for VideoLLMs via <a href="https://arxiv.org/abs/2603.27650">V-CAST</a>, efficient decoding for diffusion LLMs via <a href="https://arxiv.org/abs/2604.06330">STDec</a>, and agent memory compression via <a href="https://arxiv.org/abs/2609.08273">MemForest</a>! <a href="https://github.com/Celina-love-sweet/MemForest">Code</a> is available!</div></li>
   <li><span class="news-date">2026.07.15</span><div class="news-content">🎊🎊 My first-author paper <a href="https://ieeexplore.ieee.org/document/10929057">M2IST</a> (TCSVT 2025) was selected as an <strong>ESI top 1% highly cited paper</strong>!</div></li>
   <li><span class="news-date">2026.07.10</span><div class="news-content">🎊🎊 Two papers about efficient large audio language models (LALMs) have been accepted by <strong>MM 2026</strong>, including task-adaptive audio token pruning via <a href="https://arxiv.org/abs/2604.23717">HeadRouter</a> and KV cache eviction via <a href="https://arxiv.org/abs/2604.06694">AudioKV</a>.</div></li>
   <li><span class="news-date">2026.06.26</span><div class="news-content">🎓🎓 I successfully received my M.S. degree as an <strong>Outstanding Master's Graduate</strong> from Sichuan University, and my Master's thesis was selected as an <strong>Outstanding Master’s Thesis (top 2%)</strong>.</div></li>
   <li><span class="news-date">2026.04.30</span><div class="news-content">🎊🎊 One paper <a href="https://arxiv.org/abs/2602.04804">OmniSIFT</a> about modality-asymmetric token compression for efficient OmniLLMs has been accepted by <strong>ICML 2026</strong>! Congratulations to all collaborators!</div></li>
-  <li><span class="news-date">2026.03.31</span><div class="news-content">🙌🙌 We release <a href="https://arxiv.org/abs/2603.27650">V-CAST</a>, a <strong>curvature-aware</strong> spatio-temporal pruning framework for efficient long-context video inference. V-CAST achieves new SOTA of VideoLLM acceleration! <a href="https://github.com/xinyouu/V-CAST">Code</a> is available!</div></li>
   <li><span class="news-date">2026.02.21</span><div class="news-content">🎊🎊 Four papers have been accepted by <strong>CVPR 2026</strong>, including token compression for VLMs via <a href="https://arxiv.org/abs/2509.01552">V<sup>2</sup>Drop</a>, efficient streaming video understanding via <a href="https://arxiv.org/abs/2512.00891">STC</a>, and token compression for autonomous driving via <a href="https://arxiv.org/abs/2508.13305">Prune2Drive</a> to the main conference, and <a href="https://arxiv.org/abs/2603.15271">Flash-Unified</a> to the findings!</div></li>
   <li><span class="news-date">2026.01.26</span><div class="news-content">🎊🎊 Two papers have been accepted by <strong>ICLR 2026</strong>, including fast decoding for VLM/LLM via <a href="https://arxiv.org/abs/2510.20707">MixKV</a> and the first safety study of dLLMs <a href="https://arxiv.org/abs/2507.11097">DIJA</a>! Congratulations to all collaborators!</div></li>
   <li><span class="news-date">2025.11.08</span><div class="news-content">🎊🎊 Three papers have been accepted by <strong>AAAI 2026</strong>, including two LVLM acceleration methods <a href="https://arxiv.org/abs/2501.05179">GlobalCom<sup>2</sup></a> and <a href="https://arxiv.org/abs/2411.17686">FiCoCo</a>, and a RL-based GUI grounding training framework <a href="https://arxiv.org/abs/2507.15846">GUI-G<sup>2</sup></a>!</div></li>
@@ -806,7 +806,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <button type="button" class="pub-filter-btn" data-filter="physical-first">First</button>
 </div>
 
-<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 1, CVPR: 4, AAAI: 3, MM: 2, EMNLP: 1, ECCV: 1.</div>
+<div class="pub-highlight" id="pub-highlight">🚩 Highlight: ICLR: 4, ICML: 1, NeurIPS: 4, CVPR: 4, AAAI: 3, MM: 2, EMNLP: 1, ECCV: 1.</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -931,6 +931,12 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 <h3 class="pub-section-heading">Conference Papers</h3>
 
+<a href="https://arxiv.org/abs/2603.27650" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="false" aria-hidden="true"></span> Xinying Lin, <u>Xuyang Liu</u><sup>†</sup>, Yiyu Wang, Teng Ma, Jiasheng Li, Zichen Wen, Wenqi Ren, &quot;**V-CAST: Video Curvature-Aware Spatio-Temporal Pruning for Efficient Video Large Language Models**&quot;. In *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. [[paper](https://arxiv.org/pdf/2603.27650)] [[code](https://github.com/xinyouu/V-CAST)] [[page](https://xinyouu.github.io/V-CAST/)] <a href="https://github.com/xinyouu/V-CAST" target="_blank"><img src="https://img.shields.io/github/stars/xinyouu/V-CAST?style=social"></a>
+
+<a href="https://arxiv.org/abs/2604.06330" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Yuzhe Chen, Jiale Cao, <u>Xuyang Liu</u>, Jin Xie, Aiping Yang, Yanwei Pang, &quot;**STDec: Spatio-Temporal Stability Guided Decoding for dLLMs**&quot;. In *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. [[paper](https://arxiv.org/pdf/2604.06330)] [[code](https://github.com/yzchen02/STDec)] [[page](https://yzchen02.github.io/STDec/)] <a href="https://github.com/yzchen02/STDec" target="_blank"><img src="https://img.shields.io/github/stars/yzchen02/STDec?style=social"></a>
+
+<a href="https://arxiv.org/abs/2609.08273" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Junxi Wang, Te Sun, Jiayi Zhu, Chen Zhang, Siyuan Li, <u>Xuyang Liu</u>, Zichen Wen, Xiaobing Tu, Jinkui Ren, Xiantao Zhang, Ziqi Yuan, Linfeng Zhang, &quot;**MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging**&quot;. In *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. [[paper](https://arxiv.org/pdf/2609.08273)] [[code](https://github.com/Celina-love-sweet/MemForest)] <a href="https://github.com/Celina-love-sweet/MemForest" target="_blank"><img src="https://img.shields.io/github/stars/Celina-love-sweet/MemForest?style=social"></a>
+
 <a href="https://arxiv.org/abs/2602.04804" target="_blank"><img src="https://img.shields.io/badge/ICML-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Yue Ding, Yiyan Ji, Jungang Li, <u>Xuyang Liu</u>, Xinlong Chen, and 10 more authors, &quot;**OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models**&quot;. In *International Conference on Machine Learning (ICML)*, 2026. [[paper](https://arxiv.org/pdf/2602.04804)] [[code](https://github.com/dingyue772/OmniSIFT)] [[huggingface paper](https://huggingface.co/papers/2602.04804)] [[量子位](https://mp.weixin.qq.com/s/49yUBxtEFqdST85g4ROQZQ)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:rO6llkc54NcC' href="" target="_blank"></a> <a href="https://github.com/dingyue772/OmniSIFT" target="_blank"><img src="https://img.shields.io/github/stars/dingyue772/OmniSIFT?style=social"></a>
 
 <a href="https://arxiv.org/abs/2604.23717" target="_blank"><img src="https://img.shields.io/badge/MM-2026-blue?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Peize He, Yaodi Luo, Xiaoqian Liu, <u>Xuyang Liu</u>, Jiahang Deng, Yaosong Du, Bangyu Li, Xiyan Gui, Yuxuan Chen, Linfeng Zhang, &quot;**HeadRouter: Dynamic Head-Weight Routing for Task-Adaptive Audio Token Pruning in Large Audio Language Models**&quot;. In *Proceedings of the ACM International Conference on Multimedia (MM)*, 2026. [[paper](https://arxiv.org/pdf/2604.23717)] [[page](https://dabdans.github.io/HeadRouter/)]
@@ -991,11 +997,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 
 <h3 class="pub-section-heading">Preprints & Under Submission</h3>
-
-<a href="https://arxiv.org/abs/2604.06330" target="_blank"><img src="https://img.shields.io/badge/arXiv-2604.06330-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="false" data-physical-first="false" aria-hidden="true"></span> Yuzhe Chen, Jiale Cao, <u>Xuyang Liu</u>, Jin Xie, Aiping Yang, Yanwei Pang, &quot;**STDec: Spatio-Temporal Stability Guided Decoding for dLLMs**&quot;. *arXiv preprint arXiv:2604.06330*. [[paper](https://arxiv.org/pdf/2604.06330)] [[page](https://yzchen02.github.io/STDec/)]
-
-<a href="https://arxiv.org/abs/2603.27650" target="_blank"><img src="https://img.shields.io/badge/arXiv-2603.27650-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="false" aria-hidden="true"></span> Xinying Lin, <u>Xuyang Liu</u><sup>†</sup>, Yiyu Wang, Teng Ma, Wenqi Ren, &quot;**V-CAST: Video Curvature-Aware Spatio-Temporal Pruning for Efficient Video Large Language Models**&quot;. *arXiv preprint arXiv:2603.27650*. [[paper](https://arxiv.org/pdf/2603.27650)] [[code](https://github.com/xinyouu/V-CAST)] [[page](https://xinyouu.github.io/V-CAST/)] <a href="https://github.com/xinyouu/V-CAST" target="_blank"><img src="https://img.shields.io/github/stars/xinyouu/V-CAST?style=social"></a>
-
 
 <a href="https://arxiv.org/abs/2505.19147" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.19147-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Zichen Wen<sup>\*</sup>, Shaobo Wang<sup>\*</sup>, Junjie Chen, Zhishan Tao, and 10 more authors, &quot;**Shifting AI Efficiency From Model-Centric to Data-Centric Compression**&quot;. *arXiv preprint arXiv:2505.19147*. [[paper](https://arxiv.org/pdf/2505.19147)] [[project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)] [[huggingface paper](https://huggingface.co/papers/2505.19147)] [[Twitter@Rohan Paul](https://x.com/rohanpaul_ai/status/1936896115078525067?s=20)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:hMod-77fHWUC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression?style=social"></a> 
 
