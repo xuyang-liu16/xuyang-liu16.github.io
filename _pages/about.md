@@ -548,7 +548,7 @@ redirect_from:
 
 <div class="home-section-lead" markdown="1">
 
-📌 My research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
+📌 I have published 20+ papers (10+ as co-/first author), and my research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
 
 </div>
 
@@ -574,7 +574,7 @@ Lightweight and efficient AIGC via feature caching, pruning and fast decoding, i
 <div class="research-card" markdown="1">
 
 ### ⚙️ Efficiency Toolbox
-Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub> and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
+Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, including [M2IST](https://arxiv.org/abs/2407.01131)<sub>[TCSVT'25]</sub>, [V-PETL](https://openreview.net/forum?id=yS1dUkQFnu)<sub>[NeurIPS'24]</sub>, [Sparse-Tuning](https://arxiv.org/abs/2405.14700)<sub>[TCSVT'26]</sub>, and [AutoGnothi](https://arxiv.org/abs/2410.21815)<sub>[ICLR'25]</sub>.
 
 </div>
 </div>
