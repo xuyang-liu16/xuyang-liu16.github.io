@@ -548,7 +548,7 @@ redirect_from:
 
 <div class="home-section-lead" markdown="1">
 
-📌 I have published 20+ papers (10+ as co-/first author), and my research centers on **Efficient Multimodal Large Language Models (MLLMs)**, including:
+📌 I have published **20+** papers (**10+** as co-/first author), and my research centers on *efficient multimodal large language models*, including:
 
 </div>
 
