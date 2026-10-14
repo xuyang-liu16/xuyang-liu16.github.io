@@ -586,6 +586,7 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 <div class="news-scroll home-news-timeline">
 
 <ul>
+  <li><span class="news-date">2026.10.06</span><div class="news-content">🤗🤗 We release <a href="https://omnicompass.netlify.app/">OmniCompass</a>, a holistic benchmark for omni-modal video grounding and understanding.</div></li>
   <li><span class="news-date">2026.10.02</span><div class="news-content">🎊🎊 After three years of persistence and refinement, our paper (<a href="https://arxiv.org/abs/2405.14700">Sparse-Tuning</a>) about efficient fine-tuning and inference of ViT has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>)!</div></li>
   <li><span class="news-date">2026.09.24</span><div class="news-content">🎊🎊 Three papers have been accepted by <strong>NeurIPS 2026</strong>, including spatio-temporal token pruning for VideoLLMs via <a href="https://arxiv.org/abs/2603.27650">V-CAST</a>, efficient decoding for diffusion LLMs via <a href="https://arxiv.org/abs/2604.06330">STDec</a>, and agent memory compression via <a href="https://arxiv.org/abs/2609.08273">MemForest</a>!</div></li>
   <li><span class="news-date">2026.07.15</span><div class="news-content">🎊🎊 My first-author paper <a href="https://ieeexplore.ieee.org/document/10929057">M2IST</a> (TCSVT 2025) was selected as an <strong>ESI top 1% highly cited paper</strong>!</div></li>
@@ -610,6 +611,30 @@ Efficient transfer/fine-tuning and benchmarking for downstream task adaptation, 
 Full publications are on my [Google Scholar](https://scholar.google.com/citations?user=9VhMC1QAAAAJ&hl=en) profile. *: Equal contribution. †: Project leader. <a href="https://scholar.google.com/citations?user=9VhMC1QAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3D9VhMC1QAAAAJ&logo=googlescholar&style=social" alt="Google Scholar"></a>
 
 <div class="featured-paper-list">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><a href="https://arxiv.org/pdf/2610.18829" target="_blank" aria-label="Open OmniCompass paper PDF"><img src='images/OmniCompass_teaser.png' alt="OmniCompass overview" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding**](https://arxiv.org/abs/2610.18829)
+
+<u>Xuyang Liu</u>, Shihao Wang, Xinyu Wei, Minghan Li, Zeqing Wang, Zuhao Yang, Zichen Wen, Lei Zhang
+
+- **Two paired settings**: Text / Text+Image.
+- **Two eval tracks**: OmniCompass-VL & -AV.
+- **Three complementary tasks**: TG, SG, and QA.
+- **Three duration types**: short, medium, and long.
+
+<div style="display: inline">
+  <a href="https://arxiv.org/pdf/2610.18829"><strong>[paper]</strong></a>
+  <a href="https://github.com/PolyU-VCLab/OmniCompass"><strong>[code]</strong></a>
+  <a href="https://omnicompass.netlify.app/"><strong>[page]</strong></a>
+  <a href="https://huggingface.co/datasets/VCLab-PolyU/OmniCompass"><strong>[Hugging Face]</strong></a>
+  <a href="https://modelscope.cn/datasets/liuxuyang16/OmniCompass"><strong>[ModelScope]</strong></a>
+  <a href="https://omnicompass.netlify.app/#leaderboard"><strong>[leaderboard]</strong></a>
+</div>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><a href="https://arxiv.org/pdf/2510.20707" target="_blank" aria-label="Open MixKV paper PDF"><img src='images/MixKV_teaser.png' alt="MixKV teaser" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1000,6 +1025,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
 
 <h3 class="pub-section-heading">Preprints & Under Submission</h3>
+
+<a href="https://arxiv.org/abs/2610.18829" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-B31B1B?style=flat-square" alt="arXiv 2026"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u>, Shihao Wang, Xinyu Wei, Minghan Li, Zeqing Wang, Zuhao Yang, Zichen Wen, Lei Zhang, &quot;**OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding**&quot;. *arXiv preprint arXiv:2610.18829*, 2026. [[paper](https://arxiv.org/pdf/2610.18829)] [[code](https://github.com/PolyU-VCLab/OmniCompass)] [[page](https://omnicompass.netlify.app/)] [[Hugging Face](https://huggingface.co/datasets/VCLab-PolyU/OmniCompass)] [[ModelScope](https://modelscope.cn/datasets/liuxuyang16/OmniCompass)] [[leaderboard](https://omnicompass.netlify.app/#leaderboard)] <a href="https://github.com/PolyU-VCLab/OmniCompass" target="_blank"><img src="https://img.shields.io/github/stars/PolyU-VCLab/OmniCompass?style=social" alt="GitHub stars for PolyU-VCLab/OmniCompass"></a>
 
 <a href="https://arxiv.org/abs/2505.19147" target="_blank"><img src="https://img.shields.io/badge/arXiv-2505.19147-B31B1B?style=flat-square"></a><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u><sup>\*</sup>, Zichen Wen<sup>\*</sup>, Shaobo Wang<sup>\*</sup>, Junjie Chen, Zhishan Tao, and 10 more authors, &quot;**Shifting AI Efficiency From Model-Centric to Data-Centric Compression**&quot;. *arXiv preprint arXiv:2505.19147*. [[paper](https://arxiv.org/pdf/2505.19147)] [[project](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression)] [[huggingface paper](https://huggingface.co/papers/2505.19147)] [[Twitter@Rohan Paul](https://x.com/rohanpaul_ai/status/1936896115078525067?s=20)] <a class='paper_citations_badges' data='9VhMC1QAAAAJ:hMod-77fHWUC' href="" target="_blank"></a> <a href="https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression?style=social"></a> 
 
