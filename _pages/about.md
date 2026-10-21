@@ -9,26 +9,30 @@ redirect_from:
 ---
 
 <style>
-  .page__content .home-intro {
+  .page__content .home-intro,
+  .page__content .home-intro:hover {
     display: block !important;
     margin: 0.2rem 0 1.35rem !important;
-    padding: 1.05rem 1.15rem !important;
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    background: #ffffff !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
-    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
-  }
-
-  .page__content .home-intro:hover {
-    border-color: #b8c7d9 !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
-    transform: translateY(-2px) !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
   }
 
   .page__content .home-intro p {
     font-size: 1.03rem !important;
     line-height: 1.72 !important;
+  }
+
+  .page__content .home-intro code {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
 
   .home-intro p:last-child,
@@ -50,21 +54,17 @@ redirect_from:
     margin: 0.7rem 0 1.35rem !important;
   }
 
-  .page__content .research-card {
+  .page__content .research-card,
+  .page__content .research-card:hover {
     display: block !important;
     min-height: 100% !important;
-    padding: 0.95rem 1rem 1rem !important;
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    background: #ffffff !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035) !important;
-    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
-  }
-
-  .page__content .research-card:hover {
-    border-color: #b8c7d9 !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
-    transform: translateY(-2px) !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
   }
 
   .page__content .research-card h3 {
@@ -86,11 +86,11 @@ redirect_from:
     max-height: 340px !important;
     overflow-y: auto !important;
     margin: 0.55rem 0 1.65rem !important;
-    padding: 0.85rem 0.95rem 0.2rem 1.35rem !important;
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    background: #ffffff !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
+    padding: 0.2rem 0 0.2rem 0.4rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
     scrollbar-gutter: stable !important;
   }
 
@@ -111,12 +111,11 @@ redirect_from:
     padding-right: 0.45rem !important;
     color: #333333 !important;
     line-height: 1.5 !important;
-    transition: background-color 0.16s ease !important;
-    border-radius: 6px !important;
+    border-radius: 0 !important;
   }
 
   .page__content .home-news-timeline li:hover {
-    background: #f7f9fc !important;
+    background: transparent !important;
   }
 
   .home-news-timeline li:after {
@@ -165,47 +164,43 @@ redirect_from:
     white-space: nowrap !important;
   }
 
-  .page__content .paper-box {
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    padding: 1.1em !important;
-    margin: 1.1em 0 !important;
-    background: #ffffff !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04) !important;
-    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
-  }
-
+  .page__content .paper-box,
   .page__content .paper-box:hover {
-    border-color: #b8c7d9 !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
-    transform: translateY(-2px) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 1.2em 0 !important;
+    margin: 1.1em 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
   }
 
   .page__content .featured-paper-list {
     margin: 1.1em 0 1.35em !important;
-    overflow: hidden !important;
-    border: 1px solid #dfe4ea !important;
-    border-radius: 8px !important;
-    background: #ffffff !important;
+    overflow: visible !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
   }
 
   .page__content .featured-paper-list .paper-box {
     gap: 0.9rem !important;
     align-items: center !important;
     margin: 0 !important;
-    padding: 1.1rem !important;
+    padding: 1.1rem 0 !important;
     border: 0 !important;
     border-bottom: 1px solid #e5e7eb !important;
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
     transform: none !important;
-    transition: background-color 0.16s ease !important;
+    transition: none !important;
   }
 
   .page__content .featured-paper-list .paper-box:hover {
     border-color: #e5e7eb !important;
-    background: #f7f9fc !important;
+    background: transparent !important;
     box-shadow: none !important;
     transform: none !important;
   }
@@ -236,7 +231,7 @@ redirect_from:
     max-width: none !important;
     height: auto !important;
     object-fit: contain !important;
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12) !important;
+    box-shadow: none !important;
   }
 
   .page__content .featured-paper-list .paper-box-text {
@@ -249,7 +244,7 @@ redirect_from:
     .page__content .featured-paper-list .paper-box {
       flex-wrap: nowrap !important;
       gap: 1.4rem !important;
-      padding: 1.2rem 1.25rem !important;
+      padding: 1.2rem 0 !important;
     }
 
     .page__content .featured-paper-list .paper-box-image {
@@ -271,8 +266,8 @@ redirect_from:
   }
 
   .paper-box .paper-box-image img {
-    border-radius: 6px;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .paper-box .paper-box-image a {
@@ -281,7 +276,7 @@ redirect_from:
   }
 
   .paper-box .paper-box-image a:hover img {
-    box-shadow: 0 8px 20px rgba(0, 54, 159, 0.22);
+    box-shadow: none;
   }
 
   .pub-highlight {
@@ -298,25 +293,20 @@ redirect_from:
   }
 
   .page__content .structured-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, minmax(260px, 1fr)) !important;
-    gap: 0.85rem !important;
+    display: block !important;
     margin: 0.8rem 0 1.35rem !important;
   }
 
-  .page__content .structured-card {
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    padding: 0.9rem 1rem !important;
-    background: #ffffff !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035) !important;
-    transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease !important;
-  }
-
+  .page__content .structured-card,
   .page__content .structured-card:hover {
-    border-color: #b8c7d9 !important;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09) !important;
-    transform: translateY(-2px) !important;
+    margin: 0 0 1.2rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
   }
 
   .page__content .structured-card h3 {
@@ -411,15 +401,15 @@ redirect_from:
     display: grid !important;
     grid-template-columns: 1fr !important;
     margin: 0.8rem 0 1.35rem !important;
-    padding: 0.55rem 0.75rem 0.35rem 2.15rem !important;
-    border: 1px solid #e5e7eb !important;
-    border-radius: 8px !important;
-    background: #ffffff !important;
+    padding: 0 0 0 1.8rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
   }
 
   .page__content .experience-group-label {
     margin: 0.12rem 0 0.2rem !important;
-    padding: 0.25rem 0.55rem !important;
+    padding: 0.25rem 0 !important;
     color: #2f3437 !important;
     font-size: 0.98rem !important;
     line-height: 1.3 !important;
@@ -434,19 +424,18 @@ redirect_from:
   .page__content .experience-timeline .timeline-card {
     position: relative !important;
     margin: 0 !important;
-    padding: 0.78rem 0.55rem !important;
+    padding: 0.78rem 0 !important;
     border: 0 !important;
-    border-bottom: 1px solid #eef0f3 !important;
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
     transform: none !important;
-    transition: background-color 0.16s ease !important;
+    transition: none !important;
   }
 
   .page__content .experience-timeline .timeline-card:hover {
     border-color: #eef0f3 !important;
-    background: #f7f9fc !important;
+    background: transparent !important;
     box-shadow: none !important;
     transform: none !important;
   }
@@ -499,8 +488,8 @@ redirect_from:
 
   @media (min-width: 48em) {
     .page__content .experience-timeline {
-      padding-left: 2.6rem !important;
-      padding-right: 0.95rem !important;
+      padding-left: 1.8rem !important;
+      padding-right: 0 !important;
     }
 
     .page__content .experience-timeline .timeline-card:before {
@@ -513,20 +502,18 @@ redirect_from:
   }
 
   .page__content .service-list {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 0.42rem !important;
+    display: block !important;
     margin: 0.35rem 0 0 !important;
-    padding-left: 0 !important;
-    list-style: none !important;
+    padding-left: 1.25rem !important;
+    list-style: disc !important;
   }
 
   .page__content .service-list li {
-    margin: 0 !important;
-    padding: 0.2rem 0.5rem !important;
-    border: 1px solid #e5e7eb !important;
-    border-radius: 999px !important;
-    background: #ffffff !important;
+    margin: 0 0 0.25rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
     font-size: 0.92rem !important;
   }
 
@@ -677,16 +664,16 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     gap: 0.12rem;
     flex-wrap: wrap;
     margin: 1rem 0 0.4rem;
-    padding: 0.15rem;
-    border: 1px solid #d9e1ec;
-    border-radius: 7px;
-    background: #f7f9fc;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
   }
 
   .pub-filter-btn {
     appearance: none;
     border: 0;
-    border-radius: 5px;
+    border-radius: 0;
     background: transparent;
     color: #4b5563;
     cursor: pointer;
@@ -694,7 +681,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     font-weight: 600;
     line-height: 1.1;
     padding: 0.28rem 0.62rem;
-    transition: background-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
+    transition: color 0.16s ease;
   }
 
   .pub-filter-btn:hover {
@@ -702,9 +689,11 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-filter-btn.is-active {
-    background: #00369f;
-    box-shadow: 0 2px 6px rgba(0, 54, 159, 0.18);
-    color: #ffffff;
+    background: transparent;
+    box-shadow: none;
+    color: #00369f;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
   }
 
   .pub-highlight {
@@ -725,12 +714,12 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-section-box {
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    background: #ffffff;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035);
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
     margin: 1rem 0 1.3rem;
-    padding: 0.8rem 1rem 0.2rem;
+    padding: 0;
   }
 
   .pub-section-box .pub-section-heading {
@@ -738,19 +727,19 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-section-box .pub-item {
-    border-bottom: 1px solid #eef0f3;
+    border-bottom: 0;
     margin: 0;
-    padding: 0.72rem 0.45rem;
+    padding: 0.72rem 0;
     opacity: 1;
-    border-radius: 6px;
+    border-radius: 0;
     transform: translateY(0);
-    transition: background-color 0.16s ease, opacity 0.16s ease, transform 0.16s ease;
+    transition: opacity 0.16s ease, transform 0.16s ease;
   }
 
   .pub-section-box .pub-item:hover {
-    background: #f7f9fc;
-    box-shadow: 0 5px 14px rgba(15, 23, 42, 0.055);
-    transform: translateY(-2px);
+    background: transparent;
+    box-shadow: none;
+    transform: none;
   }
 
   .pub-section-box .pub-item.is-entering {
