@@ -86,7 +86,7 @@ redirect_from:
     max-height: 340px !important;
     overflow-y: auto !important;
     margin: 0.55rem 0 1.65rem !important;
-    padding: 0.2rem 0 !important;
+    padding: 0.2rem 0 0.2rem 0.4rem !important;
     border: 0 !important;
     border-radius: 0 !important;
     background: transparent !important;
@@ -107,7 +107,7 @@ redirect_from:
     grid-template-columns: 5.85rem minmax(0, 1fr) !important;
     gap: 0.45rem !important;
     margin: 0 0 0.78rem !important;
-    padding-left: 0 !important;
+    padding-left: 1.2rem !important;
     padding-right: 0.45rem !important;
     color: #333333 !important;
     line-height: 1.5 !important;
@@ -118,8 +118,48 @@ redirect_from:
     background: transparent !important;
   }
 
-  .page__content .home-news-timeline li::before,
-  .page__content .home-news-timeline li::after,
+  .page__content .home-news-timeline li::before {
+    content: "" !important;
+    display: block !important;
+    position: absolute;
+    left: -0.32rem;
+    top: 0.42rem;
+    width: 0.58rem;
+    height: 0.58rem;
+    border: 2px solid #2f80ed;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: 1;
+    transition: background-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+  }
+
+  .page__content .home-news-timeline li::after {
+    content: "" !important;
+    display: block !important;
+    position: absolute;
+    left: -0.08rem;
+    top: 1rem;
+    bottom: -0.95rem;
+    width: 2px;
+    background: #2f80ed;
+    opacity: 0.45;
+    transition: opacity 0.16s ease;
+  }
+
+  .page__content .home-news-timeline li:last-child::after {
+    display: none !important;
+  }
+
+  .page__content .home-news-timeline li:hover::before {
+    background: #2f80ed;
+    box-shadow: 0 0 0 4px rgba(47, 128, 237, 0.12);
+    transform: scale(1.04);
+  }
+
+  .page__content .home-news-timeline li:hover::after {
+    opacity: 0.72;
+  }
+
   .page__content .timeline-card::before,
   .page__content .timeline-card::after {
     content: none !important;
@@ -626,6 +666,8 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 
   @media (prefers-reduced-motion: reduce) {
     .page__content .home-news-timeline li,
+    .page__content .home-news-timeline li::before,
+    .page__content .home-news-timeline li::after,
     .page__content .home-intro,
     .page__content .paper-box,
     .page__content .research-card,
