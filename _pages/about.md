@@ -546,7 +546,7 @@ redirect_from:
 
 </div>
 
-<div class="home-section-lead" markdown="1">
+<div class="home-intro home-section-lead" markdown="1">
 
 📌 I have published **20+** papers (**10+** as co-/first author). During my master's studies (2023-2026), my research focused on **Efficient AI**: making foundation model training and inference more efficient with minimal performance loss. Now, I focus on **Real-world Agent** research: enabling foundation models to solve a range of real-world problems effectively and efficiently. Please email me at `xu-yang.liu@connect.polyu.hk` or `liuxuyang@stu.scu.edu.cn` for any form of academic collaboration.
 
