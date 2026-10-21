@@ -260,11 +260,6 @@ redirect_from:
     color: #2f3437;
   }
 
-  .page__content .structured-grid {
-    display: block !important;
-    margin: 0.8rem 0 1.35rem !important;
-  }
-
   .page__content .structured-card,
   .page__content .structured-card:hover {
     margin: 0 0 1.2rem !important;
@@ -386,7 +381,6 @@ redirect_from:
   @media (max-width: 37.5em) {
     .page__content .research-grid,
     .page__content .home-news-timeline li,
-    .page__content .structured-grid,
     .page__content .timeline-card {
       grid-template-columns: 1fr !important;
     }
@@ -855,27 +849,6 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <img src="https://img.shields.io/badge/Thesis-M.S.-f28c28?style=flat-square" alt="Thesis M.S."><span class="pub-marker" data-first-author="true" data-physical-first="true" aria-hidden="true"></span> <u>Xuyang Liu</u>, &quot;**Research on Efficient Training and Inference Methods for Vision-Language Understanding**&quot;. *Master's thesis, Sichuan University*, 2026. <span style="color: red">(Outstanding Master's Thesis, top 2%)</span>.
 
 
-
-
-## 🤗 Resources
-Please find my full repositories on my [GitHub](https://github.com/xuyang-liu16) profile. <a href="https://github.com/xuyang-liu16" target="_blank"><img src="https://img.shields.io/github/stars/xuyang-liu16.svg?style=social" alt="GitHub"></a>
-
-<div class="structured-grid" markdown="1">
-<div class="structured-card" markdown="1">
-
-### [Awesome Generation Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Generation-Acceleration.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration.git)
-- **Duty:** Owner.
-- **Description:** An open-source repository that curates a collection of recent awesome papers on AIGC acceleration.
-
-</div>
-<div class="structured-card" markdown="1">
-
-### [Awesome Token-level Model Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) [![GitHub](https://img.shields.io/github/stars/xuyang-liu16/Awesome-Token-level-Model-Compression.svg?style=social)](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression.git)
-- **Duty:** Owner.
-- **Description:** An open-source repository that curates a collection of recent awesome papers on token-level model compression.
-
-</div>
-</div>
 
 
 ## 💻 Experiences
