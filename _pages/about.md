@@ -564,16 +564,16 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     gap: 0.12rem;
     flex-wrap: wrap;
     margin: 1rem 0 0.4rem;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
+    padding: 0.15rem;
+    border: 1px solid #d9e1ec;
+    border-radius: 7px;
+    background: #f7f9fc;
   }
 
   .pub-filter-btn {
     appearance: none;
     border: 0;
-    border-radius: 0;
+    border-radius: 5px;
     background: transparent;
     color: #4b5563;
     cursor: pointer;
@@ -581,7 +581,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
     font-weight: 600;
     line-height: 1.1;
     padding: 0.28rem 0.62rem;
-    transition: color 0.16s ease;
+    transition: background-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
   }
 
   .pub-filter-btn:hover {
@@ -589,11 +589,9 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   }
 
   .pub-filter-btn.is-active {
-    background: transparent;
-    box-shadow: none;
-    color: #00369f;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
+    background: #00369f;
+    box-shadow: 0 2px 6px rgba(0, 54, 159, 0.18);
+    color: #ffffff;
   }
 
   .pub-highlight {
