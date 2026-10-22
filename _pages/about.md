@@ -902,7 +902,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
 <div markdown="1">
 
 ### Research Intern - **OPPO Research Institute, OPPO**, Shenzhen
-- **Thesis:** *Video Understanding with Large Vision-Language Models*.
+- **Thesis:** *Real-world Multi-modal Agents*.
 - **Supervisor:** Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/).
 
 </div>
