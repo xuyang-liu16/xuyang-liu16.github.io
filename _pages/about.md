@@ -960,6 +960,7 @@ Full publications are on my [Google Scholar](https://scholar.google.com/citation
   <li>International Conference on Learning Representations (<a href="https://iclr.cc/">ICLR</a>)</li>
   <li>International Conference on Machine Learning (<a href="https://icml.cc/">ICML</a>)</li>
   <li>Advances in Neural Information Processing Systems (<a href="https://neurips.cc/">NeurIPS</a>)</li>
+  <li>Annual Meeting of the Association for Computational Linguistics (<a href="https://aclanthology.org/venues/acl/">ACL</a>)</li>
   <li>AAAI Conference on Artificial Intelligence (<a href="https://aaai.org/conference/aaai/">AAAI</a>)</li>
   <li>ACM International Conference on Multimedia (<a href="https://2024.acmmm.org/">MM</a>)</li>
 </ul>
