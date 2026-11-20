@@ -4,28 +4,33 @@ on:
   page_build:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
 
 concurrency:
   group: google-scholar-crawler
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v7
-      - name: Install Reqs
+      - name: Install dependencies
+        run: python3 -m pip install --no-cache-dir -r google_scholar_crawler/requirements.txt
+      - name: Test citation parser
+        run: python3 -m unittest discover -s google_scholar_crawler
+      - name: Fetch citation data
+        timeout-minutes: 5
+        working-directory: google_scholar_crawler
+        run: python3 -u main.py
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Publish citation data
         run: |
-          sudo apt-get install python3-setuptools
-      - name: Run
-        run: |
-          cd ./google_scholar_crawler
-          pip3 install --no-cache-dir -r requirements.txt
-          python3 main.py
-
-          cd ..
           export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
 
           if git clone --depth 1 --single-branch --branch google-scholar-stats "${remote_repo}" ./google-scholar-stats; then
@@ -51,5 +56,3 @@ jobs:
 
           git commit -m "Updated Citation Data"
           git push origin google-scholar-stats
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
