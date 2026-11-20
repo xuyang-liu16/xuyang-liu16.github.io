@@ -1,20 +1,24 @@
 name: Get Citation Data
 
 on:
-  page_build:
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: google-scholar-crawler
   cancel-in-progress: false
 
 jobs:
-  build:
+  collect:
+    name: Collect Scholar data (attempt ${{ matrix.attempt }})
+    strategy:
+      fail-fast: false
+      matrix:
+        attempt: [1, 2, 3]
     runs-on: ubuntu-slim
     timeout-minutes: 8
     steps:
@@ -27,11 +31,72 @@ jobs:
       - name: Test citation parser
         run: python3 -m unittest discover -s google_scholar_crawler
       - name: Fetch citation data
+        id: fetch
+        continue-on-error: true
         timeout-minutes: 5
         working-directory: google_scholar_crawler
         run: python3 -u main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Keep successful collection
+        if: steps.fetch.outcome == 'success'
+        uses: actions/upload-artifact@v7
+        with:
+          name: scholar-data-${{ matrix.attempt }}
+          path: google_scholar_crawler/results/*.json
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    name: Publish verified citation data
+    needs: collect
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-slim
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: scholar-data-*
+          path: citation-data
+      - name: Select latest successful collection
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import shutil
+          from datetime import datetime
+          from pathlib import Path
+
+          candidates = list(Path("citation-data").glob("*/gs_data.json"))
+          if not candidates:
+              raise SystemExit(
+                  "All cloud collection attempts failed. "
+                  "Keeping the last published citation data; retrying next schedule."
+              )
+          latest = max(
+              candidates,
+              key=lambda path: datetime.fromisoformat(json.loads(path.read_text())["updated"]),
+          )
+          output = Path("selected-citations")
+          output.mkdir()
+          for name in ("gs_data.json", "gs_data_shieldsio.json"):
+              shutil.copy2(latest.parent / name, output / name)
+          data = json.loads(latest.read_text())
+          summary = (
+              f"Collected from Google Scholar by GitHub Actions: "
+              f"**{data['citedby']} citations**, **{len(data['publications'])} publications**.\n\n"
+              f"Updated: {data['updated']}\n"
+          )
+          print(summary)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as report:
+              report.write(summary)
+          PY
       - name: Publish citation data
         run: |
           export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
@@ -46,7 +111,7 @@ jobs:
             cd ..
           fi
 
-          cp ./google_scholar_crawler/results/*.json ./google-scholar-stats/
+          cp ./selected-citations/*.json ./google-scholar-stats/
           cd ./google-scholar-stats
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
