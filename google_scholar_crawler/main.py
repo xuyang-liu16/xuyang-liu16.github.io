@@ -5,9 +5,8 @@ import time
 from datetime import datetime, timezone
 from urllib.parse import parse_qs, urljoin, urlparse
 
+import requests
 from bs4 import BeautifulSoup
-from curl_cffi import requests
-from curl_cffi.requests.exceptions import RequestException
 
 
 SCHOLAR_URL = "https://scholar.google.com/citations"
@@ -45,7 +44,7 @@ def fetch_page(session, scholar_id, start, max_attempts=3):
             if not page.select_one("#gsc_prf_in") or not page.select("#gsc_rsb_st td.gsc_rsb_std"):
                 raise ValueError("Google Scholar did not return a public author profile")
             return page
-        except (RequestException, ValueError) as exc:
+        except (requests.RequestException, ValueError) as exc:
             last_error = exc
             print(
                 f"Scholar page {start}, attempt {attempt}/{max_attempts} "
@@ -121,7 +120,8 @@ def parse_publications(page, scholar_id):
 
 
 def fetch_author(scholar_id):
-    with requests.Session(impersonate="chrome") as session:
+    with requests.Session() as session:
+        session.headers["User-Agent"] = "Mozilla/5.0 (compatible; CitationStats/1.0)"
         page = fetch_page(session, scholar_id, 0)
         author = parse_author(page, scholar_id)
         publications = {}

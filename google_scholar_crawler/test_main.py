@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import Mock, patch
 
+import requests
 from bs4 import BeautifulSoup
-from curl_cffi.requests.exceptions import HTTPError, Timeout
 
 from main import SCHOLAR_ENDPOINTS, fetch_author, fetch_page, parse_author, parse_publications
 
@@ -60,7 +60,7 @@ class CitationParserTests(unittest.TestCase):
     def test_uses_official_fallback_when_primary_is_blocked(self, sleep):
         session = Mock()
         response = Mock(text=PROFILE)
-        session.get.side_effect = [HTTPError("403 Forbidden"), response]
+        session.get.side_effect = [requests.HTTPError("403 Forbidden"), response]
         page = fetch_page(session, SCHOLAR_ID, 0)
         self.assertEqual(parse_author(page, SCHOLAR_ID)["citedby"], 1136)
         self.assertEqual(
@@ -77,7 +77,7 @@ class CitationParserTests(unittest.TestCase):
         self.assertEqual(session.get.call_count, 3)
         self.assertEqual(session.get.call_args.kwargs["timeout"], (10, 30))
         session.reset_mock()
-        session.get.side_effect = Timeout("request timed out")
+        session.get.side_effect = requests.Timeout("request timed out")
         with self.assertRaisesRegex(RuntimeError, "request timed out"):
             fetch_page(session, SCHOLAR_ID, 0)
         self.assertEqual(session.get.call_count, 3)

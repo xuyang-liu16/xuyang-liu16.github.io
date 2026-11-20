@@ -26,13 +26,44 @@ jobs:
         run: python3 -m pip install --no-cache-dir -r google_scholar_crawler/requirements.txt
       - name: Test citation parser
         run: python3 -m unittest discover -s google_scholar_crawler
+      - name: Check citation data freshness
+        id: freshness
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from urllib.request import urlopen
+
+          url = (
+              "https://raw.githubusercontent.com/"
+              f"{os.environ['GITHUB_REPOSITORY']}/google-scholar-stats/gs_data.json"
+              f"?run={os.environ['GITHUB_RUN_ID']}"
+          )
+          needs_update = True
+          try:
+              with urlopen(url, timeout=15) as response:
+                  data = json.load(response)
+              updated = datetime.fromisoformat(data["updated"])
+              age = (datetime.now(timezone.utc) - updated).total_seconds()
+              needs_update = not (0 <= age < 8 * 60 * 60)
+              print(f"Citation data: {data['citedby']}, updated {updated.isoformat()}")
+          except Exception as exc:
+              print(f"Could not confirm fresh citation data: {exc}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(f"needs_update={str(needs_update).lower()}\n")
+          if not needs_update:
+              print("Recent verified data is available; skip cloud scraping.")
+          PY
       - name: Fetch citation data
+        if: steps.freshness.outputs.needs_update == 'true'
         timeout-minutes: 5
         working-directory: google_scholar_crawler
         run: python3 -u main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
       - name: Publish citation data
+        if: steps.freshness.outputs.needs_update == 'true'
         run: |
           export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
 
