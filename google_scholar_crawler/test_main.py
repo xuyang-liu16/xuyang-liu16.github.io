@@ -4,7 +4,7 @@ from unittest.mock import Mock, patch
 import requests
 from bs4 import BeautifulSoup
 
-from main import fetch_author, fetch_page, parse_author, parse_publications
+from main import SCHOLAR_ENDPOINTS, fetch_author, fetch_page, parse_author, parse_publications
 
 
 SCHOLAR_ID = "9VhMC1QAAAAJ"
@@ -55,6 +55,18 @@ class CitationParserTests(unittest.TestCase):
         self.page.select_one(".gsc_rsb_std").decompose()
         with self.assertRaises(ValueError):
             parse_author(self.page, SCHOLAR_ID)
+
+    @patch("main.time.sleep")
+    def test_uses_official_fallback_when_primary_is_blocked(self, sleep):
+        session = Mock()
+        response = Mock(text=PROFILE)
+        session.get.side_effect = [requests.HTTPError("403 Forbidden"), response]
+        page = fetch_page(session, SCHOLAR_ID, 0)
+        self.assertEqual(parse_author(page, SCHOLAR_ID)["citedby"], 1136)
+        self.assertEqual(
+            [call.args[0] for call in session.get.call_args_list],
+            list(SCHOLAR_ENDPOINTS[:2]),
+        )
 
     @patch("main.time.sleep")
     def test_block_page_and_timeouts_have_bounded_retries(self, sleep):

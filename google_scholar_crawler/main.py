@@ -10,6 +10,11 @@ from bs4 import BeautifulSoup
 
 
 SCHOLAR_URL = "https://scholar.google.com/citations"
+SCHOLAR_ENDPOINTS = (
+    SCHOLAR_URL,
+    "https://scholar.google.com.hk/citations",
+    "https://scholar.google.com.sg/citations",
+)
 PAGE_SIZE = 100
 CANONICAL_PUBLICATION_IDS = {
     "Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models":
@@ -22,9 +27,10 @@ CANONICAL_PUBLICATION_IDS = {
 def fetch_page(session, scholar_id, start, max_attempts=3):
     last_error = None
     for attempt in range(1, max_attempts + 1):
+        endpoint = SCHOLAR_ENDPOINTS[(attempt - 1) % len(SCHOLAR_ENDPOINTS)]
         try:
             response = session.get(
-                SCHOLAR_URL,
+                endpoint,
                 params={
                     "user": scholar_id,
                     "hl": "en",
@@ -40,7 +46,11 @@ def fetch_page(session, scholar_id, start, max_attempts=3):
             return page
         except (requests.RequestException, ValueError) as exc:
             last_error = exc
-            print(f"Scholar page {start}, attempt {attempt}/{max_attempts}: {exc}", flush=True)
+            print(
+                f"Scholar page {start}, attempt {attempt}/{max_attempts} "
+                f"via {endpoint}: {exc}",
+                flush=True,
+            )
             if attempt < max_attempts:
                 time.sleep(5 * attempt)
 
