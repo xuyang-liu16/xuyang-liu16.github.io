@@ -73,7 +73,7 @@ jobs:
           from datetime import datetime
           from pathlib import Path
 
-          candidates = list(Path("citation-data").glob("*/gs_data.json"))
+          candidates = list(Path("citation-data").rglob("gs_data.json"))
           if not candidates:
               raise SystemExit(
                   "All cloud collection attempts failed. "
