@@ -38,8 +38,6 @@ jobs:
         run: python3 -u main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-          # Use one API request per run for the current profile; keep direct collectors as fallback.
-          SERPAPI_API_KEY: ${{ matrix.attempt == 1 && secrets.SERPAPI_API_KEY || '' }}
       - name: Keep successful collection
         if: steps.fetch.outcome == 'success'
         uses: actions/upload-artifact@v7
@@ -81,19 +79,17 @@ jobs:
                   "All cloud collection attempts failed. "
                   "Keeping the last published citation data; retrying next schedule."
               )
-          def rank(path):
-              data = json.loads(path.read_text())
-              return (data.get("collection_method") == "serpapi", datetime.fromisoformat(data["updated"]))
-
-          latest = max(candidates, key=rank)
+          latest = max(
+              candidates,
+              key=lambda path: datetime.fromisoformat(json.loads(path.read_text())["updated"]),
+          )
           output = Path("selected-citations")
           output.mkdir()
           for name in ("gs_data.json", "gs_data_shieldsio.json"):
               shutil.copy2(latest.parent / name, output / name)
           data = json.loads(latest.read_text())
-          method = "via SerpApi" if data.get("collection_method") == "serpapi" else "directly"
           summary = (
-              f"Collected {method} from Google Scholar by GitHub Actions: "
+              f"Collected from Google Scholar by GitHub Actions: "
               f"**{data['citedby']} citations**, **{len(data['publications'])} publications**.\n\n"
               f"Updated: {data['updated']}\n"
           )

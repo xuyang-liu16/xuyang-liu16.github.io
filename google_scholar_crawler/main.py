@@ -3,7 +3,6 @@ import json
 import os
 import time
 from datetime import datetime, timezone
-from functools import partial
 from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
@@ -11,7 +10,6 @@ from bs4 import BeautifulSoup
 
 
 SCHOLAR_URL = "https://scholar.google.com/citations"
-SERPAPI_URL = "https://serpapi.com/search"
 SCHOLAR_ENDPOINTS = (
     SCHOLAR_URL,
     "https://scholar.google.com.hk/citations",
@@ -24,13 +22,6 @@ CANONICAL_PUBLICATION_IDS = {
     "Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models":
         "9VhMC1QAAAAJ:1sJd4Hv_s6UC",
 }
-
-
-def parse_profile_page(html):
-    page = BeautifulSoup(html, "html.parser")
-    if not page.select_one("#gsc_prf_in") or not page.select("#gsc_rsb_st td.gsc_rsb_std"):
-        raise ValueError("Google Scholar did not return a public author profile")
-    return page
 
 
 def fetch_page(session, scholar_id, start, max_attempts=3):
@@ -49,7 +40,10 @@ def fetch_page(session, scholar_id, start, max_attempts=3):
                 timeout=(10, 30),
             )
             response.raise_for_status()
-            return parse_profile_page(response.text)
+            page = BeautifulSoup(response.text, "html.parser")
+            if not page.select_one("#gsc_prf_in") or not page.select("#gsc_rsb_st td.gsc_rsb_std"):
+                raise ValueError("Google Scholar did not return a public author profile")
+            return page
         except (requests.RequestException, ValueError) as exc:
             last_error = exc
             print(
@@ -61,31 +55,6 @@ def fetch_page(session, scholar_id, start, max_attempts=3):
                 time.sleep(5 * attempt)
 
     raise RuntimeError(f"Failed to fetch Google Scholar page {start}: {last_error}")
-
-
-def fetch_serpapi_page(session, scholar_id, start, *, api_key):
-    try:
-        response = session.get(
-            SERPAPI_URL,
-            params={
-                "engine": "google_scholar_author",
-                "author_id": scholar_id,
-                "hl": "en",
-                "num": PAGE_SIZE,
-                "cstart": start,
-                "output": "html",
-                "no_cache": "true",
-                "api_key": api_key,
-            },
-            timeout=(10, 45),
-            allow_redirects=False,
-        )
-    except requests.RequestException:
-        # Request exception messages can include the URL and its API key.
-        raise RuntimeError("SerpApi request failed") from None
-    if response.status_code != 200:
-        raise RuntimeError(f"SerpApi returned HTTP {response.status_code}")
-    return parse_profile_page(response.text)
 
 
 def parse_number(text):
@@ -150,11 +119,10 @@ def parse_publications(page, scholar_id):
     return publications
 
 
-def fetch_author(scholar_id, api_key=None):
-    get_page = partial(fetch_serpapi_page, api_key=api_key) if api_key else fetch_page
+def fetch_author(scholar_id):
     with requests.Session() as session:
         session.headers["User-Agent"] = "Mozilla/5.0 (compatible; CitationStats/1.0)"
-        page = get_page(session, scholar_id, 0)
+        page = fetch_page(session, scholar_id, 0)
         author = parse_author(page, scholar_id)
         publications = {}
         start = 0
@@ -169,16 +137,14 @@ def fetch_author(scholar_id, api_key=None):
             if len(batch) < PAGE_SIZE:
                 break
             start += PAGE_SIZE
-            page = get_page(session, scholar_id, start)
+            page = fetch_page(session, scholar_id, start)
     author["publications"] = publications
     return author
 
 
 def main():
     scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
-    api_key = os.environ.get("SERPAPI_API_KEY")
-    author = fetch_author(scholar_id, api_key)
-    author["collection_method"] = "serpapi" if api_key else "direct"
+    author = fetch_author(scholar_id)
     author["updated"] = datetime.now(timezone.utc).isoformat()
 
     os.makedirs("results", exist_ok=True)
