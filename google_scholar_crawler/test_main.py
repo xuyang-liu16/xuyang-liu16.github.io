@@ -4,7 +4,7 @@ from unittest.mock import Mock, patch
 import requests
 from bs4 import BeautifulSoup
 
-from main import SCHOLAR_ENDPOINTS, fetch_author, fetch_page, parse_author, parse_publications
+from main import SCHOLAR_ENDPOINTS, fetch_author, fetch_page, fetch_serpapi_page, parse_author, parse_publications
 
 
 SCHOLAR_ID = "9VhMC1QAAAAJ"
@@ -100,6 +100,26 @@ class CitationParserTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "repeated publication"):
             fetch_author(SCHOLAR_ID)
         self.assertEqual(fetch.call_count, 2)
+
+    @patch("main.requests.Session")
+    def test_api_uses_same_profile_parser_and_publication_ids(self, session_class):
+        session = session_class.return_value.__enter__.return_value
+        session.get.return_value = Mock(status_code=200, text=PROFILE)
+        author = fetch_author(SCHOLAR_ID, api_key="test-key")
+        self.assertEqual(author["citedby"], 1136)
+        self.assertIn(SCHOLAR_ID + ":paper", author["publications"])
+        params = session.get.call_args.kwargs["params"]
+        self.assertEqual(params["author_id"], SCHOLAR_ID)
+        self.assertEqual(params["output"], "html")
+        self.assertEqual(params["num"], 100)
+
+    def test_api_transport_failure_does_not_expose_key(self):
+        session = Mock()
+        session.get.side_effect = requests.Timeout("api_key=test-key")
+        with self.assertRaises(RuntimeError) as error:
+            fetch_serpapi_page(session, SCHOLAR_ID, 0, api_key="test-key")
+        self.assertEqual(str(error.exception), "SerpApi request failed")
+        self.assertTrue(error.exception.__suppress_context__)
 
 
 if __name__ == "__main__":
